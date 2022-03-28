@@ -1,0 +1,39 @@
+{
+	"storyName": "short song i swear",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "mimi",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Stairs",
+			"mimi",
+			[
+				137,
+				181,
+				222
+			]
+		],
+		[
+			"Stairs Extended",
+			"mimi",
+			[
+				137,
+				181,
+				222
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Stairs"
+}

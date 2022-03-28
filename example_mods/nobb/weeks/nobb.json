@@ -1,0 +1,40 @@
+{
+	"storyName": "Tower of Misery",
+	"difficulties": "Normal, Hard",
+	"hideFreeplay": false,
+	"weekBackground": "nobb",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"nobb",
+			"nobb-pixel",
+			[
+				75,
+				150,
+				75
+			]
+		],
+		[
+			"misery",
+			"nobb-pixel",
+			[
+				75,
+				75,
+				150
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "nobb"
+}

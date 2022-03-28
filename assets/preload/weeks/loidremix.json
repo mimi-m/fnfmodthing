@@ -1,0 +1,31 @@
+{
+	"storyName": "original song by bbpanzu",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "mimi",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"loid remix",
+			"genji",
+			[
+				240,
+				236,
+				160
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "loid remix"
+}

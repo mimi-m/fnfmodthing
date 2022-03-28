@@ -1,0 +1,32 @@
+{
+	"dialogue": [
+		{
+			"expression": "shocked",
+			"text": "omg",
+			"boxState": "angry",
+			"speed": 0.04,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "hi mugen",
+			"boxState": "normal",
+			"speed": 0.04,
+			"portrait": "gf"
+		},
+		{
+			"expression": "shocked",
+			"text": "omg",
+			"boxState": "angry",
+			"speed": 0.055,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "hi mim",
+			"boxState": "normal",
+			"speed": 0.055,
+			"portrait": "bf"
+		}
+	]
+}

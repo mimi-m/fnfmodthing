@@ -1,0 +1,11 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.075,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "a"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"storyName": "Slugetta",
+	"difficulties": "Baby, Easy, Normal, Hard, Insane",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "mimi",
+	"startUnlocked": false,
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Flooshed",
+			"mimi",
+			[
+				177,
+				221,
+				255
+			]
+		]
+	],
+	"weekName": "Vs.Mimi"
+}
