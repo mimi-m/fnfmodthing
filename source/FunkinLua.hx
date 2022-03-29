@@ -179,6 +179,10 @@ class FunkinLua {
 		set('noteOffset', ClientPrefs.noteOffset);
 		set('healthBarAlpha', ClientPrefs.healthBarAlpha);
 		set('noResetButton', ClientPrefs.noReset);
+		set('noScreenShaking', ClientPrefs.noScreenShaking);
+		set('followchars', ClientPrefs.followchars);
+		set('pixelArrows', ClientPrefs.followchars);
+//		set('circleSkin', ClientPrefs.circleSkin);
 		set('lowQuality', ClientPrefs.lowQuality);
 
 		#if windows

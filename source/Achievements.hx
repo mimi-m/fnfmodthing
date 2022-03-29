@@ -12,15 +12,15 @@ using StringTools;
 class Achievements {
 	public static var achievementsStuff:Array<Dynamic> = [ //Name, Description, Achievement save tag, Hidden achievement
 		["Freaky on a Friday Night",	"Play on a Friday... Night.",						'friday_night_play',	 true],
-		["She Calls Me Daddy Too",		"Beat Week 1 on Hard with no Misses.",				'week1_nomiss',			false],
-		["No More Tricks",				"Beat Week 2 on Hard with no Misses.",				'week2_nomiss',			false],
-		["Call Me The Hitman",			"Beat Week 3 on Hard with no Misses.",				'week3_nomiss',			false],
-		["Lady Killer",					"Beat Week 4 on Hard with no Misses.",				'week4_nomiss',			false],
-		["Missless Christmas",			"Beat Week 5 on Hard with no Misses.",				'week5_nomiss',			false],
-		["Highscore!!",					"Beat Week 6 on Hard with no Misses.",				'week6_nomiss',			false],
-		["You'll Pay For That...",		"Beat Week 7 on Hard with no Misses.",				'week7_nomiss',			 true],
-		["What a Funkin' Disaster!",	"Complete a Song with a rating lower than 20%.",	'ur_bad',				false],
-		["Perfectionist",				"Complete a Song with a rating of 100%.",			'ur_good',				false],
+		[":flushed:",					"Beat Vs.Mimi on Hard with no Misses.",				'mimi_nomiss',			false],
+		["Limitless",					"Beat Vs.Mugen on Hard with no Misses.",			'mugen_nomiss',          true],
+		["krAzy",						"Beat the Loid Remix with no Misses.",				'loidremix_nomiss',		false],
+		["Halloween!",					"Play on Halloween, or on Mimi's birthday.",		'mimi_birthday',		 true],
+		["Winner!",						"Beat DLC#1 (Nobb) on Hard with no Misses.",		'nobb_nomiss',			false],
+		["5 Deaths",					"Given to players who reach 5 deaths in Misery.",	'five_deaths',			 true],
+		[":pleading_face:",				"Beat flooshed mug with no Misses.",				'flooshedtest_nomiss',	false],
+		["Too Bad...",					"Complete a Song with a rating lower than 20%.",	'ur_bad',				false],
+		["Marvelous!",					"Complete a Song with a rating of 100%.",			'ur_good',				false],
 		["Roadkill Enthusiast",			"Watch the Henchmen die over 100 times.",			'roadkill_enthusiast',	false],
 		["Oversinging Much...?",		"Hold down a note for 10 seconds.",					'oversinging',			false],
 		["Hyperactive",					"Finish a Song without going Idle.",				'hype',					false],
@@ -31,10 +31,11 @@ class Achievements {
 	public static var achievementsMap:Map<String, Bool> = new Map<String, Bool>();
 
 	public static var henchmenDeath:Int = 0;
+	public static var miseryDeath:Int = 0;
 	public static function unlockAchievement(name:String):Void {
-		FlxG.log.add('Completed achievement "' + name +'"');
+		FlxG.log.add('Badge Awarded: "' + name +'"');
 		achievementsMap.set(name, true);
-		FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
+		FlxG.sound.play(Paths.sound('victory'), 0.7);
 	}
 
 	public static function isAchievementUnlocked(name:String) {
@@ -67,6 +68,9 @@ class Achievements {
 			}
 			if(henchmenDeath == 0 && FlxG.save.data.henchmenDeath != null) {
 				henchmenDeath = FlxG.save.data.henchmenDeath;
+			}
+			if(miseryDeath == 0 && FlxG.save.data.miseryDeath != null) {
+				miseryDeath = FlxG.save.data.miseryDeath;
 			}
 		}
 

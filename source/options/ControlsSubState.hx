@@ -51,6 +51,7 @@ class ControlsSubState extends MusicBeatSubstate {
 		['Accept', 'accept'],
 		['Back', 'back'],
 		['Pause', 'pause'],
+		//		['HUD', 'toggle_hud'],
 		[''],
 		['VOLUME'],
 		['Mute', 'volume_mute'],

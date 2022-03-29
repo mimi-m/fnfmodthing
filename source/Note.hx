@@ -92,6 +92,9 @@ class Note extends FlxSprite
 
 	private function set_noteType(value:String):String {
 		noteSplashTexture = PlayState.SONG.splashSkin;
+		//		if(PlayState.isPixelStage) {
+		//			loadGraphic(Paths.image('pixelUI/' + noteSplashTexture));
+		//		}
 		colorSwap.hue = ClientPrefs.arrowHSV[noteData % 4][0] / 360;
 		colorSwap.saturation = ClientPrefs.arrowHSV[noteData % 4][1] / 100;
 		colorSwap.brightness = ClientPrefs.arrowHSV[noteData % 4][2] / 100;
@@ -101,20 +104,66 @@ class Note extends FlxSprite
 				case 'Hurt Note':
 					ignoreNote = mustPress;
 					reloadNote('HURT');
-					noteSplashTexture = 'HURTnoteSplashes';
+					if(PlayState.isPixelStage || FlxG.save.data.pixelArrows){
+						noteSplashTexture = 'pixelUI/HURTnoteSplashes';
+					} else {
+						noteSplashTexture = 'HURTnoteSplashes';
+					}
 					colorSwap.hue = 0;
 					colorSwap.saturation = 0;
 					colorSwap.brightness = 0;
 					if(isSustainNote) {
-						missHealth = 0.1;
+						missHealth = 0.0675;
 					} else {
-						missHealth = 0.3;
+						noAnimation = true;
+						if (health <= 0.335) {
+							 health = 0;
+							}
+						missHealth = 0.335;
 					}
 					hitCausesMiss = true;
 				case 'No Animation':
 					noAnimation = true;
 				case 'GF Sing':
 					gfNote = true;
+					if(!ClientPrefs.lowQuality){
+				//		if (FlxG.save.data.circleSkin) {
+				//			reloadNote('Circles_MUGENNOTE_assets');
+				//		} else {
+							reloadNote('MUGEN');
+				//		}
+						if(!PlayState.isPixelStage || !FlxG.save.data.pixelArrows){
+							noteSplashTexture = 'MUGENnoteSplashes';
+						} else {
+							noteSplashTexture = 'pixelUI/MUGENnoteSplashes';
+						}
+					}
+				//	colorSwap.hue = 0;
+				//	colorSwap.saturation = 0;
+				//	colorSwap.brightness = 0;
+				case 'Flooshed Note':
+					ignoreNote = mustPress;
+					reloadNote('Flooshed');
+					if(PlayState.isPixelStage || FlxG.save.data.pixelArrows){
+						noteSplashTexture = 'pixelUI/flooshedSplash';
+					} else {
+						noteSplashTexture = 'flooshedSplash';
+					}
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+					hitHealth = 0.875;
+						if (health >= 1.175) {
+							 health = 2;
+							}
+					if(isSustainNote) {
+						hitHealth = 0.0305;
+					} else {
+						noAnimation = true;
+					}
+			//	case 'Confuse Note':
+			//		noAnimation = true;
+			//		hitCausesMiss = true;
 			}
 			noteType = value;
 		}
@@ -194,7 +243,7 @@ class Note extends FlxSprite
 
 			offsetX -= width / 2;
 
-			if (PlayState.isPixelStage)
+			if (PlayState.isPixelStage || FlxG.save.data.pixelArrows)
 				offsetX += 30;
 
 			if (prevNote.isSustainNote)
@@ -217,7 +266,7 @@ class Note extends FlxSprite
 					prevNote.scale.y *= PlayState.instance.songSpeed;
 				}
 
-				if(PlayState.isPixelStage) {
+				if(PlayState.isPixelStage || FlxG.save.data.pixelArrows) {
 					prevNote.scale.y *= 1.19;
 					prevNote.scale.y *= (6 / height); //Auto adjust note size
 				}
@@ -225,7 +274,7 @@ class Note extends FlxSprite
 				// prevNote.setGraphicSize();
 			}
 
-			if(PlayState.isPixelStage) {
+			if(PlayState.isPixelStage || FlxG.save.data.pixelArrows) {
 				scale.y *= PlayState.daPixelZoom;
 				updateHitbox();
 			}
@@ -247,7 +296,11 @@ class Note extends FlxSprite
 		if(texture.length < 1) {
 			skin = PlayState.SONG.arrowSkin;
 			if(skin == null || skin.length < 1) {
-				skin = 'NOTE_assets';
+//				if (!FlxG.save.data.circleSkin) {
+					skin = 'NOTE_assets';
+//				} else {
+//					skin = 'Circles_NOTE_assets';
+//				}
 			}
 		}
 
@@ -261,7 +314,7 @@ class Note extends FlxSprite
 
 		var lastScaleY:Float = scale.y;
 		var blahblah:String = arraySkin.join('/');
-		if(PlayState.isPixelStage) {
+		if(PlayState.isPixelStage || FlxG.save.data.pixelArrows) {
 			if(isSustainNote) {
 				loadGraphic(Paths.image('pixelUI/' + blahblah + 'ENDS'));
 				width = width / 4;

@@ -26,10 +26,14 @@ class ClientPrefs {
 	public static var timeBarType:String = 'Time Left';
 	public static var scoreZoom:Bool = true;
 	public static var noReset:Bool = false;
+	public static var noScreenShaking:Bool = false;
+	public static var followchars:Bool = true;
+	public static var pixelArrows:Bool = false;
+	//	public static var circleSkin:Bool = false;
 	public static var healthBarAlpha:Float = 1;
 	public static var controllerMode:Bool = false;
 	public static var hitsoundVolume:Float = 0;
-	public static var pauseMusic:String = 'Tea Time';
+	public static var pauseMusic:String = 'flushed';
 	public static var gameplaySettings:Map<String, Dynamic> = [
 		'scrollspeed' => 1.0,
 		'scrolltype' => 'multiplicative', 
@@ -51,8 +55,9 @@ class ClientPrefs {
 		'opponentplay' => false
 	];
 
-	public static var comboOffset:Array<Int> = [0, 0, 0, 0];
+	public static var comboOffset:Array<Int> = [105, 0, 95, 40];
 	public static var ratingOffset:Int = 0;
+	//	public static var marvelousWindow:Int = 20;
 	public static var sickWindow:Int = 45;
 	public static var goodWindow:Int = 90;
 	public static var badWindow:Int = 135;
@@ -75,6 +80,7 @@ class ClientPrefs {
 		'back'			=> [BACKSPACE, ESCAPE],
 		'pause'			=> [ENTER, ESCAPE],
 		'reset'			=> [R, NONE],
+		//		'toggle_hud'	=> [TAB, NONE],
 		
 		'volume_mute'	=> [ZERO, NONE],
 		'volume_up'		=> [NUMPADPLUS, PLUS],
@@ -110,12 +116,17 @@ class ClientPrefs {
 		FlxG.save.data.timeBarType = timeBarType;
 		FlxG.save.data.scoreZoom = scoreZoom;
 		FlxG.save.data.noReset = noReset;
+		//		FlxG.save.data.cameraMovement = cameraMovement;
+				FlxG.save.data.followchars = followchars;
+		//		FlxG.save.data.pixelArrows = pixelArrows;
+		//		FlxG.save.data.circleSkin = circleSkin;
 		FlxG.save.data.healthBarAlpha = healthBarAlpha;
 		FlxG.save.data.comboOffset = comboOffset;
 		FlxG.save.data.achievementsMap = Achievements.achievementsMap;
 		FlxG.save.data.henchmenDeath = Achievements.henchmenDeath;
 
 		FlxG.save.data.ratingOffset = ratingOffset;
+		//		FlxG.save.data.marvelousWindow = marvelousWindow;
 		FlxG.save.data.sickWindow = sickWindow;
 		FlxG.save.data.goodWindow = goodWindow;
 		FlxG.save.data.badWindow = badWindow;
@@ -199,6 +210,18 @@ class ClientPrefs {
 		if(FlxG.save.data.noReset != null) {
 			noReset = FlxG.save.data.noReset;
 		}
+		//		if(FlxG.save.data.cameraMovement != null) {
+		//			cameraMovement = FlxG.save.data.cameraMovement;
+		//		}
+				if(FlxG.save.data.followchars != null) {
+					followchars = FlxG.save.data.followchars;
+				}
+				if(FlxG.save.data.pixelArrows != null) {
+					pixelArrows = FlxG.save.data.pixelArrows;
+				}
+		//		if(FlxG.save.data.circleSkin != null) {
+		//			circleSkin = FlxG.save.data.circleSkin;
+		//		}
 		if(FlxG.save.data.healthBarAlpha != null) {
 			healthBarAlpha = FlxG.save.data.healthBarAlpha;
 		}
@@ -209,6 +232,9 @@ class ClientPrefs {
 		if(FlxG.save.data.ratingOffset != null) {
 			ratingOffset = FlxG.save.data.ratingOffset;
 		}
+		//		if(FlxG.save.data.marvelousWindow != null) {
+		//			marvelousWindow = FlxG.save.data.marvelousWindow;
+		//		}
 		if(FlxG.save.data.sickWindow != null) {
 			sickWindow = FlxG.save.data.sickWindow;
 		}

@@ -42,6 +42,7 @@ enum abstract Action(String) to String from String
 	var BACK = "back";
 	var PAUSE = "pause";
 	var RESET = "reset";
+	//	var TOGGLE_HUD = "toggle_hud";
 }
 #else
 @:enum
@@ -75,6 +76,7 @@ abstract Action(String) to String from String
 	var BACK = "back";
 	var PAUSE = "pause";
 	var RESET = "reset";
+	//	var TOGGLE_HUD = "toggle_hud";
 }
 #end
 
@@ -103,6 +105,7 @@ enum Control
 	ACCEPT;
 	BACK;
 	PAUSE;
+	//	TOGGLE_HUD;
 }
 
 enum KeyboardScheme
@@ -147,6 +150,7 @@ class Controls extends FlxActionSet
 	var _back = new FlxActionDigital(Action.BACK);
 	var _pause = new FlxActionDigital(Action.PAUSE);
 	var _reset = new FlxActionDigital(Action.RESET);
+	//	var _toggle_hud = new FlxActionDigital(Action.TOGGLE_HUD);
 
 	#if (haxe >= "4.0.0")
 	var byName:Map<String, FlxActionDigital> = [];
@@ -297,6 +301,11 @@ class Controls extends FlxActionSet
 	inline function get_RESET()
 		return _reset.check();
 
+	/*	public var TOGGLE_HUD(get, never):Bool;
+	
+		inline function get_TOGGLE_HUD()
+			return _toggle_hud.check();
+	*/
 	#if (haxe >= "4.0.0")
 	public function new(name, scheme = None)
 	{
@@ -330,6 +339,7 @@ class Controls extends FlxActionSet
 		add(_back);
 		add(_pause);
 		add(_reset);
+		//		add(_toggle_hud);
 
 		for (action in digitalActions)
 			byName[action.name] = action;
@@ -369,6 +379,7 @@ class Controls extends FlxActionSet
 		add(_back);
 		add(_pause);
 		add(_reset);
+		//		add(_toggle_hud);
 
 		for (action in digitalActions)
 			byName[action.name] = action;
@@ -426,6 +437,7 @@ class Controls extends FlxActionSet
 			case BACK: _back;
 			case PAUSE: _pause;
 			case RESET: _reset;
+			//			case TOGGLE_HUD: _toggle_hud;
 		}
 	}
 
@@ -485,6 +497,8 @@ class Controls extends FlxActionSet
 				func(_pause, JUST_PRESSED);
 			case RESET:
 				func(_reset, JUST_PRESSED);
+				//			case TOGGLE_HUD:
+				//				func(_toggle_hud, JUST_PRESSED);
 		}
 	}
 
@@ -653,6 +667,7 @@ class Controls extends FlxActionSet
 				inline bindKeys(Control.BACK, keysMap.get('back'));
 				inline bindKeys(Control.PAUSE, keysMap.get('pause'));
 				inline bindKeys(Control.RESET, keysMap.get('reset'));
+				//				inline bindKeys(Control.TOGGLE_HUD, keysMap.get('toggle_hud'));
 			case Duo(true):
 				inline bindKeys(Control.UI_UP, [W]);
 				inline bindKeys(Control.UI_DOWN, [S]);
@@ -666,6 +681,7 @@ class Controls extends FlxActionSet
 				inline bindKeys(Control.BACK, [H, X]);
 				inline bindKeys(Control.PAUSE, [ONE]);
 				inline bindKeys(Control.RESET, [R]);
+				//				inline bindKeys(Control.TOGGLE_HUD, [TAB]);
 			case Duo(false):
 				inline bindKeys(Control.UI_UP, [FlxKey.UP]);
 				inline bindKeys(Control.UI_DOWN, [FlxKey.DOWN]);
@@ -679,6 +695,7 @@ class Controls extends FlxActionSet
 				inline bindKeys(Control.BACK, [P]);
 				inline bindKeys(Control.PAUSE, [ENTER]);
 				inline bindKeys(Control.RESET, [BACKSPACE]);
+				//				inline bindKeys(Control.TOGGLE_HUD, [TWO]);
 			case None: // nothing
 			case Custom: // nothing
 		}
@@ -698,6 +715,7 @@ class Controls extends FlxActionSet
 				bindKeys(Control.BACK, [BACKSPACE, ESCAPE]);
 				bindKeys(Control.PAUSE, [P, ENTER, ESCAPE]);
 				bindKeys(Control.RESET, [R]);
+				//				bindKeys(Control.TOGGLE_HUD, [TAB]);
 			case Duo(true):
 				bindKeys(Control.UI_UP, [W]);
 				bindKeys(Control.UI_DOWN, [S]);
@@ -711,6 +729,7 @@ class Controls extends FlxActionSet
 				bindKeys(Control.BACK, [H, X]);
 				bindKeys(Control.PAUSE, [ONE]);
 				bindKeys(Control.RESET, [R]);
+				//				bindKeys(Control.TOGGLE_HUD, [TAB]);
 			case Duo(false):
 				bindKeys(Control.UI_UP, [FlxKey.UP]);
 				bindKeys(Control.UI_DOWN, [FlxKey.DOWN]);
@@ -724,6 +743,7 @@ class Controls extends FlxActionSet
 				bindKeys(Control.BACK, [P]);
 				bindKeys(Control.PAUSE, [ENTER]);
 				bindKeys(Control.RESET, [BACKSPACE]);
+				//				bindKeys(Control.TOGGLE_HUD, [TWO]);
 			case None: // nothing
 			case Custom: // nothing
 		}
@@ -801,7 +821,8 @@ class Controls extends FlxActionSet
 			Control.NOTE_LEFT => [DPAD_LEFT, LEFT_STICK_DIGITAL_LEFT, RIGHT_STICK_DIGITAL_LEFT, X],
 			Control.NOTE_RIGHT => [DPAD_RIGHT, LEFT_STICK_DIGITAL_RIGHT, RIGHT_STICK_DIGITAL_RIGHT, B],
 			Control.PAUSE => [START],
-			Control.RESET => [8]
+			Control.RESET => [8],
+//			Control.TOGGLE_HUD => [GUIDE]
 		]);
 		#else
 		addGamepadLiteral(id, [
@@ -818,6 +839,7 @@ class Controls extends FlxActionSet
 			Control.NOTE_RIGHT => [DPAD_RIGHT, LEFT_STICK_DIGITAL_RIGHT, RIGHT_STICK_DIGITAL_RIGHT, A],
 			Control.PAUSE => [START],
 			Control.RESET => [8],
+			//			Control.TOGGLE_HUD => [GUIDE]
 		]);
 		#end
 	}

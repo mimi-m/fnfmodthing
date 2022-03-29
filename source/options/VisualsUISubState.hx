@@ -34,6 +34,27 @@ class VisualsUISubState extends BaseOptionsMenu
 		title = 'Visuals and UI';
 		rpcTitle = 'Visuals & UI Settings Menu'; //for Discord Rich Presence
 
+/*		var option:Option = new Option('Marvelous! Rating',
+			"If unchecked, hitting \"Marvelous!\" will show \"Sick!\" instead.",
+			'marvelousRating',
+			'bool',
+			true);
+		addOption(option);
+
+			var option:Option = new Option('Circle Skin',
+			"If checked, arrows will be replaced with circles.",
+			'circleSkin',
+			'bool',
+			false);
+		addOption(option);
+*/		
+		var option:Option = new Option('Pixel Skin',
+			"Arrows will use their pixel variants instead, while\ncombo numbers and ratings will use different graphics.",
+			'pixelArrows',
+			'bool',
+			false);
+		addOption(option);
+
 		var option:Option = new Option('Note Splashes',
 			"If unchecked, hitting \"Sick!\" notes won't show particles.",
 			'noteSplashes',
@@ -42,7 +63,7 @@ class VisualsUISubState extends BaseOptionsMenu
 		addOption(option);
 
 		var option:Option = new Option('Hide HUD',
-			'If checked, hides most HUD elements.',
+		'If checked, hides the health bar, hit ratings, combo,\nscore, and accuracy.',
 			'hideHud',
 			'bool',
 			false);
@@ -63,6 +84,13 @@ class VisualsUISubState extends BaseOptionsMenu
 			true);
 		addOption(option);
 
+		var option:Option = new Option('Disable Screen Shaking', //Name
+			"If checked, screen shaking will no longer\noccur in songs that have it.", //Description
+			'noScreenShaking',
+			'bool',
+			false);
+		addOption(option);
+
 		var option:Option = new Option('Camera Zooms',
 			"If unchecked, the camera won't zoom in on a beat hit.",
 			'camZooms',
@@ -77,6 +105,13 @@ class VisualsUISubState extends BaseOptionsMenu
 			true);
 		addOption(option);
 
+		var option:Option = new Option('Directional Camera Movement', //Name
+			"If checked, the camera moves based on the direction a\nplayer is singing, if a song has this effect.",
+			'followchars',
+			'bool',
+			true);
+		addOption(option);
+		
 		var option:Option = new Option('Health Bar Transparency',
 			'How much transparent should the health bar and icons be.',
 			'healthBarAlpha',
@@ -103,8 +138,8 @@ class VisualsUISubState extends BaseOptionsMenu
 			"What song do you prefer for the Pause Screen?",
 			'pauseMusic',
 			'string',
-			'Tea Time',
-			['None', 'Breakfast', 'Tea Time']);
+			'flushed',
+			['None', 'Breakfast', 'Tea Time', 'first', 'loid300', 'flushed', 'pleading-face']);
 		addOption(option);
 		option.onChange = onChangePauseMusic;
 
