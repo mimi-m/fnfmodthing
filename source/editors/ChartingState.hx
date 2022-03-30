@@ -62,7 +62,8 @@ class ChartingState extends MusicBeatState
 		'Hey!',
 		'Hurt Note',
 		'GF Sing',
-		'No Animation'
+		'No Animation',
+		'Flooshed Note'
 	];
 	private var noteTypeIntMap:Map<Int, String> = new Map<Int, String>();
 	private var noteTypeMap:Map<String, Null<Int>> = new Map<String, Null<Int>>();
@@ -1617,7 +1618,7 @@ class ChartingState extends MusicBeatState
 			}
 			
 			
-			if (FlxG.keys.justPressed.BACKSPACE) {
+			if (FlxG.keys.pressed.CONTROL && FlxG.keys.justPressed.ESCAPE) {
 				//if(onMasterEditor) {
 					MusicBeatState.switchState(new editors.MasterEditorMenu());
 					FlxG.sound.playMusic(Paths.music('freakyMenu'));

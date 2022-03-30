@@ -4,7 +4,7 @@ function onCreate()
 		--Check if the note is an Instakill Note
 		if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Confuse Note' then
 			setPropertyFromGroup('unspawnNotes', i, 'texture', 'ConfuseNote_assets'); --Change texture
-            if pixelArrows == true then
+            if pixelArrows == false then
                 setPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture', 'pixelUI/confuseSplash'); --Change texture
             else
                 setPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture', 'confuseSplash'); -- change splash

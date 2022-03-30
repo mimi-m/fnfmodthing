@@ -67,16 +67,17 @@ class PlayState extends MusicBeatState
 	public static var STRUM_X_MIDDLESCROLL = -278;
 
 	public static var ratingStuff:Array<Dynamic> = [
-		['You Suck!', 0.2], //From 0% to 19%
-		['Shit', 0.4], //From 20% to 39%
-		['Bad', 0.5], //From 40% to 49%
-		['Bruh', 0.6], //From 50% to 59%
-		['Meh', 0.69], //From 60% to 68%
-		['Nice', 0.7], //69%
-		['Good', 0.8], //From 70% to 79%
-		['Great', 0.9], //From 80% to 89%
-		['Sick!', 1], //From 90% to 99%
-		['Perfect!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
+		['You Suck! (F-)', 0.2], //From 0% to 19%
+		['Shit (F)', 0.4], //From 20% to 39%
+		['Bad (E)', 0.5], //From 40% to 49%
+		['Bruh (E+)', 0.6], //From 50% to 59%
+		['Meh (D)', 0.69], //From 60% to 68%
+		['Nice (D)', 0.7], //69%
+		['Good (C)', 0.8], //From 70% to 79%
+		['Great (B)', 0.9], //From 80% to 89%
+		['Sick! (A)', 0.95], //From 90% to 94%
+		['Marvelous! (S)', 1], //From 95% to 99%
+		['Perfect!! (SS)', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
 	public var modchartTweens:Map<String, FlxTween> = new Map<String, FlxTween>();
 	public var modchartSprites:Map<String, ModchartSprite> = new Map<String, ModchartSprite>();
@@ -148,6 +149,7 @@ class PlayState extends MusicBeatState
 	public var gfSpeed:Int = 1;
 	public var health:Float = 1;
 	public var combo:Int = 0;
+	public var maxCombo:Int = 0;
 
 	private var healthBarBG:AttachedSprite;
 	public var healthBar:FlxBar;
@@ -601,7 +603,7 @@ class PlayState extends MusicBeatState
 				GameOverSubstate.deathSoundName = 'fnf_loss_sfx-pixel';
 				GameOverSubstate.loopSoundName = 'gameOver-pixel';
 				GameOverSubstate.endSoundName = 'gameOverEnd-pixel';
-				GameOverSubstate.characterName = 'bf-pixel-dead';
+				GameOverSubstate.characterName = 'nobb-pixel-dead';
 
 				var bgSky:BGSprite = new BGSprite('weeb/weebSky', 0, 0, 0.1, 0.1);
 				add(bgSky);
@@ -1032,7 +1034,7 @@ class PlayState extends MusicBeatState
 		add(iconP2);
 		reloadHealthBarColors();
 
-		scoreTxt = new FlxText(0, healthBarBG.y + 36, FlxG.width, "", 20);
+		scoreTxt = new FlxText(0, healthBarBG.y + 60, FlxG.width, "", 20);
 		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		scoreTxt.scrollFactor.set();
 		scoreTxt.borderSize = 1.25;
@@ -2313,9 +2315,9 @@ class PlayState extends MusicBeatState
 		super.update(elapsed);
 
 		if(ratingName == '?') {
-			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName;
+			scoreTxt.text = 'Score: ' + songScore + ' | Rating: ' + ratingName;
 		} else {
-			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName + ' (' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%)' + ' - ' + ratingFC;//peeps wanted no integer rating
+			scoreTxt.text = 'Score: ' + songScore + ' | Accuracy: ' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%' + ' | Rating: ' + ratingName + ' - ' + ratingFC;//peeps wanted no integer rating
 		}
 
 		if(botplayTxt.visible) {
@@ -3806,14 +3808,16 @@ class PlayState extends MusicBeatState
 	{
 		if (!boyfriend.stunned)
 		{
-			health -= 0.05 * healthLoss;
-			if(instakillOnMiss)
-			{
-				vocals.volume = 0;
-				doDeathCheck(true);
+			if (!startingSong) {
+				health -= 0.05 * healthLoss;
+				if(instakillOnMiss)
+				{
+					vocals.volume = 0;
+					doDeathCheck(true);
+				}
 			}
 
-			if(ClientPrefs.ghostTapping) return;
+			if(ClientPrefs.ghostTapping || startingSong) return;
 
 			if (combo > 5 && gf != null && gf.animOffsets.exists('sad'))
 			{
@@ -3897,7 +3901,7 @@ class PlayState extends MusicBeatState
 				}
 			if (dad.curCharacter == "slugetta") {
 				 if (health >= 0.0175) {
-					  health -= 0.016;
+					  health -= 0.0100;
 					 }
 				}
 			if(note.gfNote) {
@@ -3976,6 +3980,9 @@ class PlayState extends MusicBeatState
 
 			if (!note.isSustainNote)
 			{
+				if (maxCombo == combo) {
+					maxCombo += 1;
+				}
 				combo += 1;
 				popUpScore(note);
 				if(combo > 9999) combo = 9999;

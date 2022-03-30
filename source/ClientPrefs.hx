@@ -116,9 +116,9 @@ class ClientPrefs {
 		FlxG.save.data.timeBarType = timeBarType;
 		FlxG.save.data.scoreZoom = scoreZoom;
 		FlxG.save.data.noReset = noReset;
-		//		FlxG.save.data.cameraMovement = cameraMovement;
-				FlxG.save.data.followchars = followchars;
-		//		FlxG.save.data.pixelArrows = pixelArrows;
+		FlxG.save.data.noScreenShaking = noScreenShaking;
+		FlxG.save.data.followchars = followchars;
+		FlxG.save.data.pixelArrows = pixelArrows;
 		//		FlxG.save.data.circleSkin = circleSkin;
 		FlxG.save.data.healthBarAlpha = healthBarAlpha;
 		FlxG.save.data.comboOffset = comboOffset;
@@ -210,9 +210,9 @@ class ClientPrefs {
 		if(FlxG.save.data.noReset != null) {
 			noReset = FlxG.save.data.noReset;
 		}
-		//		if(FlxG.save.data.cameraMovement != null) {
-		//			cameraMovement = FlxG.save.data.cameraMovement;
-		//		}
+		if(FlxG.save.data.noScreenShaking != null) {
+			noScreenShaking = FlxG.save.data.noScreenShaking;
+		}
 				if(FlxG.save.data.followchars != null) {
 					followchars = FlxG.save.data.followchars;
 				}

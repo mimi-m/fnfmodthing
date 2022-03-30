@@ -347,6 +347,13 @@ class FreeplayState extends MusicBeatState
 				vocals.looped = true;
 				vocals.volume = 0.7;
 				instPlaying = curSelected;
+
+				// upon pressing space to listen, icon switches to winning frame
+				// and also zooms in every 4 beats like in the health bar
+				// stop when switching songs, do not stop when pressing escape
+				// to exit freeplay mode; should continue zooming when returning
+
+				// wish i knew how to do this :[
 				#end
 			}
 		}

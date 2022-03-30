@@ -132,10 +132,10 @@ class Note extends FlxSprite
 				//		} else {
 							reloadNote('MUGEN');
 				//		}
-						if(!PlayState.isPixelStage || !FlxG.save.data.pixelArrows){
-							noteSplashTexture = 'MUGENnoteSplashes';
-						} else {
+						if(PlayState.isPixelStage || FlxG.save.data.pixelArrows){
 							noteSplashTexture = 'pixelUI/MUGENnoteSplashes';
+						} else {
+							noteSplashTexture = 'MUGENnoteSplashes';
 						}
 					}
 				//	colorSwap.hue = 0;
