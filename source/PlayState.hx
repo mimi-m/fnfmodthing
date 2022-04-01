@@ -600,10 +600,10 @@ class PlayState extends MusicBeatState
 				add(evilSnow);
 
 			case 'school': //Week 6 - Senpai, Roses
-				GameOverSubstate.deathSoundName = 'fnf_loss_sfx-pixel';
+				GameOverSubstate.deathSoundName = 'nobb_loss_sfx-pixel';
 				GameOverSubstate.loopSoundName = 'gameOver-pixel';
 				GameOverSubstate.endSoundName = 'gameOverEnd-pixel';
-				GameOverSubstate.characterName = 'nobb-pixel-dead';
+				GameOverSubstate.characterName = 'bf-pixel-dead';
 
 				var bgSky:BGSprite = new BGSprite('weeb/weebSky', 0, 0, 0.1, 0.1);
 				add(bgSky);
@@ -693,6 +693,11 @@ class PlayState extends MusicBeatState
 					bg.antialiasing = false;
 					add(bg);
 				}
+			case 'fnbloxxin': //nobb - minus
+				GameOverSubstate.deathSoundName = 'fnb_death';
+				GameOverSubstate.loopSoundName = 'minus_gameover';
+				GameOverSubstate.endSoundName = 'fnb_confetti';
+				GameOverSubstate.characterName = 'nobb-minus-dead';
 		}
 
 		if(isPixelStage || FlxG.save.data.pixelArrows) {
@@ -878,7 +883,7 @@ class PlayState extends MusicBeatState
 		strumLine.scrollFactor.set();
 
 		var showTime:Bool = (ClientPrefs.timeBarType != 'Disabled');
-		timeTxt = new FlxText(STRUM_X + (FlxG.width / 2) - 248, 19, 400, "", 19);
+		timeTxt = new FlxText(STRUM_X + (FlxG.width / 2) - 248, 19, 399, "", 19);
 		timeTxt.setFormat(Paths.font("vcr.ttf"), 19, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		timeTxt.scrollFactor.set();
 		timeTxt.alpha = 0;

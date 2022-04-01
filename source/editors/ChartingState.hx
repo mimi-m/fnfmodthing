@@ -2738,7 +2738,11 @@ class ChartingState extends MusicBeatState
 			_file.addEventListener(Event.COMPLETE, onSaveComplete);
 			_file.addEventListener(Event.CANCEL, onSaveCancel);
 			_file.addEventListener(IOErrorEvent.IO_ERROR, onSaveError);
-			_file.save(data.trim(), Paths.formatToSongPath(_song.song) + ".json");
+			if (CoolUtil.difficulties[PlayState.storyDifficulty] != "Normal"){
+			_file.save(data.trim(), Paths.formatToSongPath(_song.song) + "-" + CoolUtil.difficulties[PlayState.storyDifficulty] + ".json");
+			} else {
+				_file.save(data.trim(), Paths.formatToSongPath(_song.song) + ".json");
+			}
 		}
 	}
 	

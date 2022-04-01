@@ -1,0 +1,32 @@
+{
+	"storyName": "maybe in another life",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "nobb_minus",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "nobb",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"minus",
+			"nobb-minus-pixel",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "minus",
+	"hiddenUntilUnlocked": true
+}

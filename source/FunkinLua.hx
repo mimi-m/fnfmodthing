@@ -166,6 +166,12 @@ class FunkinLua {
 		set('dadName', PlayState.SONG.player2);
 		set('gfName', PlayState.SONG.player3);
 
+		// Gameover stuff
+		set('gameoverSoundName', GameOverSubstate.deathSoundName);
+		set('gameoverMusic', GameOverSubstate.loopSoundName);
+		set('gameoverConfirm', GameOverSubstate.endSoundName);
+		set('gameoverCharacter', GameOverSubstate.characterName);
+
 		// Some settings, no jokes
 		set('downscroll', ClientPrefs.downScroll);
 		set('middlescroll', ClientPrefs.middleScroll);

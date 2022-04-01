@@ -1,8 +1,8 @@
 --camera movin
 local xx = 535;
-local yy = 605;
+local yy = 625;
 local xx2 = 855;
-local yy2 = 605;
+local yy2 = 625;
 local ofs = 35;
 --local followchars = true;
 local del = 0;
@@ -75,7 +75,7 @@ function onUpdate()
 	if del2 > 0 then
 		del2 = del2 - 1
 	end
-    if followchars == false then
+    if followchars == true then
         if mustHitSection == false then
             if getProperty('dad.animation.curAnim.name') == 'singLEFT' then
                 triggerEvent('Camera Follow Pos',xx-ofs,yy)
