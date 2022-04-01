@@ -11,21 +11,14 @@ local del2 = 0;
 local allowCountdown = false
 
 function onCreate()
-	-- triggered when the lua file is started
---	addCharacterToList('mugen', 'boyfriend');
---	addCharacterToList('mugen-pixel', 'boyfriend');
---	addCharacterToList('gf', 'girlfriend');
---	addCharacterToList('gf-pixel', 'girlfriend');
---	addCharacterToList('mimi', 'dad');
---	addCharacterToList('mimi-alt-pixel', 'dad');
 		for i = 0, getProperty('opponentStrums.length')-1 do
-			setPropertyFromGroup('opponentStrums', i, 'texture', 'ogNOTE_assets');
+			setPropertyFromGroup('opponentStrums', i, 'texture', 'MUGENNOTE_assets');
 		end
 		for i = 0, getProperty('unspawnNotes.length')-1 do
 			if getPropertyFromGroup('unspawnNotes', i, 'mustPress') == false then
-			setPropertyFromGroup('unspawnNotes', i, 'texture', 'ogNOTE_assets');
+			setPropertyFromGroup('unspawnNotes', i, 'texture', 'MUGENNOTE_assets');
 			end
-		end
+		end 
 end
 
 --camera movin effect
@@ -91,9 +84,13 @@ function onUpdate()
     end
     
 end
-function opponentNoteHit()
-    health = getProperty('health')
-        if getProperty('health') > 0.35 then
-            setProperty('health', health- 0.0189);
-        end
+
+function onEndSong()
+	-- song ended/starting transition (Will be delayed if you're unlocking an achievement)
+	-- return Function_Stop to stop the song from ending for playing a cutscene or something.
+    isWeekCompleted('mimi', true)
+    if yes == true then 
+        unlockWeek('minus', true)
+    end
+	return Function_Continue;
 end

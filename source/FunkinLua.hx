@@ -109,6 +109,8 @@ class FunkinLua {
 		set('weekRaw', PlayState.storyWeek);
 		set('week', WeekData.weeksList[PlayState.storyWeek]);
 		set('seenCutscene', PlayState.seenCutscene);
+		set('weekUnlocked', false);
+		
 		
 		// Block require and os, Should probably have a proper function but this should be good enough for now until someone smarter comes along and recreates a safe version of the OS library
 		set('require', false);
@@ -165,12 +167,6 @@ class FunkinLua {
 		set('boyfriendName', PlayState.SONG.player1);
 		set('dadName', PlayState.SONG.player2);
 		set('gfName', PlayState.SONG.player3);
-
-		// Gameover stuff
-		set('gameoverSoundName', GameOverSubstate.deathSoundName);
-		set('gameoverMusic', GameOverSubstate.loopSoundName);
-		set('gameoverConfirm', GameOverSubstate.endSoundName);
-		set('gameoverCharacter', GameOverSubstate.characterName);
 
 		// Some settings, no jokes
 		set('downscroll', ClientPrefs.downScroll);
@@ -1631,6 +1627,23 @@ class FunkinLua {
 		
 		Lua_helper.add_callback(lua, "getTextFromFile", function(path:String, ?ignoreModFolders:Bool = false) {
 			return Paths.getTextFromFile(path, ignoreModFolders);
+		});
+	
+		Lua_helper.add_callback(lua, "isWeekCompleted", function(name:String,unlocked:Bool) {
+			luaTrace('Checking if week "' + name + '" is unlocked...');
+			if (FlxG.save.data.weekCompleted(name))
+			{
+				luaTrace('Week "' + name + '" is unlocked.');
+				return true;
+			}
+			luaTrace('Week "' + name + '" is not unlocked.');
+			return false;
+		});
+		Lua_helper.add_callback(lua, "unlockWeek", function(week:String,unlock:Bool) {
+			week = WeekData.getWeekFileName();
+			StoryMenuState.weekCompleted.set(week, unlock);
+			FlxG.save.data.weekCompleted = StoryMenuState.weekCompleted;
+			FlxG.save.flush();
 		});
 
 		// DEPRECATED, DONT MESS WITH THESE SHITS, ITS JUST THERE FOR BACKWARD COMPATIBILITY

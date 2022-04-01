@@ -46,7 +46,7 @@ class StrumNote extends FlxSprite
 		var lastAnim:String = null;
 		if(animation.curAnim != null) lastAnim = animation.curAnim.name;
 
-		if(PlayState.isPixelStage)
+		if(PlayState.isPixelStage || FlxG.save.data.pixelArrows)
 		{
 			loadGraphic(Paths.image('pixelUI/' + texture));
 			width = width / 4;
@@ -136,7 +136,7 @@ class StrumNote extends FlxSprite
 			}
 		}
 		//if(animation.curAnim != null){ //my bad i was upset
-		if(animation.curAnim.name == 'confirm' && !PlayState.isPixelStage) {
+		if(animation.curAnim.name == 'confirm' && !PlayState.isPixelStage || ! FlxG.save.data.pixelArrows) {
 			centerOrigin();
 		//}
 		}
@@ -157,7 +157,7 @@ class StrumNote extends FlxSprite
 			colorSwap.saturation = ClientPrefs.arrowHSV[noteData % 4][1] / 100;
 			colorSwap.brightness = ClientPrefs.arrowHSV[noteData % 4][2] / 100;
 
-			if(animation.curAnim.name == 'confirm' && !PlayState.isPixelStage) {
+			if(animation.curAnim.name == 'confirm' && !PlayState.isPixelStage || !FlxG.save.data.pixelArrows) {
 				centerOrigin();
 			}
 		}

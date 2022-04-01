@@ -26,6 +26,11 @@ typedef StageFile = {
 	var camera_opponent:Array<Float>;
 	var camera_girlfriend:Array<Float>;
 	var camera_speed:Null<Float>;
+	
+	/*var deathSoundName:String;
+	var deathMusic:String;
+	var deathConfirm:String;
+	var deathCharacter:String;*/
 }
 
 class StageData {
