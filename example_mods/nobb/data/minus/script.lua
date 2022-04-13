@@ -18,14 +18,10 @@ function onCreate()
 --	addCharacterToList('gf-pixel', 'girlfriend');
 --	addCharacterToList('mimi', 'dad');
 --	addCharacterToList('mimi-alt-pixel', 'dad');
-		for i = 0, getProperty('opponentStrums.length')-1 do
-			setPropertyFromGroup('opponentStrums', i, 'texture', 'ogNOTE_assets');
-		end
-		for i = 0, getProperty('unspawnNotes.length')-1 do
-			if getPropertyFromGroup('unspawnNotes', i, 'mustPress') == false then
-			setPropertyFromGroup('unspawnNotes', i, 'texture', 'ogNOTE_assets');
-			end
-		end
+	setPropertyFromClass('GameOverSubstate', 'characterName', 'nobb-minus-dead'); --Character json file for the death animation
+	setPropertyFromClass('GameOverSubstate', 'deathSoundName', 'fnb_death'); --put in mods/sounds/
+	setPropertyFromClass('GameOverSubstate', 'loopSoundName', 'minus_gameover'); --put in mods/music/
+	setPropertyFromClass('GameOverSubstate', 'endSoundName', 'fnb_confetti'); --put in mods/music/
 end
 
 --camera movin effect

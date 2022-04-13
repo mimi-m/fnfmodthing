@@ -1,9 +1,9 @@
 {
 	"song": {
-		"player1": "slugetta",
+		"player1": "nobb",
 		"events": [],
 		"gfVersion": "gf-pixel",
-		"player2": "nobb",
+		"player2": "slugetta",
 		"notes": [
 			{
 				"lengthInSteps": 16,
@@ -42,25 +42,25 @@
 						5853.65853658537,
 						6,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						6097.56097560976,
 						7,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						6341.46341463415,
 						4,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						6585.36585365854,
 						5,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					]
 				],
 				"mustHitSection": true
@@ -72,25 +72,25 @@
 						6829.26829268293,
 						5,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						7073.17073170732,
 						4,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						7317.07317073171,
 						7,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						7560.9756097561,
 						6,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					]
 				],
 				"mustHitSection": true
@@ -157,25 +157,25 @@
 						7804.87804878049,
 						6,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						8048.78048780488,
 						7,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						8292.68292682927,
 						4,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						8536.58536585366,
 						5,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					]
 				],
 				"mustHitSection": false
@@ -267,49 +267,49 @@
 						8780.48780487805,
 						5,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						8780.48780487805,
 						1,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						9024.39024390244,
 						3,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						9024.39024390244,
 						4,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						9268.29268292683,
 						1,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						9268.29268292683,
 						7,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						9512.19512195122,
 						6,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						9512.19512195122,
 						0,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					]
 				],
 				"mustHitSection": false
@@ -572,49 +572,49 @@
 						10731.7073170732,
 						1,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						10731.7073170732,
 						5,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						10975.6097560976,
 						3,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						10975.6097560976,
 						7,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						11219.512195122,
 						1,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						11219.512195122,
 						6,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						11463.4146341463,
 						7,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					],
 					[
 						11463.4146341463,
 						0,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					]
 				],
 				"mustHitSection": true
@@ -746,7 +746,7 @@
 						11707.3170731707,
 						5,
 						0,
-						"Hurt Note"
+						"Lava Note"
 					]
 				],
 				"mustHitSection": false

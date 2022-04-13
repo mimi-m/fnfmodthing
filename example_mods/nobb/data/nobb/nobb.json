@@ -11764,6 +11764,36 @@
 				"bpm": 180
 			},
 			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 180,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 180
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 180
+			},
+			{
 				"gfSection": false,
 				"lengthInSteps": 16,
 				"altAnim": false,
@@ -12288,11 +12318,12 @@
 			]
 		],
 		"player3": null,
+		"splashSkin": "ognoteSplashes",
 		"song": "nobb",
-		"arrowSkin": "",
+		"arrowSkin": "ogNOTE_assets",
 		"needsVoices": true,
 		"validScore": true,
-		"stage": "school",
+		"stage": "misery",
 		"speed": 3,
 		"bpm": 180
 	}

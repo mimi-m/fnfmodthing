@@ -61,9 +61,12 @@ class ChartingState extends MusicBeatState
 		'Alt Animation',
 		'Hey!',
 		'Hurt Note',
+		'Hurt Note (Miss Anim)',
 		'GF Sing',
 		'No Animation',
-		'Flooshed Note'
+		'Flooshed Note',
+		'Lava Note',
+		'Step Note'
 	];
 	private var noteTypeIntMap:Map<Int, String> = new Map<Int, String>();
 	private var noteTypeMap:Map<String, Null<Int>> = new Map<String, Null<Int>>();

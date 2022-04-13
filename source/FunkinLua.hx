@@ -109,7 +109,6 @@ class FunkinLua {
 		set('weekRaw', PlayState.storyWeek);
 		set('week', WeekData.weeksList[PlayState.storyWeek]);
 		set('seenCutscene', PlayState.seenCutscene);
-		set('weekUnlocked', false);
 		
 		
 		// Block require and os, Should probably have a proper function but this should be good enough for now until someone smarter comes along and recreates a safe version of the OS library
@@ -183,7 +182,10 @@ class FunkinLua {
 		set('noResetButton', ClientPrefs.noReset);
 		set('noScreenShaking', ClientPrefs.noScreenShaking);
 		set('followchars', ClientPrefs.followchars);
-		set('pixelArrows', ClientPrefs.followchars);
+		set('pixelArrows', ClientPrefs.pixelArrows);
+		set('sideInfo', ClientPrefs.sideInfo);
+		set('maniaMode', ClientPrefs.maniaMode);
+		set('coloredRatings', ClientPrefs.coloredRatings);
 //		set('circleSkin', ClientPrefs.circleSkin);
 		set('lowQuality', ClientPrefs.lowQuality);
 

@@ -37,16 +37,18 @@ function goodNoteHit(id, noteData, noteType, isSustainNote)
         MoveArrow("MoveArrow", "5", "111, 0, 0, 1, 1")
         MoveArrow("MoveArrow", "6", "-111, 0, 0, 1, 1")
         MoveArrow("MoveArrow", "7", "-335, 0, 0, 1, 1")
-        if middlescroll == true then
-            MoveArrow("MoveArrow", "0", "965, 0, 0, 0.5, 1")
-            MoveArrow("MoveArrow", "1", "741, 0, 0, 0.5, 1")
-            MoveArrow("MoveArrow", "2", "-741, 0, 0, 0.5, 1")
-            MoveArrow("MoveArrow", "3", "-965, 0, 0, 0.5, 1")
-        else
-	    	MoveArrow("MoveArrow", "0", "335, 0, 0, 1, 1")
-            MoveArrow("MoveArrow", "1", "111, 0, 0, 1, 1")
-            MoveArrow("MoveArrow", "2", "-111, 0, 0, 1, 1")
-            MoveArrow("MoveArrow", "3", "-335, 0, 0, 1, 1")
+        if maniaMode == false then
+            if middlescroll == true then
+                MoveArrow("MoveArrow", "0", "965, 0, 0, 0.5, 1")
+                MoveArrow("MoveArrow", "1", "741, 0, 0, 0.5, 1")
+                MoveArrow("MoveArrow", "2", "-741, 0, 0, 0.5, 1")
+                MoveArrow("MoveArrow", "3", "-965, 0, 0, 0.5, 1")
+            else
+	        	MoveArrow("MoveArrow", "0", "335, 0, 0, 1, 1")
+                MoveArrow("MoveArrow", "1", "111, 0, 0, 1, 1")
+                MoveArrow("MoveArrow", "2", "-111, 0, 0, 1, 1")
+                MoveArrow("MoveArrow", "3", "-335, 0, 0, 1, 1")
+            end
         end
 		runTimer('wait', 3);
 --		end
@@ -63,16 +65,18 @@ function onTimerCompleted(tag, loops, loopsleft)
         MoveArrow("MoveArrow", "5", "-111, 0, 0, 1, 1")
         MoveArrow("MoveArrow", "4", "-335, 0, 0, 1, 1")
 
-        if middlescroll == true then
-            MoveArrow("MoveArrow", "3", "965, 0, 0, 0.5, 1")
-            MoveArrow("MoveArrow", "2", "741, 0, 0, 0.5, 1")
-            MoveArrow("MoveArrow", "1", "-741, 0, 0, 0.5, 1")
-            MoveArrow("MoveArrow", "0", "-965, 0, 0, 0.5, 1")
-        else
-            MoveArrow("MoveArrow", "3", "335, 0, 0, 1, 1")
-            MoveArrow("MoveArrow", "2", "111, 0, 0, 1, 1")
-            MoveArrow("MoveArrow", "1", "-111, 0, 0, 1, 1")
-            MoveArrow("MoveArrow", "0", "-335, 0, 0, 1, 1")
+        if maniaMode == false then
+            if middlescroll == true then
+                MoveArrow("MoveArrow", "3", "965, 0, 0, 0.5, 1")
+                MoveArrow("MoveArrow", "2", "741, 0, 0, 0.5, 1")
+                MoveArrow("MoveArrow", "1", "-741, 0, 0, 0.5, 1")
+                MoveArrow("MoveArrow", "0", "-965, 0, 0, 0.5, 1")
+            else
+                MoveArrow("MoveArrow", "3", "335, 0, 0, 1, 1")
+                MoveArrow("MoveArrow", "2", "111, 0, 0, 1, 1")
+                MoveArrow("MoveArrow", "1", "-111, 0, 0, 1, 1")
+                MoveArrow("MoveArrow", "0", "-335, 0, 0, 1, 1")
+            end
         end
 --      confused = false;
     end

@@ -1,8 +1,8 @@
 --camera movin
-local xx = 505;
-local yy = 660;
-local xx2 = 1100;
-local yy2 = 660;
+local xx = defaultOpponentX;
+local yy = defaultOpponentY;
+local xx2 = defaultBoyfriendX;
+local yy2 = defaultBoyfriendY;
 local ofs = 35;
 --local followchars = true;
 local del = 0;
@@ -12,11 +12,11 @@ local allowCountdown = false
 
 function onCreate()
 		for i = 0, getProperty('opponentStrums.length')-1 do
-			setPropertyFromGroup('opponentStrums', i, 'texture', 'MUGENNOTE_assets');
+			setPropertyFromGroup('opponentStrums', i, 'texture', 'ogNOTE_assets');
 		end
 		for i = 0, getProperty('unspawnNotes.length')-1 do
 			if getPropertyFromGroup('unspawnNotes', i, 'mustPress') == false then
-			setPropertyFromGroup('unspawnNotes', i, 'texture', 'MUGENNOTE_assets');
+			setPropertyFromGroup('unspawnNotes', i, 'texture', 'ogNOTE_assets');
 			end
 		end 
 end

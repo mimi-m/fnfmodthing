@@ -62,6 +62,20 @@ class VisualsUISubState extends BaseOptionsMenu
 			true);
 		addOption(option);
 
+		var option:Option = new Option('Colored Hit Ratings', //Name
+			"If checked, hit ratings (Sick!, Good, Bad, and Shit)\nwill have colors.",
+			'coloredRatings',
+			'bool',
+			true);
+		addOption(option);
+
+		var option:Option = new Option('Side Info', //Name
+			"Displays your stats at the left side of the screen.\nIf disabled while in Mania Mode, the text is white instead.",
+			'sideInfo',
+			'bool',
+			true);
+		addOption(option);
+
 		var option:Option = new Option('Hide HUD',
 		'If checked, hides the health bar, hit ratings, combo,\nscore, and accuracy.',
 			'hideHud',
@@ -91,6 +105,13 @@ class VisualsUISubState extends BaseOptionsMenu
 			false);
 		addOption(option);
 
+		var option:Option = new Option('Directional Camera Movement', //Name
+			"If checked, the camera moves based on the direction a\nplayer is singing, if a song has this effect.",
+			'followchars',
+			'bool',
+			true);
+		addOption(option);
+
 		var option:Option = new Option('Camera Zooms',
 			"If unchecked, the camera won't zoom in on a beat hit.",
 			'camZooms',
@@ -101,13 +122,6 @@ class VisualsUISubState extends BaseOptionsMenu
 		var option:Option = new Option('Score Text Zoom on Hit',
 			"If unchecked, disables the Score text zooming\neverytime you hit a note.",
 			'scoreZoom',
-			'bool',
-			true);
-		addOption(option);
-
-		var option:Option = new Option('Directional Camera Movement', //Name
-			"If checked, the camera moves based on the direction a\nplayer is singing, if a song has this effect.",
-			'followchars',
 			'bool',
 			true);
 		addOption(option);

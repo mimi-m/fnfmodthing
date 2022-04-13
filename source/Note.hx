@@ -122,6 +122,26 @@ class Note extends FlxSprite
 						missHealth = 0.335;
 					}
 					hitCausesMiss = true;
+				case 'Hurt Note (Miss Anim)':
+					ignoreNote = mustPress;
+					reloadNote('HURT');
+					if(PlayState.isPixelStage || FlxG.save.data.pixelArrows){
+						noteSplashTexture = 'pixelUI/HURTnoteSplashes';
+					} else {
+						noteSplashTexture = 'HURTnoteSplashes';
+					}
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+					if(isSustainNote) {
+						missHealth = 0.0675;
+					} else {
+						if (health <= 0.335) {
+							 health = 0;
+							}
+						missHealth = 0.335;
+					}
+					hitCausesMiss = true;
 				case 'No Animation':
 					noAnimation = true;
 				case 'GF Sing':
@@ -161,6 +181,34 @@ class Note extends FlxSprite
 					} else {
 						noAnimation = true;
 					}
+				case 'Lava Note':
+					if (hitByOpponent) {
+						noAnimation = true;
+					}
+					reloadNote('lava');
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+					if(isSustainNote) {
+						noAnimation = true;
+						missHealth = 0.0325;
+					} else {
+						if (health <= 0.205) {
+							 health = 0;
+							}
+						missHealth = 0.205;
+					}
+					ignoreNote = mustPress;
+					hitCausesMiss = true;
+				case 'Step Note':
+					reloadNote('step');
+					if(isSustainNote) {
+						noAnimation = true;
+						ignoreNote = mustPress;
+					//	hitCausesMiss = true;
+						health -= 0.0295;
+					}
+					hitHealth = 0.0305;
 			//	case 'Confuse Note':
 			//		noAnimation = true;
 			//		hitCausesMiss = true;

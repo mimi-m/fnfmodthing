@@ -30,6 +30,9 @@ class ClientPrefs {
 	public static var followchars:Bool = true;
 	public static var pixelArrows:Bool = false;
 	//	public static var circleSkin:Bool = false;
+	public static var sideInfo:Bool = true;
+	public static var maniaMode:Bool = false;
+	public static var coloredRatings:Bool = false;
 	public static var healthBarAlpha:Float = 1;
 	public static var controllerMode:Bool = false;
 	public static var hitsoundVolume:Float = 0;
@@ -119,7 +122,10 @@ class ClientPrefs {
 		FlxG.save.data.noScreenShaking = noScreenShaking;
 		FlxG.save.data.followchars = followchars;
 		FlxG.save.data.pixelArrows = pixelArrows;
+		FlxG.save.data.sideInfo = sideInfo;
+		FlxG.save.data.maniaMode = maniaMode;
 		//		FlxG.save.data.circleSkin = circleSkin;
+		FlxG.save.data.coloredRatings = coloredRatings;
 		FlxG.save.data.healthBarAlpha = healthBarAlpha;
 		FlxG.save.data.comboOffset = comboOffset;
 		FlxG.save.data.achievementsMap = Achievements.achievementsMap;
@@ -218,6 +224,15 @@ class ClientPrefs {
 				}
 				if(FlxG.save.data.pixelArrows != null) {
 					pixelArrows = FlxG.save.data.pixelArrows;
+				}
+				if(FlxG.save.data.sideInfo != null) {
+					sideInfo = FlxG.save.data.sideInfo;
+				}
+				if(FlxG.save.data.maniaMode != null) {
+					maniaMode = FlxG.save.data.maniaMode;
+				}
+				if(FlxG.save.data.coloredRatings != null) {
+					coloredRatings = FlxG.save.data.coloredRatings;
 				}
 		//		if(FlxG.save.data.circleSkin != null) {
 		//			circleSkin = FlxG.save.data.circleSkin;

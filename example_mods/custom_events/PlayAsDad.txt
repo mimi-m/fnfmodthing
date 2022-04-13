@@ -1,0 +1,8 @@
+Lets you play as the Enemy, Automatically converts 
+notes once placed
+
+Value 1: True for Enemy, false for Player
+Value 2: Timer (3 by default)
+
+notice: the event happens one step earlier, to smoothen
+the event when placed at the start
