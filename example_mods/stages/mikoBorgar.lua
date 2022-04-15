@@ -1,7 +1,7 @@
 function onCreate()
 	-- background shit
-	makeLuaSprite('stage', 'stageHalloween', -675, -300);
-	setScrollFactor('stage', 0.7, 0.7);
+	makeLuaSprite('borgar', 'mikoBorgar', -595, -200);
+	setScrollFactor('borgar', 0.8, 0.8);
 
 	-- gameover stuff
 --	gameoverSoundName ('fnb_death')
@@ -29,7 +29,7 @@ function onCreate()
 --		scaleObject('stagecurtains', 0.9, 0.9);
 --	end
 
-	addLuaSprite('stage', false);
+	addLuaSprite('borgar', false);
 --	addLuaSprite('stagefront', false);
 --	addLuaSprite('stagelight_left', false);
 --	addLuaSprite('stagelight_right', false);

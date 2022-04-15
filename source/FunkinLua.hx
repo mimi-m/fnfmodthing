@@ -1644,7 +1644,7 @@ class FunkinLua {
 		Lua_helper.add_callback(lua, "unlockWeek", function(week:String,unlock:Bool) {
 			week = WeekData.getWeekFileName();
 			StoryMenuState.weekCompleted.set(week, unlock);
-			FlxG.save.data.	weekCompleted = StoryMenuState.weekCompleted;
+			FlxG.save.data.weekCompleted = StoryMenuState.weekCompleted;
 			FlxG.save.flush();
 		});
 

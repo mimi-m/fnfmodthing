@@ -1,10 +1,12 @@
+local confused = false
+
 function onCreate()
 	--Iterate over all notes
 	for i = 0, getProperty('unspawnNotes.length')-1 do
 		--Check if the note is an Instakill Note
 		if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Confuse Note' then
 			setPropertyFromGroup('unspawnNotes', i, 'texture', 'ConfuseNote_assets'); --Change texture
-            if pixelArrows == false then
+            if pixelArrows == true then
                 setPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture', 'pixelUI/confuseSplash'); --Change texture
             else
                 setPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture', 'confuseSplash'); -- change splash
@@ -28,11 +30,11 @@ end
 -- isSustainNote: If it's a hold note, can be either true or false
 function goodNoteHit(id, noteData, noteType, isSustainNote)
 	if noteType == 'Confuse Note' then
---        if confused == false then
+        if confused == false then
         if lowQuality == false then
             playSound("confused");
         end
---            confused = true;
+            confused = true;
         MoveArrow("MoveArrow", "4", "335, 0, 0, 1, 1")
         MoveArrow("MoveArrow", "5", "111, 0, 0, 1, 1")
         MoveArrow("MoveArrow", "6", "-111, 0, 0, 1, 1")
@@ -51,7 +53,7 @@ function goodNoteHit(id, noteData, noteType, isSustainNote)
             end
         end
 		runTimer('wait', 3);
---		end
+		end
 	end
 end
 
@@ -78,7 +80,7 @@ function onTimerCompleted(tag, loops, loopsleft)
                 MoveArrow("MoveArrow", "0", "-335, 0, 0, 1, 1")
             end
         end
---      confused = false;
+      confused = false;
     end
 end
 

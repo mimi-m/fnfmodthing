@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"mugenlovania",
+			"mugen",
+			[
+				175,
+				126,
+				34
+			]
+		]
+	],
+	"hiddenUntilUnlocked": true,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "Mania",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "mugen loves mania",
+	"weekName": "borgar",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "mimi",
+	"startUnlocked": false
+}

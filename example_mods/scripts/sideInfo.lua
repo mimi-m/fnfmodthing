@@ -1,6 +1,73 @@
 function onCreate()
     if sideInfo == false or maniaMode == true then
         close(true);
+    else
+        makeLuaText("health", 'Health: 50%', 400, tnhx, 265);
+        makeLuaText("tnh", 'Total Notes Hit: 0', 400, getProperty('health.x'), getProperty('health.y') + cmy);
+        makeLuaText("maxcm", 'Max Combo: 0', 400, getProperty('tnh.x'), getProperty('tnh.y') + 20);
+        makeLuaText("cm", 'Combo: 0', 400, getProperty('maxcm.x'), getProperty('maxcm.y') + 20);
+        makeLuaText("sick", 'Sicks!: 0', 400, getProperty('cm.x'), getProperty('cm.y') + 20);
+        makeLuaText("good", 'Goods: 0', 400, getProperty('cm.x'), getProperty('sick.y') + 20);
+        makeLuaText("bad", 'Bads: 0', 400, getProperty('cm.x'), getProperty('good.y') + 20);
+        makeLuaText("shit", 'Shits: 0', 400, getProperty('cm.x'), getProperty('bad.y') + 20);
+        makeLuaText("miss", 'Misses: 0', 400, getProperty('cm.x'), getProperty('shit.y') + 20);
+    
+        setObjectCamera("health", 'hud');
+        setTextSize('health', 20);
+        addLuaText("health");
+        setTextColor('health', 'FEFEFE');
+        setTextAlignment('health', 'left')
+        setTextFont('health', font)
+    
+        setObjectCamera("tnh", 'hud');
+        setTextSize('tnh', 20);
+        addLuaText("tnh");
+        setTextColor('tnh', 'E060FF');
+        setTextAlignment('tnh', 'left')
+        setTextFont('tnh', font)
+    
+        setObjectCamera("maxcm", 'hud');
+        setTextSize('maxcm', 20);
+        addLuaText("maxcm");
+        setTextColor('maxcm', '8070FF');
+        setTextFont('maxcm', font)
+        setTextAlignment('maxcm', 'left')
+        setObjectCamera("cm", 'hud');
+        setTextSize('cm', 20);
+        addLuaText("cm");
+        setTextColor('cm', '8CC7FF');
+        setTextFont('cm', font)
+        setTextAlignment('cm', 'left')
+        setObjectCamera("sick", 'hud');
+        setTextSize('sick', 20);
+        addLuaText("sick");
+        setTextColor('sick', '60FFFF');
+        setTextFont('sick', font)
+        setTextAlignment('sick', 'left')
+        setObjectCamera("good", 'hud');
+        setTextSize('good', 20);
+        addLuaText("good");
+        setTextColor('good', '60FF70');
+        setTextFont('good', font)
+        setTextAlignment('good', 'left')
+        setObjectCamera("bad", 'hud');
+        setTextSize('bad', 20);
+        addLuaText("bad");
+        setTextColor('bad', 'FFFF60');
+        setTextFont('bad', font)
+        setTextAlignment('bad', 'left')
+        setObjectCamera("shit", 'hud');
+        setTextSize('shit', 20);
+        addLuaText("shit");
+        setTextColor('shit', 'FFC060');
+        setTextFont('shit', font)
+        setTextAlignment('shit', 'left')
+        setObjectCamera("miss", 'hud');
+        setTextSize('miss', 20);
+        setTextColor('miss', 'FF6060');
+        addLuaText("miss");
+        setTextFont('miss', font)
+        setTextAlignment('miss', 'left')
     end
 end
 
@@ -11,73 +78,8 @@ confusehit = 0
 font = "vcr.ttf" -- the font that the text will use.
 cmy = 20
 tnhx = 5
+
 function onCountdownTick()
-    makeLuaText("health", 'Health: 50%', 400, tnhx, 265);
-    makeLuaText("tnh", 'Total Notes Hit: 0', 400, getProperty('health.x'), getProperty('health.y') + cmy);
-    makeLuaText("maxcm", 'Max Combo: 0', 400, getProperty('tnh.x'), getProperty('tnh.y') + 20);
-    makeLuaText("cm", 'Combo: 0', 400, getProperty('maxcm.x'), getProperty('maxcm.y') + 20);
-    makeLuaText("sick", 'Sicks!: 0', 400, getProperty('cm.x'), getProperty('cm.y') + 20);
-    makeLuaText("good", 'Goods: 0', 400, getProperty('cm.x'), getProperty('sick.y') + 20);
-    makeLuaText("bad", 'Bads: 0', 400, getProperty('cm.x'), getProperty('good.y') + 20);
-    makeLuaText("shit", 'Shits: 0', 400, getProperty('cm.x'), getProperty('bad.y') + 20);
-    makeLuaText("miss", 'Misses: 0', 400, getProperty('cm.x'), getProperty('shit.y') + 20);
-
-    setObjectCamera("health", 'hud');
-    setTextSize('health', 20);
-    addLuaText("health");
-    setTextColor('health', 'FEFEFE');
-    setTextAlignment('health', 'left')
-    setTextFont('health', font)
-
-    setObjectCamera("tnh", 'hud');
-    setTextSize('tnh', 20);
-    addLuaText("tnh");
-    setTextColor('tnh', 'E060FF');
-    setTextAlignment('tnh', 'left')
-    setTextFont('tnh', font)
-
-    setObjectCamera("maxcm", 'hud');
-    setTextSize('maxcm', 20);
-    addLuaText("maxcm");
-    setTextColor('maxcm', '8070FF');
-    setTextFont('maxcm', font)
-    setTextAlignment('maxcm', 'left')
-    setObjectCamera("cm", 'hud');
-    setTextSize('cm', 20);
-    addLuaText("cm");
-    setTextColor('cm', '8CC7FF');
-    setTextFont('cm', font)
-    setTextAlignment('cm', 'left')
-    setObjectCamera("sick", 'hud');
-    setTextSize('sick', 20);
-    addLuaText("sick");
-    setTextColor('sick', '60FFFF');
-    setTextFont('sick', font)
-    setTextAlignment('sick', 'left')
-    setObjectCamera("good", 'hud');
-    setTextSize('good', 20);
-    addLuaText("good");
-    setTextColor('good', '60FF70');
-    setTextFont('good', font)
-    setTextAlignment('good', 'left')
-    setObjectCamera("bad", 'hud');
-    setTextSize('bad', 20);
-    addLuaText("bad");
-    setTextColor('bad', 'FFFF60');
-    setTextFont('bad', font)
-    setTextAlignment('bad', 'left')
-    setObjectCamera("shit", 'hud');
-    setTextSize('shit', 20);
-    addLuaText("shit");
-    setTextColor('shit', 'FFC060');
-    setTextFont('shit', font)
-    setTextAlignment('shit', 'left')
-    setObjectCamera("miss", 'hud');
-    setTextSize('miss', 20);
-    setTextColor('miss', 'FF6060');
-    addLuaText("miss");
-    setTextFont('miss', font)
-    setTextAlignment('miss', 'left')
 end
 
 

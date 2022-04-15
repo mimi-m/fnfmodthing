@@ -251,6 +251,7 @@ class PlayState extends MusicBeatState
 	// Discord RPC variables
 	var storyDifficultyText:String = "";
 	var detailsText:String = "";
+	var detailsExtra:String = "";
 	var detailsPausedText:String = "";
 	#end
 
@@ -335,13 +336,19 @@ class PlayState extends MusicBeatState
 		storyDifficultyText = CoolUtil.difficulties[storyDifficulty];
 
 		// String that contains the mode defined here so it isn't necessary to call changePresence for each mode
+		if (practiceMode)
+			detailsExtra = " (Practice)";
+		if (cpuControlled)
+			detailsExtra = " (Autoplay)";
+		if (chartingMode)
+			detailsExtra = " (Editing)";
 		if (isStoryMode)
 		{
-			detailsText = "Story Mode: " + WeekData.getCurrentWeek().weekName;
+			detailsText = "Story Mode: " + WeekData.getCurrentWeek().weekName + detailsExtra;
 		}
 		else
 		{
-			detailsText = "Freeplay";
+			detailsText = "Freeplay" + detailsExtra;
 		}
 
 		// String for when the game is paused
@@ -1039,7 +1046,7 @@ class PlayState extends MusicBeatState
 		add(iconP2);
 		reloadHealthBarColors();
 
-		scoreTxt = new FlxText(0, healthBarBG.y + 60, FlxG.width, "", 20);
+		scoreTxt = new FlxText(0, healthBarBG.y + 65, FlxG.width, "", 20);
 		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		scoreTxt.scrollFactor.set();
 		scoreTxt.borderSize = 1.25;
@@ -3898,10 +3905,10 @@ class PlayState extends MusicBeatState
 				 if (health >= 0.0535) {
 					  health -= 0.0230;
 					 }
-				if (health <= 1 || health >= 0.0550) {
+				if (health <= 1 || health >= 0.0565) {
 					  health += 0.0030;
 					 }
-				 if (health <= 0.25 || health >= 0.0550) {
+				 if (health <= 0.25 || health >= 0.0565) {
 					  health += 0.0020;
 					 }
 				 if (dad.curCharacter == "mimi-pixel") {
@@ -3917,7 +3924,7 @@ class PlayState extends MusicBeatState
 				}
 			if (dad.curCharacter == "mugen") {
 				 if (health >= 0.0350) {
-					  health -= 0.0245;
+					  health -= 0.0225;
 					 }
 				}
 			if (dad.curCharacter == "slugetta") {

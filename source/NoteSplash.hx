@@ -14,14 +14,11 @@ class NoteSplash extends FlxSprite
 		super(x, y);
 
 		var skin:String = 'noteSplashes';
-		var daskin:String = 'noteSplashes';
-		var pixelDirectory:String = 'pixelUI/';
+		var pixelDirectory:String = '';
 		if(PlayState.isPixelStage || FlxG.save.data.pixelArrows) {
-			skin = pixelDirectory + daskin;
-			if(PlayState.SONG.splashSkin != null && PlayState.SONG.splashSkin.length > 0) skin = pixelDirectory + PlayState.SONG.splashSkin;
-		} else {
-			if(PlayState.SONG.splashSkin != null && PlayState.SONG.splashSkin.length > 0) skin = PlayState.SONG.splashSkin;
+			pixelDirectory = 'pixelUI/';
 		}
+		if(PlayState.SONG.splashSkin != null && PlayState.SONG.splashSkin.length > 0) skin = pixelDirectory + PlayState.SONG.splashSkin;
 
 		loadAnims(skin);
 		
@@ -38,14 +35,11 @@ class NoteSplash extends FlxSprite
 
 		if(texture == null) {
 			texture = 'noteSplashes';
-			var daTexture:String = 'noteSplashes';
-			var pixelLocation:String = 'pixelUI/';
+			var pixelLocation:String = '';
 			if(PlayState.isPixelStage || FlxG.save.data.pixelArrows) {
-				texture = pixelLocation + daTexture;
-				if(PlayState.SONG.splashSkin != null && PlayState.SONG.splashSkin.length > 0) texture = pixelLocation + PlayState.SONG.splashSkin;
-			} else {
-				if(PlayState.SONG.splashSkin != null && PlayState.SONG.splashSkin.length > 0) texture = PlayState.SONG.splashSkin;
+				pixelLocation = 'pixelUI/';
 			}
+			if(PlayState.SONG.splashSkin != null && PlayState.SONG.splashSkin.length > 0) texture = pixelLocation + PlayState.SONG.splashSkin;
 		}
 
 		if(textureLoaded != texture) {

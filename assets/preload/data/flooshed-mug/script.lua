@@ -29,10 +29,6 @@ function onStartCountdown()
 		runTimer('startDialogue', 0.8);
 		allowCountdown = true;
 		return Function_Stop;
-    else
-        botPlay = true
-        practice = true
-        botplayTxt = 'Freeplay'
     end
 	return Function_Continue;
 end

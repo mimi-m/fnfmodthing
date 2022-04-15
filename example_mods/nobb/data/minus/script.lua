@@ -93,3 +93,23 @@ function opponentNoteHit()
             setProperty('health', health- 0.0189);
         end
 end
+
+function onGameOver()
+    if practiceMode == false then
+        if getProperty('flixel.FlxG', 'save.data.WeekCompleteled', 'plus') == false then
+            runTimer('unlock', 5);
+        end
+    end
+end
+
+function onTimerCompleted(tag, loops, loopsleft)
+    if tag == 'unlock' then
+        if not seenCutscene then
+            setProperty('inCutscene', true);
+            setPropertyFromClass('flixel.FlxG', 'save.data.WeekCompleted', 'plus')
+            startDialogue('losedialogue'); 
+            allowEndShit = true;
+            return Function_Stop;
+           end
+    end
+end

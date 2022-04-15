@@ -1,7 +1,7 @@
 function onCreate()
 	-- background shit
 	makeLuaSprite('stage', 'stageHalloween', -675, -300);
-	setScrollFactor('stage', 0.7, 0.7);
+	setScrollFactor('stage', 0.95, 0.95);
 
 	-- gameover stuff
 --	gameoverSoundName ('fnb_death')

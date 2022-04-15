@@ -32,7 +32,7 @@ class ClientPrefs {
 	//	public static var circleSkin:Bool = false;
 	public static var sideInfo:Bool = true;
 	public static var maniaMode:Bool = false;
-	public static var coloredRatings:Bool = false;
+	public static var coloredRatings:Bool = true;
 	public static var healthBarAlpha:Float = 1;
 	public static var controllerMode:Bool = false;
 	public static var hitsoundVolume:Float = 0;
