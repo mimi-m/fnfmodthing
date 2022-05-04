@@ -20,6 +20,7 @@ function onCreate()
 --	addCharacterToList('mimi-alt-pixel', 'dad');
 	makeLuaSprite('pixelbg', 'pixelStage', -600, -175);
     addLuaSprite('pixelbg', false);
+	setPropertyFromClass('GameOverSubstate', 'characterName', 'bf-pixel-dead'); --Character json file for the death animation
 end
 
 function onStartCountdown()

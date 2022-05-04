@@ -1,5 +1,6 @@
 {
 	"storyName": "short song i swear",
+	"difficulties": "Easy,Normal,Hard,6K",
 	"hideFreeplay": false,
 	"weekBackground": "stage",
 	"weekBefore": "mimi",
@@ -8,12 +9,7 @@
 		113,
 		253
 	],
-	"startUnlocked": false,
-	"weekCharacters": [
-		"dad",
-		"bf",
-		"gf"
-	],
+	"startUnlocked": true,
 	"songs": [
 		[
 			"Stairs",
@@ -35,5 +31,10 @@
 		]
 	],
 	"hideStoryMode": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
 	"weekName": "Stairs"
 }

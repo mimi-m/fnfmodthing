@@ -1,0 +1,49 @@
+{
+	"song": {
+		"speed": 3,
+		"stage": null,
+		"player1": "bf",
+		"player2": "gf",
+		"player3": null,
+		"events": [
+			[
+				30989.010989011,
+				[
+					[
+						"Hey!",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				41538.4615384616,
+				[
+					[
+						"Hey!",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				89010.989010989,
+				[
+					[
+						"Hey!",
+						"2",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 91,
+		"arrowSkin": "NOTE_assets",
+		"needsVoices": true,
+		"song": "lully"
+	}
+}

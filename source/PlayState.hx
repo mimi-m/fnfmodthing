@@ -671,7 +671,7 @@ class PlayState extends MusicBeatState
 				}
 
 			case 'schoolEvil': //Week 6 - Thorns
-				GameOverSubstate.deathSoundName = 'fnf_loss_sfx-pixel';
+				GameOverSubstate.deathSoundName = 'nobb_loss_sfx-pixel';
 				GameOverSubstate.loopSoundName = 'gameOver-pixel';
 				GameOverSubstate.endSoundName = 'gameOverEnd-pixel';
 				GameOverSubstate.characterName = 'bf-pixel-dead';
@@ -700,6 +700,17 @@ class PlayState extends MusicBeatState
 					bg.antialiasing = false;
 					add(bg);
 				}
+				case 'misery': //Week 6 - Thorns
+					GameOverSubstate.deathSoundName = 'nobb_loss_sfx-pixel';
+					GameOverSubstate.loopSoundName = 'gameOver-pixel';
+					GameOverSubstate.endSoundName = 'gameOverEnd-pixel';
+					GameOverSubstate.characterName = 'bf-pixel-dead';
+				case 'winner': //Week 6 - Thorns
+					GameOverSubstate.deathSoundName = 'nobb_loss_sfx-pixel';
+					GameOverSubstate.loopSoundName = 'gameOver-pixel';
+					GameOverSubstate.endSoundName = 'gameOverEnd-pixel';
+					GameOverSubstate.characterName = 'bf-pixel-dead';
+					
 		}
 
 		if(isPixelStage || FlxG.save.data.pixelArrows) {
@@ -1010,7 +1021,7 @@ class PlayState extends MusicBeatState
 		moveCameraSection(0);
 
 		healthBarBG = new AttachedSprite('healthBar');
-		healthBarBG.y = FlxG.height * 0.89;
+		healthBarBG.y = FlxG.height * 0.85;
 		healthBarBG.screenCenter(X);
 		healthBarBG.scrollFactor.set();
 		healthBarBG.visible = !ClientPrefs.hideHud;
@@ -1055,14 +1066,14 @@ class PlayState extends MusicBeatState
 		scoreTxt.scale.y = 0.85;
 		add(scoreTxt);
 
-		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "AUTOPLAY", 32);
+		botplayTxt = new FlxText(400, timeBarBG.y + 47, FlxG.width - 800, "AUTOPLAY", 32);
 		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		botplayTxt.scrollFactor.set();
 		botplayTxt.borderSize = 1.25;
 		botplayTxt.visible = cpuControlled;
 		add(botplayTxt);
 		if(ClientPrefs.downScroll) {
-			botplayTxt.y = timeBarBG.y - 78;
+			botplayTxt.y = timeBarBG.y - 70;
 		}
 
 		strumLineNotes.cameras = [camHUD];
@@ -3901,14 +3912,15 @@ class PlayState extends MusicBeatState
 
 			var char:Character = dad;
 			var animToPlay:String = singAnimations[Std.int(Math.abs(note.noteData))] + altAnim;
+//			if (dad.curCharacter.startsWith('mimi')) { // mimi-pixel-alt in flooshed-mug has its own health drain
 			if (dad.curCharacter == "mimi" || dad.curCharacter == "mimi-pixel") {
 				 if (health >= 0.0535) {
-					  health -= 0.0230;
+					  health -= 0.0230 * (healthGain / healthLoss);
 					 }
-				if (health <= 1 || health >= 0.0565) {
+				if (health <= 1 || health >= 0.0575) {
 					  health += 0.0030;
 					 }
-				 if (health <= 0.25 || health >= 0.0565) {
+				 if (health <= 0.25 || health >= 0.0575) {
 					  health += 0.0020;
 					 }
 				 if (dad.curCharacter == "mimi-pixel") {
@@ -3919,15 +3931,15 @@ class PlayState extends MusicBeatState
 			}
 			if (dad.curCharacter == "genji") {
 				 if (health >= 0.0250) {
-					  health -= 0.0215;
+					  health -= 0.0215 * (healthGain / healthLoss);
 					 }
 				}
 			if (dad.curCharacter == "mugen") {
 				 if (health >= 0.0350) {
-					  health -= 0.0225;
+					  health -= 0.0205;
 					 }
 				}
-			if (dad.curCharacter == "slugetta") {
+			if (dad.curCharacter.startsWith('slugetta')) {
 				 if (health >= 0.0175) {
 					  health -= 0.0100;
 					 }

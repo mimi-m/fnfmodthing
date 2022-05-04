@@ -188,6 +188,7 @@ class FunkinLua {
 		set('coloredRatings', ClientPrefs.coloredRatings);
 //		set('circleSkin', ClientPrefs.circleSkin);
 		set('lowQuality', ClientPrefs.lowQuality);
+		set('compressedMusic', ClientPrefs.compressedMusic);
 
 		#if windows
 		set('buildTarget', 'windows');

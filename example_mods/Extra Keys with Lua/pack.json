@@ -1,0 +1,6 @@
+{
+	"name": "Extra Keys with Lua",
+	"description": "adds 1-9k + mania changes all using lua scripts, Feel free to use this for your own mods!!! just please credit!!!",
+	"restart":false,
+	"color": [203, 0, 255]
+}

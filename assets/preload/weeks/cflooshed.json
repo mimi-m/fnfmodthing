@@ -3,19 +3,13 @@
 	"difficulties": "Baby, Easy, Normal, Hard, Insane",
 	"hideFreeplay": false,
 	"weekBackground": "",
+	"weekBefore": "mimi",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "mimi",
-	"startUnlocked": false,
-	"hideStoryMode": true,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
+	"startUnlocked": true,
 	"songs": [
 		[
 			"Flooshed",
@@ -27,5 +21,11 @@
 			]
 		]
 	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hideStoryMode": true,
 	"weekName": "Vs.Mimi"
 }

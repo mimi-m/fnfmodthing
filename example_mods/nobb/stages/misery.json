@@ -3,7 +3,7 @@
 	"defaultZoom": 0.75,
 	"isPixelStage": false,
 
-	"boyfriend": [975, 230],
-	"girlfriend": [375, 235],
-	"opponent": [85, 230]
+	"boyfriend": [975, 150],
+	"girlfriend": [375, 145],
+	"opponent": [85, 150]
 }

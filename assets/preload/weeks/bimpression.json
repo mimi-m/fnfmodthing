@@ -2,19 +2,13 @@
 	"storyName": "Slugetta",
 	"hideFreeplay": false,
 	"weekBackground": "",
+	"weekBefore": "mimi",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "mimi",
-	"startUnlocked": false,
-	"hideStoryMode": true,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
+	"startUnlocked": true,
 	"songs": [
 		[
 			"Impression",
@@ -25,6 +19,12 @@
 				222
 			]
 		]
+	],
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
 	],
 	"weekName": "Vs.Mimi"
 }

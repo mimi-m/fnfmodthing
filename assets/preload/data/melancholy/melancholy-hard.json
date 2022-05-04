@@ -167,7 +167,7 @@
 						13469.387755102,
 						7,
 						0,
-						"Hurt Note"
+						"Flooshed Note"
 					]
 				],
 				"mustHitSection": true,
@@ -176,12 +176,6 @@
 			{
 				"lengthInSteps": 16,
 				"sectionNotes": [
-					[
-						15918.3673469388,
-						7,
-						0,
-						"Hurt Note"
-					],
 					[
 						14693.8775510204,
 						1,
@@ -241,6 +235,12 @@
 						16836.7346938776,
 						0,
 						0
+					],
+					[
+						15918.3673469388,
+						7,
+						0,
+						"Flooshed Note"
 					]
 				],
 				"mustHitSection": false,
@@ -313,7 +313,7 @@
 						18367.3469387755,
 						4,
 						0,
-						"Flooshed Note"
+						"Hurt Note"
 					]
 				],
 				"mustHitSection": true,
@@ -322,30 +322,6 @@
 			{
 				"lengthInSteps": 16,
 				"sectionNotes": [
-					[
-						21122.4489795918,
-						3,
-						0,
-						"Hurt Note"
-					],
-					[
-						21428.5714285714,
-						1,
-						0,
-						"Hurt Note"
-					],
-					[
-						21581.6326530612,
-						0,
-						0,
-						"Hurt Note"
-					],
-					[
-						21734.693877551,
-						1,
-						0,
-						"Hurt Note"
-					],
 					[
 						19591.8367346939,
 						1,
@@ -387,10 +363,34 @@
 						0
 					],
 					[
+						21122.4489795918,
+						3,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						21428.5714285714,
+						1,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						21581.6326530612,
+						0,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						21734.693877551,
+						1,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
 						20816.3265306122,
 						4,
 						0,
-						"Flooshed Note"
+						"Hurt Note"
 					]
 				],
 				"altAnim": false,
@@ -471,73 +471,73 @@
 						24489.7959183673,
 						3,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						24642.8571428571,
 						0,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						24795.9183673469,
 						1,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						24948.9795918367,
 						2,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						25102.0408163265,
 						1,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						25408.1632653061,
 						1,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						25561.2244897959,
 						3,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						25867.3469387755,
 						3,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						26020.4081632653,
 						0,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						26326.5306122449,
 						0,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						26479.5918367347,
 						1,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						26632.6530612245,
 						3,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"mustHitSection": false,
@@ -617,61 +617,61 @@
 						29387.7551020408,
 						1,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						29693.8775510204,
 						1,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						29846.9387755102,
 						0,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						30153.0612244898,
 						3,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						30306.1224489796,
 						0,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						30459.1836734694,
 						3,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						30612.2448979592,
 						2,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						30918.3673469388,
 						2,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						31071.4285714286,
 						1,
 						306.122448979592,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						31530.612244898,
 						3,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"altAnim": false,
@@ -735,73 +735,73 @@
 						31836.7346938775,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						32142.8571428571,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						32295.9183673469,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						32602.0408163265,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						32755.1020408163,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						32908.1632653061,
 						5,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						33061.2244897959,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						33367.3469387755,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						33520.4081632653,
 						5,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						33826.5306122449,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						33979.5918367347,
 						5,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						34132.6530612245,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"altAnim": false,
@@ -875,73 +875,73 @@
 						34285.7142857143,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						34591.8367346939,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						34744.8979591837,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						35051.0204081633,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						35204.0816326531,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						35357.1428571429,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						35510.2040816326,
 						6,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						35816.3265306122,
 						6,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						35969.387755102,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						36275.5102040816,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						36428.5714285714,
 						5,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						36581.6326530612,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"mustHitSection": true,
@@ -1011,52 +1011,52 @@
 						0
 					],
 					[
-						36734.6938775511,
+						36734.693877551,
 						7,
 						459.183673469388,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						37346.9387755102,
 						5,
 						459.183673469388,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						37959.1836734694,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						38112.2448979592,
 						5,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						38265.306122449,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						38418.3673469388,
 						6,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						38571.4285714286,
 						4,
 						153.061224489796,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						38877.5510204082,
 						5,
 						153.061224489796,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"mustHitSection": true,
@@ -1101,45 +1101,45 @@
 						459.183673469388
 					],
 					[
-						39183.6734693878,
-						7,
-						459.183673469388,
-						"Hurt Note"
+						40714.2857142857,
+						3,
+						0
 					],
 					[
-						39795.9183673469,
-						5,
+						39183.6734693878,
+						7,
 						306.122448979592,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						40255.1020408163,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						40408.1632653061,
 						6,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						39795.9183673469,
+						5,
+						306.122448979592,
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						40714.2857142857,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						41020.4081632653,
 						7,
 						459.183673469388,
-						"Hurt Note"
-					],
-					[
-						40714.2857142857,
-						3,
-						0
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"altAnim": false,
@@ -1175,45 +1175,45 @@
 						459.183673469388
 					],
 					[
+						42857.1428571428,
+						2,
+						0
+					],
+					[
 						41632.6530612245,
 						4,
 						459.183673469388,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						42244.8979591837,
 						6,
 						306.122448979592,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						42704.0816326531,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						42857.1428571428,
 						5,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						43163.2653061224,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						43469.387755102,
 						4,
 						459.183673469388,
-						"Hurt Note"
-					],
-					[
-						42857.1428571428,
-						2,
-						0
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"altAnim": false,
@@ -1269,37 +1269,37 @@
 						48979.5918367347,
 						5,
 						459.183673469388,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						49591.8367346939,
 						4,
 						306.122448979592,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						50051.0204081632,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						50204.081632653,
 						6,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						50510.2040816326,
 						5,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						50816.3265306122,
 						4,
 						459.183673469388,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"altAnim": false,
@@ -1343,37 +1343,37 @@
 						51428.5714285714,
 						1,
 						459.183673469388,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						52040.8163265306,
 						0,
 						306.122448979592,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						52500,
 						3,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						52653.0612244898,
 						0,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						52959.1836734694,
 						1,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						53265.306122449,
 						2,
 						459.183673469388,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"altAnim": false,
@@ -1417,37 +1417,37 @@
 						53877.5510204081,
 						5,
 						459.183673469388,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						54489.7959183673,
 						6,
 						306.122448979592,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						54948.9795918367,
 						5,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						55102.0408163265,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						55408.1632653061,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						55714.2857142857,
 						4,
 						459.183673469388,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"altAnim": false,
@@ -1478,42 +1478,6 @@
 						459.183673469388
 					],
 					[
-						56326.5306122449,
-						1,
-						459.183673469388,
-						"Hurt Note"
-					],
-					[
-						56938.7755102041,
-						0,
-						306.122448979592,
-						"Hurt Note"
-					],
-					[
-						57397.9591836734,
-						2,
-						0,
-						"Hurt Note"
-					],
-					[
-						57551.0204081632,
-						1,
-						0,
-						"Hurt Note"
-					],
-					[
-						57857.1428571428,
-						3,
-						0,
-						"Hurt Note"
-					],
-					[
-						58163.2653061224,
-						1,
-						459.183673469388,
-						"Hurt Note"
-					],
-					[
 						57551.0204081632,
 						4,
 						0
@@ -1522,11 +1486,47 @@
 						57857.1428571428,
 						7,
 						0
+					],
+					[
+						56326.5306122449,
+						1,
+						459.183673469388,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						56938.7755102041,
+						0,
+						306.122448979592,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						57397.9591836734,
+						2,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						57551.0204081632,
+						1,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						57857.1428571428,
+						3,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						58163.2653061224,
+						1,
+						459.183673469388,
+						"Hurt Note (Miss Anim)"
 					]
 				],
-				"mustHitSection": false,
 				"changeBPM": false,
-				"bpm": 174
+				"bpm": 174,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
@@ -1572,96 +1572,96 @@
 						0
 					],
 					[
+						58775.5102040816,
+						1,
+						0
+					],
+					[
+						59081.6326530612,
+						0,
+						0
+					],
+					[
+						59234.693877551,
+						1,
+						0
+					],
+					[
+						60918.3673469387,
+						1,
+						0
+					],
+					[
+						58775.5102040816,
+						5,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
 						58928.5714285714,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						59081.6326530612,
+						7,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						59234.693877551,
+						6,
+						0,
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						59387.7551020408,
 						5,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						59693.8775510204,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						59846.9387755102,
 						5,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						60153.0612244898,
 						5,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						60306.1224489796,
 						6,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						60612.2448979591,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						60765.3061224489,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						60918.3673469387,
 						5,
 						0,
-						"Hurt Note"
-					],
-					[
-						58775.5102040816,
-						1,
-						0
-					],
-					[
-						58775.5102040816,
-						5,
-						0,
-						"Hurt Note"
-					],
-					[
-						59081.6326530612,
-						0,
-						0
-					],
-					[
-						59234.693877551,
-						1,
-						0
-					],
-					[
-						59234.693877551,
-						6,
-						0,
-						"Hurt Note"
-					],
-					[
-						59081.6326530612,
-						7,
-						0,
-						"Hurt Note"
-					],
-					[
-						60918.3673469387,
-						1,
-						0
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"mustHitSection": true,
@@ -1734,73 +1734,73 @@
 						61224.4897959183,
 						1,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						61377.5510204081,
 						3,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						61530.6122448979,
 						2,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						61683.6734693877,
 						0,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						61836.7346938775,
 						1,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						62142.8571428571,
 						2,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						62295.9183673469,
 						1,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						62602.0408163265,
 						3,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						62755.1020408163,
 						0,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						63061.2244897959,
 						2,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						63214.2857142857,
 						3,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						63367.3469387755,
 						2,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"mustHitSection": false,
@@ -1868,25 +1868,25 @@
 						63673.4693877551,
 						4,
 						459.183673469388,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						64285.7142857142,
 						6,
 						459.183673469388,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						64897.9591836734,
 						5,
 						459.183673469388,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						65510.2040816326,
 						7,
 						459.183673469388,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"mustHitSection": true,
@@ -1926,30 +1926,6 @@
 						0
 					],
 					[
-						66122.4489795918,
-						3,
-						459.183673469388,
-						"Hurt Note"
-					],
-					[
-						66734.693877551,
-						1,
-						459.183673469388,
-						"Hurt Note"
-					],
-					[
-						67346.9387755102,
-						0,
-						459.183673469388,
-						"Hurt Note"
-					],
-					[
-						67959.1836734693,
-						2,
-						459.183673469388,
-						"Hurt Note"
-					],
-					[
 						66734.693877551,
 						4,
 						0
@@ -1973,6 +1949,30 @@
 						68265.3061224489,
 						5,
 						0
+					],
+					[
+						66122.4489795918,
+						3,
+						459.183673469388,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						66734.693877551,
+						1,
+						459.183673469388,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						67346.9387755102,
+						0,
+						459.183673469388,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						67959.1836734693,
+						2,
+						459.183673469388,
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"mustHitSection": false
@@ -2006,60 +2006,6 @@
 						0
 					],
 					[
-						68571.4285714285,
-						7,
-						0,
-						"Hurt Note"
-					],
-					[
-						68877.5510204081,
-						7,
-						0,
-						"Hurt Note"
-					],
-					[
-						69030.6122448979,
-						6,
-						0,
-						"Hurt Note"
-					],
-					[
-						69336.7346938775,
-						6,
-						0,
-						"Hurt Note"
-					],
-					[
-						69948.9795918367,
-						5,
-						0,
-						"Hurt Note"
-					],
-					[
-						69489.7959183673,
-						4,
-						306.122448979592,
-						"Hurt Note"
-					],
-					[
-						70102.0408163265,
-						6,
-						0,
-						"Hurt Note"
-					],
-					[
-						70408.1632653061,
-						5,
-						153.061224489796,
-						"Hurt Note"
-					],
-					[
-						70714.2857142857,
-						7,
-						153.061224489796,
-						"Hurt Note"
-					],
-					[
 						70408.1632653061,
 						0,
 						153.061224489796
@@ -2068,6 +2014,60 @@
 						70714.2857142857,
 						1,
 						0
+					],
+					[
+						68571.4285714285,
+						7,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						68877.5510204081,
+						7,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						69030.6122448979,
+						6,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						69336.7346938775,
+						6,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						69489.7959183673,
+						4,
+						306.122448979592,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						69948.9795918367,
+						5,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						70102.0408163265,
+						6,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						70408.1632653061,
+						5,
+						153.061224489796,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						70714.2857142857,
+						7,
+						153.061224489796,
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"mustHitSection": true
@@ -2101,60 +2101,6 @@
 						0
 					],
 					[
-						71020.4081632653,
-						1,
-						0,
-						"Hurt Note"
-					],
-					[
-						71326.5306122448,
-						1,
-						0,
-						"Hurt Note"
-					],
-					[
-						71479.5918367346,
-						0,
-						0,
-						"Hurt Note"
-					],
-					[
-						71785.7142857142,
-						0,
-						0,
-						"Hurt Note"
-					],
-					[
-						71938.775510204,
-						3,
-						306.122448979592,
-						"Hurt Note"
-					],
-					[
-						72397.9591836734,
-						2,
-						0,
-						"Hurt Note"
-					],
-					[
-						72551.0204081632,
-						1,
-						0,
-						"Hurt Note"
-					],
-					[
-						72857.1428571428,
-						2,
-						153.061224489796,
-						"Hurt Note"
-					],
-					[
-						73163.2653061224,
-						0,
-						153.061224489796,
-						"Hurt Note"
-					],
-					[
 						72857.1428571428,
 						5,
 						153.061224489796
@@ -2163,6 +2109,60 @@
 						73163.2653061224,
 						7,
 						0
+					],
+					[
+						71020.4081632653,
+						1,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						71326.5306122448,
+						1,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						71479.5918367346,
+						0,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						71785.7142857142,
+						0,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						71938.775510204,
+						3,
+						306.122448979592,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						72397.9591836734,
+						2,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						72551.0204081632,
+						1,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						72857.1428571428,
+						2,
+						153.061224489796,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						73163.2653061224,
+						0,
+						153.061224489796,
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"altAnim": false,
@@ -2198,66 +2198,6 @@
 						0
 					],
 					[
-						73469.387755102,
-						4,
-						0,
-						"Hurt Note"
-					],
-					[
-						73775.5102040816,
-						4,
-						0,
-						"Hurt Note"
-					],
-					[
-						73928.5714285714,
-						5,
-						0,
-						"Hurt Note"
-					],
-					[
-						74234.693877551,
-						6,
-						0,
-						"Hurt Note"
-					],
-					[
-						74387.7551020408,
-						7,
-						0,
-						"Hurt Note"
-					],
-					[
-						74540.8163265305,
-						4,
-						0,
-						"Hurt Note"
-					],
-					[
-						74693.8775510204,
-						5,
-						0,
-						"Hurt Note"
-					],
-					[
-						74999.9999999999,
-						5,
-						0,
-						"Hurt Note"
-					],
-					[
-						75153.0612244897,
-						6,
-						306.122448979592,
-						"Hurt Note"
-					],
-					[
-						75612.2448979591,
-						5,
-						0,
-						"Hurt Note"
-					],
-					[
 						74540.8163265305,
 						3,
 						0
@@ -2281,6 +2221,66 @@
 						75612.2448979591,
 						3,
 						0
+					],
+					[
+						73469.387755102,
+						4,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						73775.5102040816,
+						4,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						73928.5714285714,
+						5,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						74234.693877551,
+						6,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						74387.7551020408,
+						7,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						74540.8163265305,
+						4,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						74693.8775510204,
+						5,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						74999.9999999999,
+						5,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						75153.0612244897,
+						6,
+						306.122448979592,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						75612.2448979591,
+						5,
+						0,
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"mustHitSection": true
@@ -2314,66 +2314,6 @@
 						0
 					],
 					[
-						75918.3673469387,
-						0,
-						0,
-						"Hurt Note"
-					],
-					[
-						76224.4897959183,
-						0,
-						0,
-						"Hurt Note"
-					],
-					[
-						76377.5510204081,
-						1,
-						0,
-						"Hurt Note"
-					],
-					[
-						76683.6734693877,
-						2,
-						0,
-						"Hurt Note"
-					],
-					[
-						76836.7346938775,
-						3,
-						0,
-						"Hurt Note"
-					],
-					[
-						76989.7959183673,
-						0,
-						0,
-						"Hurt Note"
-					],
-					[
-						77142.8571428571,
-						1,
-						0,
-						"Hurt Note"
-					],
-					[
-						77448.9795918367,
-						1,
-						0,
-						"Hurt Note"
-					],
-					[
-						77602.0408163265,
-						2,
-						306.122448979592,
-						"Hurt Note"
-					],
-					[
-						78061.2244897959,
-						0,
-						0,
-						"Hurt Note"
-					],
-					[
 						76989.7959183673,
 						7,
 						0
@@ -2397,6 +2337,66 @@
 						78061.2244897959,
 						7,
 						0
+					],
+					[
+						75918.3673469387,
+						0,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						76224.4897959183,
+						0,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						76377.5510204081,
+						1,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						76683.6734693877,
+						2,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						76836.7346938775,
+						3,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						76989.7959183673,
+						0,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						77142.8571428571,
+						1,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						77448.9795918367,
+						1,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						77602.0408163265,
+						2,
+						306.122448979592,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						78061.2244897959,
+						0,
+						0,
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"altAnim": false,
@@ -2468,73 +2468,73 @@
 						78367.3469387754,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						78673.469387755,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						78826.5306122448,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						79132.6530612244,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						79285.7142857142,
 						5,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						79438.775510204,
 						6,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						79591.8367346938,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						79897.9591836734,
 						4,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						80051.0204081632,
 						5,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						80357.1428571428,
 						6,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						80510.2040816326,
 						7,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						80663.2653061224,
 						5,
 						0,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"typeOfSection": 0,
@@ -2592,78 +2592,6 @@
 						0
 					],
 					[
-						80816.3265306122,
-						0,
-						0,
-						"Hurt Note"
-					],
-					[
-						81122.4489795918,
-						0,
-						0,
-						"Hurt Note"
-					],
-					[
-						81275.5102040816,
-						2,
-						0,
-						"Hurt Note"
-					],
-					[
-						81581.6326530612,
-						2,
-						0,
-						"Hurt Note"
-					],
-					[
-						81734.6938775509,
-						1,
-						0,
-						"Hurt Note"
-					],
-					[
-						81887.7551020407,
-						2,
-						0,
-						"Hurt Note"
-					],
-					[
-						82040.8163265305,
-						3,
-						0,
-						"Hurt Note"
-					],
-					[
-						82346.9387755101,
-						3,
-						0,
-						"Hurt Note"
-					],
-					[
-						82499.9999999999,
-						1,
-						0,
-						"Hurt Note"
-					],
-					[
-						82806.1224489795,
-						1,
-						0,
-						"Hurt Note"
-					],
-					[
-						82959.1836734693,
-						0,
-						0,
-						"Hurt Note"
-					],
-					[
-						83112.2448979591,
-						3,
-						0,
-						"Hurt Note"
-					],
-					[
 						82499.9999999999,
 						7,
 						0
@@ -2677,6 +2605,78 @@
 						82959.1836734693,
 						5,
 						0
+					],
+					[
+						80816.3265306122,
+						0,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						81122.4489795918,
+						0,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						81275.5102040816,
+						2,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						81581.6326530612,
+						2,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						81734.6938775509,
+						1,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						81887.7551020407,
+						2,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						82040.8163265305,
+						3,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						82346.9387755101,
+						3,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						82499.9999999999,
+						1,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						82806.1224489795,
+						1,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						82959.1836734693,
+						0,
+						0,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						83112.2448979591,
+						3,
+						0,
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"typeOfSection": 0,
@@ -2715,30 +2715,6 @@
 					],
 					[
 						83265.3061224489,
-						6,
-						459.183673469388,
-						"Hurt Note"
-					],
-					[
-						83877.5510204081,
-						5,
-						459.183673469388,
-						"Hurt Note"
-					],
-					[
-						84489.7959183673,
-						4,
-						459.183673469388,
-						"Hurt Note"
-					],
-					[
-						85102.0408163265,
-						5,
-						459.183673469388,
-						"Hurt Note"
-					],
-					[
-						83265.3061224489,
 						3,
 						459.183673469388
 					],
@@ -2751,6 +2727,30 @@
 						84795.9183673469,
 						3,
 						0
+					],
+					[
+						83265.3061224489,
+						6,
+						459.183673469388,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						83877.5510204081,
+						5,
+						459.183673469388,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						84489.7959183673,
+						4,
+						459.183673469388,
+						"Hurt Note (Miss Anim)"
+					],
+					[
+						85102.0408163265,
+						5,
+						459.183673469388,
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"typeOfSection": 0,
@@ -2786,37 +2786,37 @@
 					],
 					[
 						85714.2857142856,
+						7,
+						459.183673469388
+					],
+					[
+						87551.0204081632,
+						7,
+						459.183673469388
+					],
+					[
+						85714.2857142856,
 						2,
 						459.183673469388,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						86326.5306122448,
 						3,
 						459.183673469388,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						86938.775510204,
 						0,
 						459.183673469388,
-						"Hurt Note"
+						"Hurt Note (Miss Anim)"
 					],
 					[
 						87551.0204081632,
 						2,
 						459.183673469388,
-						"Hurt Note"
-					],
-					[
-						85714.2857142856,
-						7,
-						459.183673469388
-					],
-					[
-						87551.0204081632,
-						7,
-						459.183673469388
+						"Hurt Note (Miss Anim)"
 					]
 				],
 				"altAnim": false,
@@ -7248,74 +7248,94 @@
 				"bpm": 98
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
-				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
 				"bpm": 98,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
-				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
 				"bpm": 98,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
-				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
 				"bpm": 98,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
-				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
 				"bpm": 98,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
-				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
 				"bpm": 98,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
-				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
 				"bpm": 98,
 				"changeBPM": false,
 				"mustHitSection": true
 			},
 			{
-				"gfSection": false,
 				"lengthInSteps": 16,
-				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
 				"bpm": 98,
 				"changeBPM": false,
 				"mustHitSection": true
+			},
+			{
+				"lengthInSteps": 16,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 98,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"lengthInSteps": 16,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 98
 			},
 			{
 				"gfSection": false,

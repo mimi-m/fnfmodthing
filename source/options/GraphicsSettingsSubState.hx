@@ -33,13 +33,20 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 {
 	public function new()
 	{
-		title = 'Graphics';
-		rpcTitle = 'Graphics Settings Menu'; //for Discord Rich Presence
+		title = 'Graphics and Sound';
+		rpcTitle = 'Graphics and Sound Settings Menu'; //for Discord Rich Presence
 
 		//I'd suggest using "Low Quality" as an example for making your own option since it is the simplest here
 		var option:Option = new Option('Low Quality', //Name
 		'Disables some background details, note sound effects,\ndecreases loading times and improves performance.', //Description
 			'lowQuality', //Save data variable name
+			'bool', //Variable type
+			false); //Default value
+		addOption(option);
+		
+		var option:Option = new Option('Compressed Music', //Name
+		'If checked, songs will load faster in exchange for the sound quality.\nRestarting the game may be necessary.', //Description
+			'compressedMusic', //Save data variable name
 			'bool', //Variable type
 			false); //Default value
 		addOption(option);

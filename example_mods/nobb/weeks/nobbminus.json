@@ -1,5 +1,5 @@
 {
-	"storyName": "maybe in another life",
+	"storyName": "minus",
 	"difficulties": "Easy, Normal, Hard, Insane",
 	"hideFreeplay": false,
 	"weekBackground": "nobb_minus",
@@ -17,7 +17,7 @@
 	],
 	"songs": [
 		[
-			"minus",
+			"reverie",
 			"nobb-minus-pixel",
 			[
 				255,

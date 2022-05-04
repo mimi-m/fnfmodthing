@@ -3,13 +3,19 @@
 	"difficulties": "Normal",
 	"hideFreeplay": false,
 	"weekBackground": "",
-	"weekBefore": "mimi",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"startUnlocked": false,
+	"weekBefore": "mimi",
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"Melancholy",
@@ -21,11 +27,5 @@
 			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"hideStoryMode": true,
 	"weekName": "Vs.Mimi"
 }

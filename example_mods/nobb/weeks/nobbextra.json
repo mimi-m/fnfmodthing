@@ -1,0 +1,41 @@
+{
+	"storyName": "Tower of Misery-extra",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "nobb",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "nobb",
+	"startUnlocked": false,
+	"songs": [
+		[
+			"heck",
+			"nobb-opponent-pixel",
+			[
+				61,
+				61,
+				61
+			]
+		],
+		[
+			"high-remix",
+			"slugetta-alt-pixel",
+			[
+				156,
+				69,
+				56
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "slugetta",
+	"hiddenUntilUnlocked": true
+}

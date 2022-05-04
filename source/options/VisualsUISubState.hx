@@ -70,7 +70,7 @@ class VisualsUISubState extends BaseOptionsMenu
 		addOption(option);
 
 		var option:Option = new Option('Side Info', //Name
-			"Displays your stats at the left side of the screen.\nIf disabled while in Mania Mode, the text is white instead.",
+			"Displays your stats at the left side of the screen.", // \nIf disabled while in Mania Mode, the text is white instead.",
 			'sideInfo',
 			'bool',
 			true);

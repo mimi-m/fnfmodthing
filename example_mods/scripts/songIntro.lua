@@ -9,18 +9,20 @@ ManiaModeOffset = 0
 --actual script
 function onCreate()
 	--the tag at the end of the box
-        if maniaMode == true then
-			ManiaModeOffset = 500
+        if downscroll == false then
+			ManiaModeOffset = 576
 		end
-		if dadName == 'slugetta' then
+		if dadName == 'slugetta' or dadName == 'slugetta-alt' then
 			IntroTagColor = '9c4538'
-		end if dadName == 'mimi' or dadName == 'mimi-alt-pixel' then
+		end if dadName == 'mimi' then
+			IntroTagColor = '89b5de'
+		end if dadName == 'mimi-alt-pixel' then
 			IntroTagColor = '5b9ceb'
 		end if dadName == 'mugen' then
 			IntroTagColor = 'f0eca0'
 		end if dadName == 'genji' then
 			IntroTagColor = '24e822'
-		end if dadName == 'gf' then
+		end if dadName == 'gf' or dadName == 'gf-og' then
 			IntroTagColor = 'a5004d'
 		end
 	makeLuaSprite('JukeBoxTag', 'empty', -305-IntroTagWidth, 15 + ManiaModeOffset)

@@ -1,0 +1,29 @@
+{
+	"song": {
+		"speed": 2.5,
+		"stage": "fnbloxxin",
+		"player1": "nobb-minus",
+		"player2": "nobb-opponent",
+		"player3": null,
+		"events": [
+			[
+				60631.5789473684,
+				[
+					[
+						"3rdstrum",
+						"true",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "ognoteSplashes",
+		"validScore": false,
+		"gfVersion": "gf-pixel",
+		"bpm": 95,
+		"arrowSkin": "ogNOTE_assets",
+		"needsVoices": true,
+		"song": "escapism"
+	}
+}
