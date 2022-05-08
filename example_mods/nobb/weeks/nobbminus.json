@@ -1,6 +1,6 @@
 {
 	"storyName": "minus",
-	"difficulties": "Easy, Normal, Hard, Insane",
+	"difficulties": "Easy, Normal, Hard, Expert, Insane",
 	"hideFreeplay": false,
 	"weekBackground": "nobb_minus",
 	"freeplayColor": [

@@ -45,7 +45,7 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 		addOption(option);
 		
 		var option:Option = new Option('Compressed Music', //Name
-		'If checked, songs will load faster in exchange for the sound quality.\nRestarting the game may be necessary.', //Description
+		'Songs will load faster in exchange for the sound quality.\nRestarting the game may be necessary.', //Description
 			'compressedMusic', //Save data variable name
 			'bool', //Variable type
 			false); //Default value

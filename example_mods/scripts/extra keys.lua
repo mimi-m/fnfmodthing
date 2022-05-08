@@ -119,7 +119,7 @@ function onCreatePost()
 	-- end of "create"
 
 
-	if getPropertyFromClass('PlayState', 'isPixelStage') then 
+	if getPropertyFromClass('PlayState', 'isPixelStage') or getPropertyFromClass('ClientPrefs', 'pixelArrows') then 
 		scaleMulti = 8.57 --number from (1 / 0.7) * 6, default scale for reg notes is 0.7, pixel notes dont use 0.7, instead only use pixel zoom, so basically 1 * 6
 		isPixel = true
 	end

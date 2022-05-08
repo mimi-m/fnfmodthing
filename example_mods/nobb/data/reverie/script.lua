@@ -89,7 +89,7 @@ function onUpdate()
 end
 function opponentNoteHit()
     health = getProperty('health')
-        if curBeat >= 400 then
+        if curBeat >= 120 and curBeat <= 128 or curBeat >= 400 then
             setProperty('health', health- (0.0189 * (healthGainMult / healthLossMult)));
         else
             if getProperty('health') > 0.35 then
@@ -99,6 +99,9 @@ function opponentNoteHit()
 end
 
 function onGameOver()
+    if curBeat >= 425 then
+        return Function_Continue;
+    end
     if practiceMode == false then
         if getProperty('flixel.FlxG', 'save.data.WeekCompleteled', 'plus') == false then
             runTimer('unlock', 5);

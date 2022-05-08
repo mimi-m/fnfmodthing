@@ -34,6 +34,8 @@ class Note extends FlxSprite
 	public var sustainLength:Float = 0;
 	public var isSustainNote:Bool = false;
 	public var noteType(default, set):String = null;
+	public var pixelLocation:String = '';
+	public var pixelLocation2:String = '';
 
 	public var eventName:String = '';
 	public var eventLength:Int = 0;
@@ -91,10 +93,12 @@ class Note extends FlxSprite
 	}
 
 	private function set_noteType(value:String):String {
+		if(PlayState.isPixelStage || FlxG.save.data.pixelArrows){
+			pixelLocation = 'pixelUI/';
+			pixelLocation2 = '-pixel';
+		}
+//		noteSplashTexture = pixelLocation + PlayState.SONG.splashSkin + pixelLocation2;
 		noteSplashTexture = PlayState.SONG.splashSkin;
-		//		if(PlayState.isPixelStage) {
-		//			loadGraphic(Paths.image('pixelUI/' + noteSplashTexture));
-		//		}
 		colorSwap.hue = ClientPrefs.arrowHSV[noteData % 4][0] / 360;
 		colorSwap.saturation = ClientPrefs.arrowHSV[noteData % 4][1] / 100;
 		colorSwap.brightness = ClientPrefs.arrowHSV[noteData % 4][2] / 100;
@@ -103,12 +107,8 @@ class Note extends FlxSprite
 			switch(value) {
 				case 'Hurt Note':
 					ignoreNote = mustPress;
-					reloadNote('HURT');
-					if(PlayState.isPixelStage || FlxG.save.data.pixelArrows){
-						noteSplashTexture = 'pixelUI/HURTnoteSplashes';
-					} else {
-						noteSplashTexture = 'HURTnoteSplashes';
-					}
+					reloadNote('','HURTNOTE_assets');
+					noteSplashTexture = pixelLocation + 'HURTnoteSplashes' + pixelLocation2;
 					colorSwap.hue = 0;
 					colorSwap.saturation = 0;
 					colorSwap.brightness = 0;
@@ -124,12 +124,8 @@ class Note extends FlxSprite
 					hitCausesMiss = true;
 				case 'Hurt Note (Miss Anim)':
 					ignoreNote = mustPress;
-					reloadNote('HURT');
-					if(PlayState.isPixelStage || FlxG.save.data.pixelArrows){
-						noteSplashTexture = 'pixelUI/HURTnoteSplashes';
-					} else {
-						noteSplashTexture = 'HURTnoteSplashes';
-					}
+					reloadNote('','HURTNOTE_assets');
+					noteSplashTexture = pixelLocation + 'HURTnoteSplashes' + pixelLocation2;
 					colorSwap.hue = 0;
 					colorSwap.saturation = 0;
 					colorSwap.brightness = 0;
@@ -150,25 +146,17 @@ class Note extends FlxSprite
 				//		if (FlxG.save.data.circleSkin) {
 				//			reloadNote('Circles_MUGENNOTE_assets');
 				//		} else {
-							reloadNote('MUGEN');
+							reloadNote('','MUGENNOTE_assets');
 				//		}
-						if(PlayState.isPixelStage || FlxG.save.data.pixelArrows){
-							noteSplashTexture = 'pixelUI/MUGENnoteSplashes';
-						} else {
-							noteSplashTexture = 'MUGENnoteSplashes';
-						}
+						noteSplashTexture = pixelLocation + 'MUGENnoteSplashes' + pixelLocation2;
 					}
 				//	colorSwap.hue = 0;
 				//	colorSwap.saturation = 0;
 				//	colorSwap.brightness = 0;
 				case 'Flooshed Note':
 					ignoreNote = mustPress;
-					reloadNote('Flooshed');
-					if(PlayState.isPixelStage || FlxG.save.data.pixelArrows){
-						noteSplashTexture = 'pixelUI/flooshedSplash';
-					} else {
-						noteSplashTexture = 'flooshedSplash';
-					}
+					reloadNote('','FlooshedNOTE_assets');
+					noteSplashTexture = pixelLocation + 'flooshedSplash' + pixelLocation2;
 					colorSwap.hue = 0;
 					colorSwap.saturation = 0;
 					colorSwap.brightness = 0;
@@ -185,7 +173,7 @@ class Note extends FlxSprite
 					if (hitByOpponent) {
 						noAnimation = true;
 					}
-					reloadNote('lava');
+					reloadNote('','lavaNOTE_assets');
 					colorSwap.hue = 0;
 					colorSwap.saturation = 0;
 					colorSwap.brightness = 0;
@@ -201,7 +189,7 @@ class Note extends FlxSprite
 					ignoreNote = mustPress;
 					hitCausesMiss = true;
 				case 'Step Note':
-					reloadNote('step');
+					reloadNote('','stepNOTE_assetss');
 					if(isSustainNote) {
 						noAnimation = true;
 						ignoreNote = mustPress;

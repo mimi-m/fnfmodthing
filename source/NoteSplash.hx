@@ -13,12 +13,14 @@ class NoteSplash extends FlxSprite
 	public function new(x:Float = 0, y:Float = 0, ?note:Int = 0) {
 		super(x, y);
 
-		var skin:String = 'noteSplashes';
 		var pixelDirectory:String = '';
+		var pixelDirectory2:String = '';
 		if(PlayState.isPixelStage || FlxG.save.data.pixelArrows) {
 			pixelDirectory = 'pixelUI/';
+			pixelDirectory2 = '-pixel';
 		}
-		if(PlayState.SONG.splashSkin != null && PlayState.SONG.splashSkin.length > 0) skin = pixelDirectory + PlayState.SONG.splashSkin;
+		var skin:String = pixelDirectory + 'noteSplashes' + pixelDirectory2;
+		if(PlayState.SONG.splashSkin != null && PlayState.SONG.splashSkin.length > 0) skin = pixelDirectory + PlayState.SONG.splashSkin + pixelDirectory2;
 
 		loadAnims(skin);
 		
@@ -33,14 +35,16 @@ class NoteSplash extends FlxSprite
 		setPosition(x - Note.swagWidth * 0.95, y - Note.swagWidth);
 		alpha = 0.6;
 
-		if(texture == null) {
-			texture = 'noteSplashes';
-			var pixelLocation:String = '';
-			if(PlayState.isPixelStage || FlxG.save.data.pixelArrows) {
-				pixelLocation = 'pixelUI/';
-			}
-			if(PlayState.SONG.splashSkin != null && PlayState.SONG.splashSkin.length > 0) texture = pixelLocation + PlayState.SONG.splashSkin;
+		var pixelLocation:String = '';
+		var pixelLocation2:String = '';
+		if(PlayState.isPixelStage || FlxG.save.data.pixelArrows) {
+			pixelLocation = 'pixelUI/';
+			pixelLocation2 = '-pixel';
 		}
+		if(texture == null) {
+			texture = pixelLocation + 'noteSplashes' + pixelLocation2;
+		}
+		if(PlayState.SONG.splashSkin != null && PlayState.SONG.splashSkin.length > 0) texture = pixelLocation + PlayState.SONG.splashSkin + pixelLocation2;
 
 		if(textureLoaded != texture) {
 			loadAnims(texture);

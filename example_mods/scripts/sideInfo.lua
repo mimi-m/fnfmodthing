@@ -94,7 +94,7 @@ function goodNoteHit(id, direction, noteType, isSustainNote)
          setTextString('tnh', 'Total Notes Hit: ' .. tostring(notehitlol))
     end -- NOTE I DID NOT MAKE THIS FRANTASTIC24 MADE THIS!
 
-	if noteType == 'Flooshed Note' then
+	if noteType == 'Flooshed Note' or noteType == 'Healing Note' then
         if flooshedhit == 0 then
             makeLuaText("flooshed", 'Flooshed Notes: 0', 400, getProperty('cm.x'), getProperty('miss.y') + 36);
             setObjectCamera("flooshed", 'hud');
