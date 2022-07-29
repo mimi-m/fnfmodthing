@@ -14,19 +14,19 @@ function onBeatHit()
                 triggerEvent("MoveArrow", "3", "-335, 0, 0, 0.5, 4.5")
             else
                 -- downscroll and middlescroll, left strums merge and also become upscroll
-                triggerEvent("MoveArrow", "0", "330, -710, 0, 0.5, 4.5")
-                triggerEvent("MoveArrow", "1", "330, -710, 0, 0.5, 4.5")
-                triggerEvent("MoveArrow", "2", "-335, -710, 0, 0.5, 4.5")
-                triggerEvent("MoveArrow", "3", "-335, -710, 0, 0.5, 4.5")
+                triggerEvent("MoveArrow", "0", "330, -725, 0, 0.5, 4.5")
+                triggerEvent("MoveArrow", "1", "330, -725, 0, 0.5, 4.5")
+                triggerEvent("MoveArrow", "2", "-335, -725, 0, 0.5, 4.5")
+                triggerEvent("MoveArrow", "3", "-335, -725, 0, 0.5, 4.5")
             end
         else
             if downscroll == true then
             --  downscroll NOT middlescroll, strums merge and left becomes upscroll
 --	    	    triggerEvent("Change Scrolltype", "swap", "320, 0, 0, 0.85, 7")
-                triggerEvent("MoveArrow", "0", "320, -710, 0, 0.85, 5")
-                triggerEvent("MoveArrow", "1", "320, -710, 0, 0.85, 5")
-                triggerEvent("MoveArrow", "2", "320, -710, 0, 0.85, 5")
-                triggerEvent("MoveArrow", "3", "320, -710, 0, 0.85, 5")
+                triggerEvent("MoveArrow", "0", "320, -725, 0, 0.85, 5")
+                triggerEvent("MoveArrow", "1", "320, -725, 0, 0.85, 5")
+                triggerEvent("MoveArrow", "2", "320, -725, 0, 0.85, 5")
+                triggerEvent("MoveArrow", "3", "320, -725, 0, 0.85, 5")
                 triggerEvent("MoveArrow", "4", "-320, 0, 0, 0, 5.5")
                 triggerEvent("MoveArrow", "5", "-320, 0, 0, 0, 5.5")
                 triggerEvent("MoveArrow", "6", "-320, 0, 0, 0, 5.5")

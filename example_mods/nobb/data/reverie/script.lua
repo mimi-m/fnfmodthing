@@ -10,18 +10,18 @@ local del2 = 0;
 --start dialogue
 local allowCountdown = false
 
-function onCreate()
-	-- triggered when the lua file is started
---	addCharacterToList('mugen', 'boyfriend');
---	addCharacterToList('mugen-pixel', 'boyfriend');
---	addCharacterToList('gf', 'girlfriend');
---	addCharacterToList('gf-pixel', 'girlfriend');
---	addCharacterToList('mimi', 'dad');
---	addCharacterToList('mimi-alt-pixel', 'dad');
-	setPropertyFromClass('GameOverSubstate', 'characterName', 'nobb-minus-dead'); --Character json file for the death animation
-	setPropertyFromClass('GameOverSubstate', 'deathSoundName', 'fnb_death'); --put in mods/sounds/
-	setPropertyFromClass('GameOverSubstate', 'loopSoundName', 'escapism_gameover'); --put in mods/music/
-	setPropertyFromClass('GameOverSubstate', 'endSoundName', 'fnb_confetti'); --put in mods/music/
+function onCreatePost()
+	setProperty('timeBar.y', -1000)
+	setProperty('timeTxt.y', 19)
+	setProperty('scoreTxt.y', (screenHeight* 0.86) + 67)
+	if getPropertyFromClass('ClientPrefs', 'downScroll') == true then
+		setProperty('healthBar.y', 100)
+        setProperty('iconP1.y', 30)
+        setProperty('iconP2.y', 30)
+    end
+end
+
+function onUpdatePost()
 end
 
 --camera movin effect
@@ -100,7 +100,7 @@ end
 
 function onGameOver()
     if curBeat >= 425 then
-        return Function_Continue;
+        return Function_Stop;
     end
     if practiceMode == false then
         if getProperty('flixel.FlxG', 'save.data.WeekCompleteled', 'plus') == false then

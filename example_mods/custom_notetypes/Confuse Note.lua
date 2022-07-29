@@ -6,8 +6,9 @@ function onCreate()
 		--Check if the note is an Instakill Note
 		if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Confuse Note' then
 			setPropertyFromGroup('unspawnNotes', i, 'texture', 'ConfuseNote_assets'); --Change texture
+			setPropertyFromGroup('unspawnNotes', i, 'hitCausesMiss', true);
             if pixelArrows == true then
-                setPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture', 'pixelUI/confuseSplash'); --Change texture
+                setPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture', 'pixelUI/confuseSplash-pixel'); --Change texture
             else
                 setPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture', 'confuseSplash'); -- change splash
             end
@@ -28,33 +29,40 @@ end
 -- noteData: 0 = Left, 1 = Down, 2 = Up, 3 = Right
 -- noteType: The note type string/tag
 -- isSustainNote: If it's a hold note, can be either true or false
-function goodNoteHit(id, noteData, noteType, isSustainNote)
+function noteMiss(id, noteData, noteType, isSustainNote)
 	if noteType == 'Confuse Note' then
         if confused == false then
         if lowQuality == false then
             playSound("confused");
         end
             confused = true;
-        MoveArrow("MoveArrow", "4", "335, 0, 0, 1, 1")
-        MoveArrow("MoveArrow", "5", "111, 0, 0, 1, 1")
-        MoveArrow("MoveArrow", "6", "-111, 0, 0, 1, 1")
-        MoveArrow("MoveArrow", "7", "-335, 0, 0, 1, 1")
+        MoveArrow("MoveArrow", "4", "335, 0, 0, 1, 0.5")
+        MoveArrow("MoveArrow", "5", "111, 0, 0, 1, 0.5")
+        MoveArrow("MoveArrow", "6", "-111, 0, 0, 1, 0.5")
+        MoveArrow("MoveArrow", "7", "-335, 0, 0, 1, 0.5")
         if maniaMode == false then
             if middlescroll == true then
-                MoveArrow("MoveArrow", "0", "965, 0, 0, 0.5, 1")
-                MoveArrow("MoveArrow", "1", "741, 0, 0, 0.5, 1")
-                MoveArrow("MoveArrow", "2", "-741, 0, 0, 0.5, 1")
-                MoveArrow("MoveArrow", "3", "-965, 0, 0, 0.5, 1")
+                MoveArrow("MoveArrow", "0", "965, 0, 0, 0.5, 0.5")
+                MoveArrow("MoveArrow", "1", "741, 0, 0, 0.5, 0.5")
+                MoveArrow("MoveArrow", "2", "-741, 0, 0, 0.5, 0.5")
+                MoveArrow("MoveArrow", "3", "-965, 0, 0, 0.5, 0.5")
             else
-	        	MoveArrow("MoveArrow", "0", "335, 0, 0, 1, 1")
-                MoveArrow("MoveArrow", "1", "111, 0, 0, 1, 1")
-                MoveArrow("MoveArrow", "2", "-111, 0, 0, 1, 1")
-                MoveArrow("MoveArrow", "3", "-335, 0, 0, 1, 1")
+	        	MoveArrow("MoveArrow", "0", "335, 0, 0, 1, 0.5")
+                MoveArrow("MoveArrow", "1", "111, 0, 0, 1, 0.5")
+                MoveArrow("MoveArrow", "2", "-111, 0, 0, 1, 0.5")
+                MoveArrow("MoveArrow", "3", "-335, 0, 0, 1, 0.5")
             end
         end
 		runTimer('wait', 3);
-		end
-	end
+		runTimer('ok', 3.75);
+        else
+            if lowQuality == false then
+                playSound("ANGRY_TEXT_BOX");
+            end
+            health = getProperty('health')
+            setProperty('health', health- 0.165);
+        end
+    end
 end
 
 function onTimerCompleted(tag, loops, loopsleft)
@@ -62,25 +70,27 @@ function onTimerCompleted(tag, loops, loopsleft)
         if lowQuality == false then
             playSound("confusednomore");
         end
-		MoveArrow("MoveArrow", "7", "335, 0, 0, 1, 1")
-        MoveArrow("MoveArrow", "6", "111, 0, 0, 1, 1")
-        MoveArrow("MoveArrow", "5", "-111, 0, 0, 1, 1")
-        MoveArrow("MoveArrow", "4", "-335, 0, 0, 1, 1")
+		MoveArrow("MoveArrow", "7", "335, 0, 0, 1, 0.5")
+        MoveArrow("MoveArrow", "6", "111, 0, 0, 1, 0.5")
+        MoveArrow("MoveArrow", "5", "-111, 0, 0, 1, 0.5")
+        MoveArrow("MoveArrow", "4", "-335, 0, 0, 1, 0.5")
 
         if maniaMode == false then
             if middlescroll == true then
-                MoveArrow("MoveArrow", "3", "965, 0, 0, 0.5, 1")
-                MoveArrow("MoveArrow", "2", "741, 0, 0, 0.5, 1")
-                MoveArrow("MoveArrow", "1", "-741, 0, 0, 0.5, 1")
-                MoveArrow("MoveArrow", "0", "-965, 0, 0, 0.5, 1")
+                MoveArrow("MoveArrow", "3", "965, 0, 0, 0.5, 0.5")
+                MoveArrow("MoveArrow", "2", "741, 0, 0, 0.5, 0.5")
+                MoveArrow("MoveArrow", "1", "-741, 0, 0, 0.5, 0.5")
+                MoveArrow("MoveArrow", "0", "-965, 0, 0, 0.5, 0.5")
             else
-                MoveArrow("MoveArrow", "3", "335, 0, 0, 1, 1")
-                MoveArrow("MoveArrow", "2", "111, 0, 0, 1, 1")
-                MoveArrow("MoveArrow", "1", "-111, 0, 0, 1, 1")
-                MoveArrow("MoveArrow", "0", "-335, 0, 0, 1, 1")
+                MoveArrow("MoveArrow", "3", "335, 0, 0, 1, 0.5")
+                MoveArrow("MoveArrow", "2", "111, 0, 0, 1, 0.5")
+                MoveArrow("MoveArrow", "1", "-111, 0, 0, 1, 0.5")
+                MoveArrow("MoveArrow", "0", "-335, 0, 0, 1, 0.5")
             end
         end
-      confused = false;
+    end
+    if tag == 'ok' then
+        confused = false;
     end
 end
 

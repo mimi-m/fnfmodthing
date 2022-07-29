@@ -2,12 +2,6 @@ function onCreate()
 	-- background shit
 	makeLuaSprite('borgar', 'mikoBorgar', -595, -200);
 	setScrollFactor('borgar', 0.8, 0.8);
-
-	-- gameover stuff
---	gameoverSoundName ('fnb_death')
---	gameoverMusic ('minus_gameover')
---	gameoverConfirm ('fnb_confetti')
---	gameoverCharacter ('nobb-minus-dead')
 	
 --	makeLuaSprite('stagefront', 'stagefront', -650, 600);
 --	setScrollFactor('stagefront', 0.9, 0.9);

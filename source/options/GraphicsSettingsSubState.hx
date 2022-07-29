@@ -44,13 +44,13 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 			false); //Default value
 		addOption(option);
 		
-		var option:Option = new Option('Compressed Music', //Name
+	/*	var option:Option = new Option('Compressed Music', //Name
 		'Songs will load faster in exchange for the sound quality.\nRestarting the game may be necessary.', //Description
 			'compressedMusic', //Save data variable name
 			'bool', //Variable type
 			false); //Default value
 		addOption(option);
-
+*/
 		var option:Option = new Option('Anti-Aliasing',
 			'If unchecked, disables anti-aliasing, increases performance\nat the cost of sharper visuals.',
 			'globalAntialiasing',
@@ -84,6 +84,23 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 		addOption(option);
 		*/
 
+		var option:Option = new Option('Mute Inst or Voices:',
+			"Choose to mute either the instrumental or the vocals\nduring a song.",
+			'muteInstVoicesOption',
+			'string',
+			'Neither',
+			['Neither', 'Inst', 'Voices']);
+		addOption(option);
+
+		var option:Option = new Option('Pause Screen Song:',
+			"What song do you prefer for the Pause Screen?",
+			'pauseMusic',
+			'string',
+			'flushed',
+			['None', 'Breakfast', 'Tea Time', 'flushed', 'loid300', 'first', 'pleading-face']);
+		addOption(option);
+		option.onChange = onChangePauseMusic;
+
 		super();
 	}
 
@@ -111,5 +128,22 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 			FlxG.drawFramerate = ClientPrefs.framerate;
 			FlxG.updateFramerate = ClientPrefs.framerate;
 		}
+	}
+	
+	var changedMusic:Bool = false;
+	function onChangePauseMusic()
+	{
+		if(ClientPrefs.pauseMusic == 'None')
+			FlxG.sound.music.volume = 0;
+		else
+			FlxG.sound.playMusic(Paths.music(Paths.formatToSongPath(ClientPrefs.pauseMusic)));
+
+		changedMusic = true;
+	}
+
+	override function destroy()
+	{
+		if(changedMusic) FlxG.sound.playMusic(Paths.music('freakyMenu'));
+		super.destroy();
 	}
 }

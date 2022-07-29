@@ -129,6 +129,12 @@ function onUpdate()
 end
 function opponentNoteHit()
     health = getProperty('health')
+    if curBeat == 16 then
+        playSound("flooshed_sfx");
+    end
+    if curBeat == 20 then
+        playSound("flushed_sfx");
+    end
     if curBeat >= 32 and curBeat <= 124 then
         triggerEvent('Screen Shake','0.1, 0.001','0.1, 0.0005')
     else

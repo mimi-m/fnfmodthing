@@ -1,0 +1,32 @@
+{
+	"storyName": "trainer battle",
+	"difficulties": "Hard,Mania",
+	"hideFreeplay": true,
+	"weekBackground": "showdown",
+	"weekBefore": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"showdown",
+			"nobb-opponent-pixel",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": true,
+	"weekName": "showdown"
+}

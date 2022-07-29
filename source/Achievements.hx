@@ -14,7 +14,7 @@ class Achievements {
 		["Freaky on a Friday Night",	"Play on a Friday... Night.",						'friday_night_play',	 true],
 		[":flushed:",					"Beat Vs.Mimi on Hard with no Misses.",				'mimi_nomiss',			false],
 		["Limitless",					"Beat Vs.Mugen on Hard with no Misses.",			'mugen_nomiss',          true],
-		["krAzy",						"Beat the Loid Remix with no Misses.",				'loidremix_nomiss',		false],
+		["krAzy",						"Beat the song 'loid-remix' with no Misses.",		'loidremix_nomiss',		false],
 		["Halloween!",					"Play on Halloween, or on Mimi's birthday.",		'mimi_birthday',		 true],
 		["Winner!",						"Beat DLC#1 (Nobb) on Hard with no Misses.",		'nobb_nomiss',			false],
 		["5 Deaths",					"Given to players who reach 5 deaths in Misery.",	'five_deaths',			 true],

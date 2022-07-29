@@ -4,6 +4,11 @@ function onCreate()
 		--Check if the note is an Instakill Note
 		if getPropertyFromGroup('unspawnNotes', i, 'noteType') == 'Healing Note' then
 			setPropertyFromGroup('unspawnNotes', i, 'texture', 'FlooshedNOTE_assets'); --Change texture
+            if pixelArrows == true then
+                setPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture', 'pixelUI/flooshedSplash-pixel'); --Change texture
+            else
+                setPropertyFromGroup('unspawnNotes', i, 'noteSplashTexture', 'flooshedSplash'); -- change splash
+            end
 			setPropertyFromGroup('unspawnNotes', i, 'hitHealth', '0.0500'); --Default value is: 0.023, health gained on hit
 			setPropertyFromGroup('unspawnNotes', i, 'missHealth', '0'); --Default value is: 0.0475, health lost on miss
 			setPropertyFromGroup('unspawnNotes', i, 'hitCausesMiss', false);

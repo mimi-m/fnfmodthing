@@ -1,21 +1,15 @@
 {
 	"storyName": "pixel ui test",
 	"difficulties": "Expert",
-	"hideFreeplay": false,
+	"hideFreeplay": true,
 	"weekBackground": "",
+	"weekBefore": "mimi",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "mimi",
 	"startUnlocked": false,
-	"hideStoryMode": false,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
 	"songs": [
 		[
 			"flooshed mug",
@@ -27,5 +21,11 @@
 			]
 		]
 	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hideStoryMode": true,
 	"weekName": "pixel ui test"
 }

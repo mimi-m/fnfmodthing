@@ -1,0 +1,6 @@
+{
+	"name": "test chromatics",
+	"description": "replaces the flute voice in mimi's week into\nchromatics of mimi's voice.",
+	"restart":false,
+	"color": [91, 156, 235]
+}

@@ -1,14 +1,13 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				0
+				-280,
+				-285
 			],
-			"anim": "danceLeft",
+			"loop": false,
 			"fps": 24,
-			"name": "GF IDLE",
+			"anim": "danceLeft",
 			"indices": [
 				30,
 				0,
@@ -26,17 +25,17 @@
 				12,
 				13,
 				14
-			]
+			],
+			"name": "GF IDLE"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				0
+				-280,
+				-285
 			],
-			"anim": "danceRight",
+			"loop": false,
 			"fps": 24,
-			"name": "GF IDLE",
+			"anim": "danceRight",
 			"indices": [
 				15,
 				16,
@@ -53,24 +52,29 @@
 				27,
 				28,
 				29
-			]
+			],
+			"name": "GF IDLE"
+		},
+		{
+			"offsets": [
+				-280,
+				-285
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "GF IDLE"
 		},
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
+				-280,
+				-285
 			],
-			"anim": "singUP",
+			"anim": "danceLeft-alt",
 			"fps": 24,
 			"name": "GF IDLE",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
 			"indices": [
 				25,
 				30,
@@ -78,34 +82,30 @@
 				6,
 				9,
 				10
-			],
-			"fps": 24,
-			"anim": "danceLeft-alt",
-			"loop": false,
-			"name": "GF IDLE"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
-				0,
-				0
+				-280,
+				-285
 			],
+			"anim": "danceRight-alt",
+			"fps": 24,
+			"name": "GF IDLE",
 			"indices": [
 				13,
 				17,
 				18,
 				20
-			],
-			"fps": 24,
-			"anim": "danceRight-alt",
-			"loop": false,
-			"name": "GF IDLE"
+			]
 		}
 	],
 	"no_antialiasing": true,
 	"image": "characters/gfPixel",
 	"position": [
-		280,
-		285
+		0,
+		0
 	],
 	"healthicon": "gf",
 	"flip_x": false,
@@ -115,8 +115,8 @@
 		77
 	],
 	"camera_position": [
-		-415,
-		-275
+		-132,
+		10
 	],
 	"sing_duration": 4,
 	"scale": 5.99999999999999

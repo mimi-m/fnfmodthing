@@ -189,7 +189,7 @@ class Note extends FlxSprite
 					ignoreNote = mustPress;
 					hitCausesMiss = true;
 				case 'Step Note':
-					reloadNote('','stepNOTE_assetss');
+					reloadNote('','stepNOTE_assets');
 					if(isSustainNote) {
 						noAnimation = true;
 						ignoreNote = mustPress;
@@ -197,9 +197,6 @@ class Note extends FlxSprite
 						health -= 0.0295;
 					}
 					hitHealth = 0.0305;
-			//	case 'Confuse Note':
-			//		noAnimation = true;
-			//		hitCausesMiss = true;
 			}
 			noteType = value;
 		}

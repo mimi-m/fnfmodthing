@@ -45,7 +45,9 @@ class Paths
 		'weeks',
 		'fonts',
 		'scripts',
-		'achievements'
+		'achievements',
+		'exclude',
+		'template'
 	];
 	#end
 
@@ -59,6 +61,10 @@ class Paths
 		'assets/music/freakyMenu.$SOUND_EXT',
 		'assets/shared/music/breakfast.$SOUND_EXT',
 		'assets/shared/music/tea-time.$SOUND_EXT',
+		'assets/shared/music/flushed.$SOUND_EXT',
+		'assets/shared/music/loid300.$SOUND_EXT',
+		'assets/shared/music/first.$SOUND_EXT',
+		'assets/shared/music/pleading-face.$SOUND_EXT',
 	];
 	/// haya I love you for the base cache dump I took to the max
 	public static function clearUnusedMemory() {
@@ -370,7 +376,7 @@ class Paths
 		// I hate this so god damn much
 		var gottenPath:String = getPath('$path/$key.$SOUND_EXT', SOUND, library);	
 		gottenPath = gottenPath.substring(gottenPath.indexOf(':') + 1, gottenPath.length);
-		// trace(gottenPath);
+		//trace('Loaded sound: ' + gottenPath);
 		if(!currentTrackedSounds.exists(gottenPath)) 
 		#if MODS_ALLOWED
 			currentTrackedSounds.set(gottenPath, Sound.fromFile('./' + gottenPath));

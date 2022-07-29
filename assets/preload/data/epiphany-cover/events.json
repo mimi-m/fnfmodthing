@@ -1,0 +1,229 @@
+{
+	"song": {
+		"speed": 3.35,
+		"stage": "freedraw2desk",
+		"player1": "bf-pixel",
+		"player2": "mimi-epiphany",
+		"player3": null,
+		"events": [
+			[
+				0,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-main"
+					]
+				]
+			],
+			[
+				31026.6159695817,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					]
+				]
+			],
+			[
+				38326.9961977186,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-main"
+					]
+				]
+			],
+			[
+				49277.566539924,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					]
+				]
+			],
+			[
+				74828.8973384031,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-main"
+					]
+				]
+			],
+			[
+				98555.133079848,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-main"
+					]
+				]
+			],
+			[
+				102205.323193916,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-tired"
+					]
+				]
+			],
+			[
+				104030.418250951,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-tired"
+					]
+				]
+			],
+			[
+				105855.513307985,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-main"
+					]
+				]
+			],
+			[
+				107680.608365019,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					]
+				]
+			],
+			[
+				132319.391634981,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-main"
+					]
+				]
+			],
+			[
+				147832.699619772,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					]
+				]
+			],
+			[
+				166083.650190114,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-tired"
+					]
+				]
+			],
+			[
+				169733.840304183,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-main"
+					]
+				]
+			],
+			[
+				172927.756653993,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					]
+				]
+			],
+			[
+				173384.030418251,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-main"
+					]
+				]
+			],
+			[
+				177034.22053232,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					]
+				]
+			],
+			[
+				183422.053231939,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-main"
+					]
+				]
+			],
+			[
+				187357.41444867,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-alt"
+					]
+				]
+			],
+			[
+				188897.338403042,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-tired"
+					]
+				]
+			],
+			[
+				191178.707224335,
+				[
+					[
+						"Alt Idle Animation",
+						"dad",
+						"-main"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "mimi-epiphany",
+		"bpm": 263,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "epiphany-cover"
+	}
+}

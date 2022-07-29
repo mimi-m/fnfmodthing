@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				271,
+				-30
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "yanderi mimi sing left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				230,
+				-53
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "yanderi mimi sing right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				19,
+				131
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "yanderi mimi sing up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-80,
+				-195
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "yanderi mimi sing down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				-140
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "yanderi mimi alt sing down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				50
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "yanderi mimi alt idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				1,
+				51
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-tired",
+			"indices": [],
+			"name": "yanderi mimi alt neutral idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				159,
+				-10
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "yanderi mimi alt sing left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				1,
+				50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-main",
+			"indices": [],
+			"name": "yanderi mimi idle"
+		},
+		{
+			"offsets": [
+				-18,
+				38
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "yanderi mimi alt calm idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-7,
+				113
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "yanderi mimi alt sing up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				221,
+				-24
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "yanderi mimi alt sing right"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/mimi_epiphany",
+	"position": [
+		20,
+		-150
+	],
+	"healthicon": "mimi-draw-pixel",
+	"flip_x": false,
+	"healthbar_colors": [
+		91,
+		156,
+		235
+	],
+	"camera_position": [
+		-90,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

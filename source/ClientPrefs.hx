@@ -14,7 +14,7 @@ class ClientPrefs {
 	public static var globalAntialiasing:Bool = true;
 	public static var noteSplashes:Bool = true;
 	public static var lowQuality:Bool = false;
-	public static var compressedMusic:Bool = false;
+//	public static var compressedMusic:Bool = false;
 	public static var framerate:Int = 60;
 	public static var cursing:Bool = true;
 	public static var violence:Bool = true;
@@ -31,6 +31,7 @@ class ClientPrefs {
 	public static var followchars:Bool = true;
 	public static var pixelArrows:Bool = false;
 	//	public static var circleSkin:Bool = false;
+	public static var muteInstVoicesOption:String = 'Neither';
 	public static var sideInfo:Bool = true;
 	public static var maniaMode:Bool = false;
 	public static var coloredRatings:Bool = true;
@@ -108,7 +109,7 @@ class ClientPrefs {
 		FlxG.save.data.globalAntialiasing = globalAntialiasing;
 		FlxG.save.data.noteSplashes = noteSplashes;
 		FlxG.save.data.lowQuality = lowQuality;
-		FlxG.save.data.compressedMusic = compressedMusic;
+//		FlxG.save.data.compressedMusic = compressedMusic;
 		FlxG.save.data.framerate = framerate;
 		//FlxG.save.data.cursing = cursing;
 		//FlxG.save.data.violence = violence;
@@ -126,6 +127,7 @@ class ClientPrefs {
 		FlxG.save.data.pixelArrows = pixelArrows;
 		FlxG.save.data.sideInfo = sideInfo;
 		FlxG.save.data.maniaMode = maniaMode;
+		FlxG.save.data.muteInstVoicesOption = muteInstVoicesOption;
 		//		FlxG.save.data.circleSkin = circleSkin;
 		FlxG.save.data.coloredRatings = coloredRatings;
 		FlxG.save.data.healthBarAlpha = healthBarAlpha;
@@ -178,9 +180,9 @@ class ClientPrefs {
 		if(FlxG.save.data.lowQuality != null) {
 			lowQuality = FlxG.save.data.lowQuality;
 		}
-		if(FlxG.save.data.compressedMusic != null) {
-			compressedMusic = FlxG.save.data.compressedMusic;
-		}
+//		if(FlxG.save.data.compressedMusic != null) {
+//			compressedMusic = FlxG.save.data.compressedMusic;
+//		}
 		if(FlxG.save.data.framerate != null) {
 			framerate = FlxG.save.data.framerate;
 			if(framerate > FlxG.drawFramerate) {
@@ -242,6 +244,9 @@ class ClientPrefs {
 		//		if(FlxG.save.data.circleSkin != null) {
 		//			circleSkin = FlxG.save.data.circleSkin;
 		//		}
+				if(FlxG.save.data.muteInstVoicesOption != null) {
+					muteInstVoicesOption = FlxG.save.data.muteInstVoicesOption;
+				}
 		if(FlxG.save.data.healthBarAlpha != null) {
 			healthBarAlpha = FlxG.save.data.healthBarAlpha;
 		}

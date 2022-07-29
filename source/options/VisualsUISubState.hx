@@ -69,8 +69,8 @@ class VisualsUISubState extends BaseOptionsMenu
 			true);
 		addOption(option);
 
-		var option:Option = new Option('Side Info', //Name
-			"Displays your stats at the left side of the screen.", // \nIf disabled while in Mania Mode, the text is white instead.",
+		var option:Option = new Option('Judge Counter', //Name
+			"Displays your stats at the left side of the screen.\nPress TAB during a song to hide/show them.", // \nIf disabled while in Mania Mode, the text is white instead.",
 			'sideInfo',
 			'bool',
 			true);
@@ -126,8 +126,8 @@ class VisualsUISubState extends BaseOptionsMenu
 			true);
 		addOption(option);
 		
-		var option:Option = new Option('Health Bar Transparency',
-			'How much transparent should the health bar and icons be.',
+		var option:Option = new Option('Health Bar Opacity',
+			'How visible should the health bar and icons be.',
 			'healthBarAlpha',
 			'percent',
 			1);
@@ -140,7 +140,7 @@ class VisualsUISubState extends BaseOptionsMenu
 		
 		#if !mobile
 		var option:Option = new Option('FPS Counter',
-			'If unchecked, hides FPS Counter.',
+			'If unchecked, hides FPS Counter and Memory Usage.',
 			'showFPS',
 			'bool',
 			true);
@@ -148,33 +148,7 @@ class VisualsUISubState extends BaseOptionsMenu
 		option.onChange = onChangeFPSCounter;
 		#end
 		
-		var option:Option = new Option('Pause Screen Song:',
-			"What song do you prefer for the Pause Screen?",
-			'pauseMusic',
-			'string',
-			'flushed',
-			['None', 'Breakfast', 'Tea Time', 'first', 'loid300', 'flushed', 'pleading-face']);
-		addOption(option);
-		option.onChange = onChangePauseMusic;
-
 		super();
-	}
-
-	var changedMusic:Bool = false;
-	function onChangePauseMusic()
-	{
-		if(ClientPrefs.pauseMusic == 'None')
-			FlxG.sound.music.volume = 0;
-		else
-			FlxG.sound.playMusic(Paths.music(Paths.formatToSongPath(ClientPrefs.pauseMusic)));
-
-		changedMusic = true;
-	}
-
-	override function destroy()
-	{
-		if(changedMusic) FlxG.sound.playMusic(Paths.music('freakyMenu'));
-		super.destroy();
 	}
 
 	#if !mobile

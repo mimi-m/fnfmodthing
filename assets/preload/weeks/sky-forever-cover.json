@@ -1,0 +1,32 @@
+{
+	"storyName": "composed by bbpanzu, from nusky+skyverse mod",
+	"difficulties": "Hard,Mania",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "mimi",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"sky-forever-cover",
+			"mimi",
+			[
+				91,
+				156,
+				235
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": true,
+	"weekName": "sky-forever-cover"
+}

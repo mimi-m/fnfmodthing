@@ -20,5 +20,7 @@ function onUpdate()
 end
 
 function onBeatHit()
+	if getPropertyFromClass('ClientPrefs', 'muteInstVoicesOption') ~= 'Inst' then
     objectPlayAnimation('speaker', 'bump')
+    end
 end

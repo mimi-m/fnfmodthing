@@ -1,6 +1,6 @@
 {
 	"song": {
-		"speed": 3.2,
+		"speed": 3.15,
 		"stage": "stage",
 		"player1": "mimgen",
 		"player2": "genji",
@@ -1057,36 +1057,6 @@
 				]
 			],
 			[
-				137860.465116279,
-				[
-					[
-						"Play Animation",
-						"singUP",
-						"GF"
-					]
-				]
-			],
-			[
-				137860.465116279,
-				[
-					[
-						"Add Camera Zoom",
-						"",
-						""
-					]
-				]
-			],
-			[
-				137860.465116279,
-				[
-					[
-						"Play Animation",
-						"hey",
-						"dad"
-					]
-				]
-			],
-			[
 				138139.534883721,
 				[
 					[
@@ -1614,6 +1584,6 @@
 		"bpm": 215,
 		"arrowSkin": "",
 		"needsVoices": true,
-		"song": "loid remix"
+		"song": "loid-remix"
 	}
 }

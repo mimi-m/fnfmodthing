@@ -6,20 +6,32 @@ IntroTagWidth = 20	--Width of the box's tag thingy.
 ManiaModeOffset = 0
 --easy script configs
 
+--hide score text when botplay is on
+function onCreatePost()
+    if botPlay == true and not getPropertyFromClass('PlayState', 'chartingMode') then
+        setProperty('scoreTxt.alpha', 0)
+    end
+end
+
 --actual script
 function onCreate()
 	--the tag at the end of the box
         if downscroll == false then
 			ManiaModeOffset = 576
 		end
+		-- how the hell do i make this a table/switch case-
 		if dadName == 'slugetta' or dadName == 'slugetta-alt' then
 			IntroTagColor = '9c4538'
+		end if dadName == 'mimsky' then
+			IntroTagColor = 'cc33ff'
 		end if dadName == 'mimi' then
 			IntroTagColor = '89b5de'
 		end if dadName == 'mimi-alt-pixel' then
 			IntroTagColor = '5b9ceb'
 		end if dadName == 'mugen' then
 			IntroTagColor = 'f0eca0'
+		end if dadName == 'mugen-draw' then
+			IntroTagColor = 'c07f10'
 		end if dadName == 'genji' then
 			IntroTagColor = '24e822'
 		end if dadName == 'gf' or dadName == 'gf-og' then

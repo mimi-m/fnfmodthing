@@ -1,0 +1,1 @@
+characters do idle anim onBeat when set to true

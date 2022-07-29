@@ -65,6 +65,7 @@ class ChartingState extends MusicBeatState
 		'GF Sing',
 		'No Animation',
 		'Flooshed Note',
+		'Add Afterimage',
 		'Lava Note',
 		'Step Note'
 	];
@@ -228,7 +229,7 @@ class ChartingState extends MusicBeatState
 
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("Chart Editor", StringTools.replace(_song.song, '-', ' '));
+		DiscordClient.changePresence("Chart Editor", StringTools.replace(_song.song, '-', ' ') + " (" + CoolUtil.difficulties[PlayState.storyDifficulty] + ")");
 		#end
 
 		vortex = FlxG.save.data.chart_vortex;
@@ -2702,7 +2703,7 @@ class ChartingState extends MusicBeatState
 	{
 		//make it look sexier if possible
 		if (CoolUtil.difficulties[PlayState.storyDifficulty] != "Normal"){
-		PlayState.SONG = Song.loadFromJson(song.toLowerCase()+"-"+CoolUtil.difficulties[PlayState.storyDifficulty], song.toLowerCase());
+		PlayState.SONG = Song.loadFromJson(song.toLowerCase()+"-"+CoolUtil.difficulties[PlayState.storyDifficulty].toLowerCase(), song.toLowerCase());
 			
 		}else{
 		PlayState.SONG = Song.loadFromJson(song.toLowerCase(), song.toLowerCase());

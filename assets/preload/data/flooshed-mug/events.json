@@ -1,6 +1,6 @@
 {
 	"song": {
-		"speed": 3.3,
+		"speed": 2.8,
 		"stage": "stage",
 		"player1": "mugen-pixel",
 		"player2": "mimi-alt-pixel",
@@ -520,9 +520,9 @@
 				152079.207920792,
 				[
 					[
-						"Set GF Speed",
-						"2",
-						""
+						"Change Scroll Speed NOT",
+						"0.85",
+						"1"
 					]
 				]
 			],
@@ -530,9 +530,9 @@
 				152079.207920792,
 				[
 					[
-						"Change Scroll Speed NOT",
-						"0.85",
-						"1"
+						"Set GF Speed",
+						"2",
+						""
 					]
 				]
 			],
@@ -631,8 +631,8 @@
 				[
 					[
 						"Play Animation",
-						"dad",
-						"singDOWN-alt"
+						"singDOWN-alt",
+						"dad"
 					]
 				]
 			],
@@ -650,19 +650,9 @@
 				163960.396039604,
 				[
 					[
-						"Change Scroll Speed NOT",
-						"0.94",
-						"1"
-					]
-				]
-			],
-			[
-				163960.396039604,
-				[
-					[
 						"Play Animation",
-						"dad",
-						"singUP-alt"
+						"singUP-alt",
+						"dad"
 					]
 				]
 			],
@@ -681,8 +671,8 @@
 				[
 					[
 						"Play Animation",
-						"dad",
-						"singLEFT-alt"
+						"singLEFT-alt",
+						"dad"
 					]
 				]
 			],
@@ -701,8 +691,8 @@
 				[
 					[
 						"Play Animation",
-						"dad",
-						"singDOWN-alt"
+						"singDOWN-alt",
+						"dad"
 					]
 				]
 			],
@@ -726,8 +716,8 @@
 					],
 					[
 						"Play Animation",
-						"dad",
-						"singUP-alt"
+						"singUP-alt",
+						"dad"
 					]
 				]
 			],
@@ -746,8 +736,8 @@
 				[
 					[
 						"Play Animation",
-						"dad",
-						"singRIGHT-alt"
+						"singRIGHT-alt",
+						"dad"
 					]
 				]
 			],
@@ -835,18 +825,13 @@
 				218613.861386139,
 				[
 					[
-						"Set GF Speed",
-						"2",
-						""
-					]
-				]
-			],
-			[
-				218613.861386139,
-				[
-					[
 						"Add Camera Zoom",
 						"",
+						""
+					],
+					[
+						"Set GF Speed",
+						"2",
 						""
 					]
 				]

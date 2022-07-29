@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mimi_epiphany.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="yanderi mimi alt calm idle0000" x="3" y="3" width="753" height="1109" frameX="-3" frameY="0" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0001" x="3" y="3" width="753" height="1109" frameX="-3" frameY="0" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0002" x="759" y="3" width="755" height="1108" frameX="-2" frameY="-1" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0003" x="759" y="3" width="755" height="1108" frameX="-2" frameY="-1" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0004" x="1517" y="3" width="755" height="1108" frameX="-2" frameY="-1" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0005" x="1517" y="3" width="755" height="1108" frameX="-2" frameY="-1" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0006" x="2275" y="3" width="758" height="1107" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0007" x="2275" y="3" width="758" height="1107" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0008" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0009" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0010" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0011" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0012" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0013" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0014" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0015" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0016" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0017" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0018" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0019" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0020" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0021" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0022" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0023" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0024" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0025" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0026" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0027" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0028" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0029" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0030" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0031" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0032" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0033" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0034" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0035" x="3797" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0036" x="3797" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0037" x="3797" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0038" x="3797" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0039" x="3797" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0040" x="3797" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0041" x="3797" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0042" x="3797" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0043" x="3797" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0044" x="3797" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0045" x="3797" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0046" x="3797" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0047" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0048" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0049" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0050" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0051" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0052" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0053" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0054" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0055" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0056" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0057" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0058" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0059" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0060" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0061" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0062" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0063" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0064" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0065" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0066" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0067" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0068" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0069" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0070" x="4558" y="3" width="758" height="1107" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0071" x="4558" y="3" width="758" height="1107" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0072" x="4558" y="3" width="758" height="1107" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0073" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0074" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0075" x="3036" y="3" width="758" height="1108" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0076" x="2275" y="3" width="758" height="1107" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0077" x="2275" y="3" width="758" height="1107" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0078" x="2275" y="3" width="758" height="1107" frameX="0" frameY="-2" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0079" x="1517" y="3" width="755" height="1108" frameX="-2" frameY="-1" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0080" x="1517" y="3" width="755" height="1108" frameX="-2" frameY="-1" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0081" x="1517" y="3" width="755" height="1108" frameX="-2" frameY="-1" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0082" x="759" y="3" width="755" height="1108" frameX="-2" frameY="-1" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0083" x="759" y="3" width="755" height="1108" frameX="-2" frameY="-1" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0084" x="759" y="3" width="755" height="1108" frameX="-2" frameY="-1" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0085" x="3" y="3" width="753" height="1109" frameX="-3" frameY="0" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0086" x="3" y="3" width="753" height="1109" frameX="-3" frameY="0" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0087" x="3" y="3" width="753" height="1109" frameX="-3" frameY="0" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0088" x="3" y="3" width="753" height="1109" frameX="-3" frameY="0" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0089" x="3" y="3" width="753" height="1109" frameX="-3" frameY="0" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0090" x="3" y="3" width="753" height="1109" frameX="-3" frameY="0" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0091" x="3" y="3" width="753" height="1109" frameX="-3" frameY="0" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0092" x="3" y="3" width="753" height="1109" frameX="-3" frameY="0" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0093" x="3" y="3" width="753" height="1109" frameX="-3" frameY="0" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0094" x="3" y="3" width="753" height="1109" frameX="-3" frameY="0" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt calm idle0095" x="3" y="3" width="753" height="1109" frameX="-3" frameY="0" frameWidth="758" frameHeight="1110"/>
+	<SubTexture name="yanderi mimi alt idle0000" x="5319" y="3" width="781" height="1082" frameX="0" frameY="0" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0001" x="5319" y="3" width="781" height="1082" frameX="0" frameY="0" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0002" x="5319" y="3" width="781" height="1082" frameX="0" frameY="0" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0003" x="5319" y="3" width="781" height="1082" frameX="0" frameY="0" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0004" x="6103" y="3" width="768" height="1098" frameX="-12" frameY="-4" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0005" x="6874" y="3" width="763" height="1109" frameX="-18" frameY="-7" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0006" x="3" y="1115" width="750" height="1106" frameX="-23" frameY="-15" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0007" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0008" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0009" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0010" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0011" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0012" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0013" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0014" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0015" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0016" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0017" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0018" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0019" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0020" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0021" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0022" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0023" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0024" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0025" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0026" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0027" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0028" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0029" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0030" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0031" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0032" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0033" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0034" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0035" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0036" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0037" x="2268" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0038" x="2268" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0039" x="2268" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0040" x="3024" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0041" x="3024" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0042" x="3024" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0043" x="3024" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0044" x="3024" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0045" x="3024" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0046" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0047" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0048" x="756" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0049" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0050" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0051" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0052" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0053" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0054" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0055" x="1512" y="1115" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0056" x="3780" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0057" x="3780" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0058" x="3780" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0059" x="4536" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0060" x="5292" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0061" x="6048" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0062" x="6048" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0063" x="6048" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0064" x="6048" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0065" x="6048" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0066" x="6048" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0067" x="6048" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0068" x="6048" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0069" x="6048" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0070" x="6048" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0071" x="6048" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0072" x="6804" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0073" x="6804" y="1115" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0074" x="3" y="2227" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0075" x="3" y="2227" width="753" height="1104" frameX="-21" frameY="-17" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0076" x="3" y="1115" width="750" height="1106" frameX="-23" frameY="-15" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0077" x="6874" y="3" width="763" height="1109" frameX="-18" frameY="-7" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0078" x="6103" y="3" width="768" height="1098" frameX="-12" frameY="-4" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt idle0079" x="6103" y="3" width="768" height="1098" frameX="-12" frameY="-4" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi alt neutral idle0000" x="759" y="2227" width="781" height="1083" frameX="0" frameY="0" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0001" x="759" y="2227" width="781" height="1083" frameX="0" frameY="0" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0002" x="759" y="2227" width="781" height="1083" frameX="0" frameY="0" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0003" x="759" y="2227" width="781" height="1083" frameX="0" frameY="0" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0004" x="1543" y="2227" width="768" height="1099" frameX="-12" frameY="-4" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0005" x="2314" y="2227" width="763" height="1110" frameX="-18" frameY="-7" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0006" x="3080" y="2227" width="750" height="1112" frameX="-23" frameY="-10" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0007" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0008" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0009" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0010" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0011" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0012" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0013" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0014" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0015" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0016" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0017" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0018" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0019" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0020" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0021" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0022" x="4589" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0023" x="4589" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0024" x="4589" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0025" x="4589" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0026" x="4589" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0027" x="4589" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0028" x="4589" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0029" x="4589" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0030" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0031" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0032" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0033" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0034" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0035" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0036" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0037" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0038" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0039" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0040" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0041" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0042" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0043" x="3833" y="2227" width="753" height="1110" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0044" x="3080" y="2227" width="750" height="1112" frameX="-23" frameY="-10" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0045" x="2314" y="2227" width="763" height="1110" frameX="-18" frameY="-7" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0046" x="1543" y="2227" width="768" height="1099" frameX="-12" frameY="-4" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt neutral idle0047" x="1543" y="2227" width="768" height="1099" frameX="-12" frameY="-4" frameWidth="781" frameHeight="1122"/>
+	<SubTexture name="yanderi mimi alt sing down0000" x="2268" y="3342" width="777" height="1109" frameX="-35" frameY="-15" frameWidth="846" frameHeight="1131"/>
+	<SubTexture name="yanderi mimi alt sing down0001" x="2268" y="3342" width="777" height="1109" frameX="-35" frameY="-15" frameWidth="846" frameHeight="1131"/>
+	<SubTexture name="yanderi mimi alt sing down0002" x="3048" y="3342" width="817" height="1131" frameX="-17" frameY="0" frameWidth="846" frameHeight="1131"/>
+	<SubTexture name="yanderi mimi alt sing down0003" x="3048" y="3342" width="817" height="1131" frameX="-17" frameY="0" frameWidth="846" frameHeight="1131"/>
+	<SubTexture name="yanderi mimi alt sing down0004" x="3868" y="3342" width="833" height="1126" frameX="-7" frameY="-5" frameWidth="846" frameHeight="1131"/>
+	<SubTexture name="yanderi mimi alt sing down0005" x="3868" y="3342" width="833" height="1126" frameX="-7" frameY="-5" frameWidth="846" frameHeight="1131"/>
+	<SubTexture name="yanderi mimi alt sing down0006" x="4704" y="3342" width="846" height="1118" frameX="0" frameY="-9" frameWidth="846" frameHeight="1131"/>
+	<SubTexture name="yanderi mimi alt sing down0007" x="4704" y="3342" width="846" height="1118" frameX="0" frameY="-9" frameWidth="846" frameHeight="1131"/>
+	<SubTexture name="yanderi mimi alt sing down0008" x="4704" y="3342" width="846" height="1118" frameX="0" frameY="-9" frameWidth="846" frameHeight="1131"/>
+	<SubTexture name="yanderi mimi alt sing down0009" x="4704" y="3342" width="846" height="1118" frameX="0" frameY="-9" frameWidth="846" frameHeight="1131"/>
+	<SubTexture name="yanderi mimi alt sing down0010" x="4704" y="3342" width="846" height="1118" frameX="0" frameY="-9" frameWidth="846" frameHeight="1131"/>
+	<SubTexture name="yanderi mimi alt sing down0011" x="4704" y="3342" width="846" height="1118" frameX="0" frameY="-9" frameWidth="846" frameHeight="1131"/>
+	<SubTexture name="yanderi mimi alt sing down0012" x="4704" y="3342" width="846" height="1118" frameX="0" frameY="-9" frameWidth="846" frameHeight="1131"/>
+	<SubTexture name="yanderi mimi alt sing down0013" x="4704" y="3342" width="846" height="1118" frameX="0" frameY="-9" frameWidth="846" frameHeight="1131"/>
+	<SubTexture name="yanderi mimi alt sing down0014" x="4704" y="3342" width="846" height="1118" frameX="0" frameY="-9" frameWidth="846" frameHeight="1131"/>
+	<SubTexture name="yanderi mimi alt sing down0015" x="4704" y="3342" width="846" height="1118" frameX="0" frameY="-9" frameWidth="846" frameHeight="1131"/>
+	<SubTexture name="yanderi mimi alt sing left0000" x="5313" y="4486" width="810" height="920" frameX="0" frameY="-66" frameWidth="836" frameHeight="1075"/>
+	<SubTexture name="yanderi mimi alt sing left0001" x="6126" y="4486" width="793" height="938" frameX="-15" frameY="-55" frameWidth="836" frameHeight="1075"/>
+	<SubTexture name="yanderi mimi alt sing left0002" x="6922" y="4486" width="794" height="995" frameX="-41" frameY="-37" frameWidth="836" frameHeight="1075"/>
+	<SubTexture name="yanderi mimi alt sing left0003" x="6922" y="4486" width="794" height="995" frameX="-41" frameY="-37" frameWidth="836" frameHeight="1075"/>
+	<SubTexture name="yanderi mimi alt sing left0004" x="3" y="5653" width="760" height="1060" frameX="-74" frameY="-10" frameWidth="836" frameHeight="1075"/>
+	<SubTexture name="yanderi mimi alt sing left0005" x="3" y="5653" width="760" height="1060" frameX="-74" frameY="-10" frameWidth="836" frameHeight="1075"/>
+	<SubTexture name="yanderi mimi alt sing left0006" x="766" y="5653" width="771" height="1075" frameX="-65" frameY="0" frameWidth="836" frameHeight="1075"/>
+	<SubTexture name="yanderi mimi alt sing left0007" x="766" y="5653" width="771" height="1075" frameX="-65" frameY="0" frameWidth="836" frameHeight="1075"/>
+	<SubTexture name="yanderi mimi alt sing left0008" x="766" y="5653" width="771" height="1075" frameX="-65" frameY="0" frameWidth="836" frameHeight="1075"/>
+	<SubTexture name="yanderi mimi alt sing left0009" x="766" y="5653" width="771" height="1075" frameX="-65" frameY="0" frameWidth="836" frameHeight="1075"/>
+	<SubTexture name="yanderi mimi alt sing left0010" x="766" y="5653" width="771" height="1075" frameX="-65" frameY="0" frameWidth="836" frameHeight="1075"/>
+	<SubTexture name="yanderi mimi alt sing left0011" x="766" y="5653" width="771" height="1075" frameX="-65" frameY="0" frameWidth="836" frameHeight="1075"/>
+	<SubTexture name="yanderi mimi alt sing left0012" x="766" y="5653" width="771" height="1075" frameX="-65" frameY="0" frameWidth="836" frameHeight="1075"/>
+	<SubTexture name="yanderi mimi alt sing left0013" x="766" y="5653" width="771" height="1075" frameX="-65" frameY="0" frameWidth="836" frameHeight="1075"/>
+	<SubTexture name="yanderi mimi alt sing left0014" x="766" y="5653" width="771" height="1075" frameX="-65" frameY="0" frameWidth="836" frameHeight="1075"/>
+	<SubTexture name="yanderi mimi alt sing left0015" x="766" y="5653" width="771" height="1075" frameX="-65" frameY="0" frameWidth="836" frameHeight="1075"/>
+	<SubTexture name="yanderi mimi alt sing right0000" x="1538" y="6820" width="942" height="1098" frameX="-241" frameY="-28" frameWidth="1317" frameHeight="1204"/>
+	<SubTexture name="yanderi mimi alt sing right0001" x="1538" y="6820" width="942" height="1098" frameX="-241" frameY="-28" frameWidth="1317" frameHeight="1204"/>
+	<SubTexture name="yanderi mimi alt sing right0002" x="2483" y="6820" width="1317" height="1187" frameX="0" frameY="-17" frameWidth="1317" frameHeight="1204"/>
+	<SubTexture name="yanderi mimi alt sing right0003" x="2483" y="6820" width="1317" height="1187" frameX="0" frameY="-17" frameWidth="1317" frameHeight="1204"/>
+	<SubTexture name="yanderi mimi alt sing right0004" x="3803" y="6820" width="1313" height="1195" frameX="-2" frameY="-2" frameWidth="1317" frameHeight="1204"/>
+	<SubTexture name="yanderi mimi alt sing right0005" x="3803" y="6820" width="1313" height="1195" frameX="-2" frameY="-2" frameWidth="1317" frameHeight="1204"/>
+	<SubTexture name="yanderi mimi alt sing right0006" x="5119" y="6820" width="934" height="1083" frameX="-251" frameY="0" frameWidth="1317" frameHeight="1204"/>
+	<SubTexture name="yanderi mimi alt sing right0007" x="5119" y="6820" width="934" height="1083" frameX="-251" frameY="0" frameWidth="1317" frameHeight="1204"/>
+	<SubTexture name="yanderi mimi alt sing right0008" x="5119" y="6820" width="934" height="1083" frameX="-251" frameY="0" frameWidth="1317" frameHeight="1204"/>
+	<SubTexture name="yanderi mimi alt sing right0009" x="5119" y="6820" width="934" height="1083" frameX="-251" frameY="0" frameWidth="1317" frameHeight="1204"/>
+	<SubTexture name="yanderi mimi alt sing right0010" x="5119" y="6820" width="934" height="1083" frameX="-251" frameY="0" frameWidth="1317" frameHeight="1204"/>
+	<SubTexture name="yanderi mimi alt sing right0011" x="5119" y="6820" width="934" height="1083" frameX="-251" frameY="0" frameWidth="1317" frameHeight="1204"/>
+	<SubTexture name="yanderi mimi alt sing right0012" x="5119" y="6820" width="934" height="1083" frameX="-251" frameY="0" frameWidth="1317" frameHeight="1204"/>
+	<SubTexture name="yanderi mimi alt sing right0013" x="5119" y="6820" width="934" height="1083" frameX="-251" frameY="0" frameWidth="1317" frameHeight="1204"/>
+	<SubTexture name="yanderi mimi alt sing right0014" x="5119" y="6820" width="934" height="1083" frameX="-251" frameY="0" frameWidth="1317" frameHeight="1204"/>
+	<SubTexture name="yanderi mimi alt sing right0015" x="5119" y="6820" width="934" height="1083" frameX="-251" frameY="0" frameWidth="1317" frameHeight="1204"/>
+	<SubTexture name="yanderi mimi alt sing up0000" x="5553" y="3342" width="769" height="1132" frameX="0" frameY="0" frameWidth="772" frameHeight="1148"/>
+	<SubTexture name="yanderi mimi alt sing up0001" x="5553" y="3342" width="769" height="1132" frameX="0" frameY="0" frameWidth="772" frameHeight="1148"/>
+	<SubTexture name="yanderi mimi alt sing up0002" x="6325" y="3342" width="761" height="1125" frameX="-6" frameY="-15" frameWidth="772" frameHeight="1148"/>
+	<SubTexture name="yanderi mimi alt sing up0003" x="6325" y="3342" width="761" height="1125" frameX="-6" frameY="-15" frameWidth="772" frameHeight="1148"/>
+	<SubTexture name="yanderi mimi alt sing up0004" x="7089" y="3342" width="770" height="1141" frameX="-2" frameY="-7" frameWidth="772" frameHeight="1148"/>
+	<SubTexture name="yanderi mimi alt sing up0005" x="7089" y="3342" width="770" height="1141" frameX="-2" frameY="-7" frameWidth="772" frameHeight="1148"/>
+	<SubTexture name="yanderi mimi alt sing up0006" x="3" y="4486" width="762" height="1141" frameX="-6" frameY="-7" frameWidth="772" frameHeight="1148"/>
+	<SubTexture name="yanderi mimi alt sing up0007" x="3" y="4486" width="762" height="1141" frameX="-6" frameY="-7" frameWidth="772" frameHeight="1148"/>
+	<SubTexture name="yanderi mimi alt sing up0008" x="3" y="4486" width="762" height="1141" frameX="-6" frameY="-7" frameWidth="772" frameHeight="1148"/>
+	<SubTexture name="yanderi mimi alt sing up0009" x="3" y="4486" width="762" height="1141" frameX="-6" frameY="-7" frameWidth="772" frameHeight="1148"/>
+	<SubTexture name="yanderi mimi alt sing up0010" x="3" y="4486" width="762" height="1141" frameX="-6" frameY="-7" frameWidth="772" frameHeight="1148"/>
+	<SubTexture name="yanderi mimi alt sing up0011" x="3" y="4486" width="762" height="1141" frameX="-6" frameY="-7" frameWidth="772" frameHeight="1148"/>
+	<SubTexture name="yanderi mimi alt sing up0012" x="3" y="4486" width="762" height="1141" frameX="-6" frameY="-7" frameWidth="772" frameHeight="1148"/>
+	<SubTexture name="yanderi mimi alt sing up0013" x="3" y="4486" width="762" height="1141" frameX="-6" frameY="-7" frameWidth="772" frameHeight="1148"/>
+	<SubTexture name="yanderi mimi alt sing up0014" x="3" y="4486" width="762" height="1141" frameX="-6" frameY="-7" frameWidth="772" frameHeight="1148"/>
+	<SubTexture name="yanderi mimi alt sing up0015" x="3" y="4486" width="762" height="1141" frameX="-6" frameY="-7" frameWidth="772" frameHeight="1148"/>
+	<SubTexture name="yanderi mimi idle0000" x="5345" y="2227" width="781" height="1082" frameX="0" frameY="0" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0001" x="5345" y="2227" width="781" height="1082" frameX="0" frameY="0" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0002" x="5345" y="2227" width="781" height="1082" frameX="0" frameY="0" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0003" x="5345" y="2227" width="781" height="1082" frameX="0" frameY="0" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0004" x="6129" y="2227" width="768" height="1098" frameX="-12" frameY="-4" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0005" x="6900" y="2227" width="763" height="1108" frameX="-18" frameY="-7" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0006" x="3" y="3342" width="750" height="1111" frameX="-23" frameY="-10" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0007" x="756" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0008" x="756" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0009" x="756" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0010" x="756" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0011" x="756" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0012" x="756" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0013" x="756" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0014" x="756" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0015" x="1512" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0016" x="1512" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0017" x="1512" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0018" x="1512" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0019" x="756" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0020" x="756" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0021" x="756" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0022" x="756" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0023" x="756" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0024" x="756" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0025" x="756" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0026" x="756" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0027" x="756" y="3342" width="753" height="1109" frameX="-21" frameY="-12" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0028" x="3" y="3342" width="750" height="1111" frameX="-23" frameY="-10" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0029" x="6900" y="2227" width="763" height="1108" frameX="-18" frameY="-7" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0030" x="6129" y="2227" width="768" height="1098" frameX="-12" frameY="-4" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi idle0031" x="6129" y="2227" width="768" height="1098" frameX="-12" frameY="-4" frameWidth="781" frameHeight="1121"/>
+	<SubTexture name="yanderi mimi sing down0000" x="768" y="4486" width="684" height="1049" frameX="-7" frameY="-24" frameWidth="696" frameHeight="1085"/>
+	<SubTexture name="yanderi mimi sing down0001" x="768" y="4486" width="684" height="1049" frameX="-7" frameY="-24" frameWidth="696" frameHeight="1085"/>
+	<SubTexture name="yanderi mimi sing down0002" x="1455" y="4486" width="685" height="1077" frameX="-5" frameY="0" frameWidth="696" frameHeight="1085"/>
+	<SubTexture name="yanderi mimi sing down0003" x="1455" y="4486" width="685" height="1077" frameX="-5" frameY="0" frameWidth="696" frameHeight="1085"/>
+	<SubTexture name="yanderi mimi sing down0004" x="2143" y="4486" width="696" height="1079" frameX="0" frameY="-6" frameWidth="696" frameHeight="1085"/>
+	<SubTexture name="yanderi mimi sing down0005" x="2143" y="4486" width="696" height="1079" frameX="0" frameY="-6" frameWidth="696" frameHeight="1085"/>
+	<SubTexture name="yanderi mimi sing down0006" x="2143" y="4486" width="696" height="1079" frameX="0" frameY="-6" frameWidth="696" frameHeight="1085"/>
+	<SubTexture name="yanderi mimi sing down0007" x="2143" y="4486" width="696" height="1079" frameX="0" frameY="-6" frameWidth="696" frameHeight="1085"/>
+	<SubTexture name="yanderi mimi sing down0008" x="2143" y="4486" width="696" height="1079" frameX="0" frameY="-6" frameWidth="696" frameHeight="1085"/>
+	<SubTexture name="yanderi mimi sing down0009" x="2143" y="4486" width="696" height="1079" frameX="0" frameY="-6" frameWidth="696" frameHeight="1085"/>
+	<SubTexture name="yanderi mimi sing down0010" x="2143" y="4486" width="696" height="1079" frameX="0" frameY="-6" frameWidth="696" frameHeight="1085"/>
+	<SubTexture name="yanderi mimi sing down0011" x="2143" y="4486" width="696" height="1079" frameX="0" frameY="-6" frameWidth="696" frameHeight="1085"/>
+	<SubTexture name="yanderi mimi sing down0012" x="2143" y="4486" width="696" height="1079" frameX="0" frameY="-6" frameWidth="696" frameHeight="1085"/>
+	<SubTexture name="yanderi mimi sing down0013" x="2143" y="4486" width="696" height="1079" frameX="0" frameY="-6" frameWidth="696" frameHeight="1085"/>
+	<SubTexture name="yanderi mimi sing down0014" x="2143" y="4486" width="696" height="1079" frameX="0" frameY="-6" frameWidth="696" frameHeight="1085"/>
+	<SubTexture name="yanderi mimi sing down0015" x="2143" y="4486" width="696" height="1079" frameX="0" frameY="-6" frameWidth="696" frameHeight="1085"/>
+	<SubTexture name="yanderi mimi sing left0000" x="1540" y="5653" width="946" height="1133" frameX="0" frameY="-16" frameWidth="950" frameHeight="1164"/>
+	<SubTexture name="yanderi mimi sing left0001" x="1540" y="5653" width="946" height="1133" frameX="0" frameY="-16" frameWidth="950" frameHeight="1164"/>
+	<SubTexture name="yanderi mimi sing left0002" x="2489" y="5653" width="941" height="1148" frameX="-8" frameY="-10" frameWidth="950" frameHeight="1164"/>
+	<SubTexture name="yanderi mimi sing left0003" x="2489" y="5653" width="941" height="1148" frameX="-8" frameY="-10" frameWidth="950" frameHeight="1164"/>
+	<SubTexture name="yanderi mimi sing left0004" x="3433" y="5653" width="933" height="1164" frameX="-17" frameY="0" frameWidth="950" frameHeight="1164"/>
+	<SubTexture name="yanderi mimi sing left0005" x="3433" y="5653" width="933" height="1164" frameX="-17" frameY="0" frameWidth="950" frameHeight="1164"/>
+	<SubTexture name="yanderi mimi sing left0006" x="3433" y="5653" width="933" height="1164" frameX="-17" frameY="0" frameWidth="950" frameHeight="1164"/>
+	<SubTexture name="yanderi mimi sing left0007" x="3433" y="5653" width="933" height="1164" frameX="-17" frameY="0" frameWidth="950" frameHeight="1164"/>
+	<SubTexture name="yanderi mimi sing left0008" x="3433" y="5653" width="933" height="1164" frameX="-17" frameY="0" frameWidth="950" frameHeight="1164"/>
+	<SubTexture name="yanderi mimi sing left0009" x="3433" y="5653" width="933" height="1164" frameX="-17" frameY="0" frameWidth="950" frameHeight="1164"/>
+	<SubTexture name="yanderi mimi sing left0010" x="3433" y="5653" width="933" height="1164" frameX="-17" frameY="0" frameWidth="950" frameHeight="1164"/>
+	<SubTexture name="yanderi mimi sing left0011" x="3433" y="5653" width="933" height="1164" frameX="-17" frameY="0" frameWidth="950" frameHeight="1164"/>
+	<SubTexture name="yanderi mimi sing left0012" x="3433" y="5653" width="933" height="1164" frameX="-17" frameY="0" frameWidth="950" frameHeight="1164"/>
+	<SubTexture name="yanderi mimi sing left0013" x="3433" y="5653" width="933" height="1164" frameX="-17" frameY="0" frameWidth="950" frameHeight="1164"/>
+	<SubTexture name="yanderi mimi sing left0014" x="3433" y="5653" width="933" height="1164" frameX="-17" frameY="0" frameWidth="950" frameHeight="1164"/>
+	<SubTexture name="yanderi mimi sing left0015" x="3433" y="5653" width="933" height="1164" frameX="-17" frameY="0" frameWidth="950" frameHeight="1164"/>
+	<SubTexture name="yanderi mimi sing right0000" x="4369" y="5653" width="1471" height="1086" frameX="-34" frameY="-16" frameWidth="1538" frameHeight="1135"/>
+	<SubTexture name="yanderi mimi sing right0001" x="4369" y="5653" width="1471" height="1086" frameX="-34" frameY="-16" frameWidth="1538" frameHeight="1135"/>
+	<SubTexture name="yanderi mimi sing right0002" x="5843" y="5653" width="1528" height="1124" frameX="-10" frameY="-9" frameWidth="1538" frameHeight="1135"/>
+	<SubTexture name="yanderi mimi sing right0003" x="5843" y="5653" width="1528" height="1124" frameX="-10" frameY="-9" frameWidth="1538" frameHeight="1135"/>
+	<SubTexture name="yanderi mimi sing right0004" x="3" y="6820" width="1532" height="1135" frameX="0" frameY="0" frameWidth="1538" frameHeight="1135"/>
+	<SubTexture name="yanderi mimi sing right0005" x="3" y="6820" width="1532" height="1135" frameX="0" frameY="0" frameWidth="1538" frameHeight="1135"/>
+	<SubTexture name="yanderi mimi sing right0006" x="3" y="6820" width="1532" height="1135" frameX="0" frameY="0" frameWidth="1538" frameHeight="1135"/>
+	<SubTexture name="yanderi mimi sing right0007" x="3" y="6820" width="1532" height="1135" frameX="0" frameY="0" frameWidth="1538" frameHeight="1135"/>
+	<SubTexture name="yanderi mimi sing right0008" x="3" y="6820" width="1532" height="1135" frameX="0" frameY="0" frameWidth="1538" frameHeight="1135"/>
+	<SubTexture name="yanderi mimi sing right0009" x="3" y="6820" width="1532" height="1135" frameX="0" frameY="0" frameWidth="1538" frameHeight="1135"/>
+	<SubTexture name="yanderi mimi sing right0010" x="3" y="6820" width="1532" height="1135" frameX="0" frameY="0" frameWidth="1538" frameHeight="1135"/>
+	<SubTexture name="yanderi mimi sing right0011" x="3" y="6820" width="1532" height="1135" frameX="0" frameY="0" frameWidth="1538" frameHeight="1135"/>
+	<SubTexture name="yanderi mimi sing right0012" x="3" y="6820" width="1532" height="1135" frameX="0" frameY="0" frameWidth="1538" frameHeight="1135"/>
+	<SubTexture name="yanderi mimi sing right0013" x="3" y="6820" width="1532" height="1135" frameX="0" frameY="0" frameWidth="1538" frameHeight="1135"/>
+	<SubTexture name="yanderi mimi sing right0014" x="3" y="6820" width="1532" height="1135" frameX="0" frameY="0" frameWidth="1538" frameHeight="1135"/>
+	<SubTexture name="yanderi mimi sing right0015" x="3" y="6820" width="1532" height="1135" frameX="0" frameY="0" frameWidth="1538" frameHeight="1135"/>
+	<SubTexture name="yanderi mimi sing up0000" x="2842" y="4486" width="818" height="1163" frameX="-3" frameY="0" frameWidth="823" frameHeight="1172"/>
+	<SubTexture name="yanderi mimi sing up0001" x="2842" y="4486" width="818" height="1163" frameX="-3" frameY="0" frameWidth="823" frameHeight="1172"/>
+	<SubTexture name="yanderi mimi sing up0002" x="3663" y="4486" width="821" height="1154" frameX="-1" frameY="-16" frameWidth="823" frameHeight="1172"/>
+	<SubTexture name="yanderi mimi sing up0003" x="3663" y="4486" width="821" height="1154" frameX="-1" frameY="-16" frameWidth="823" frameHeight="1172"/>
+	<SubTexture name="yanderi mimi sing up0004" x="4487" y="4486" width="823" height="1164" frameX="0" frameY="-8" frameWidth="823" frameHeight="1172"/>
+	<SubTexture name="yanderi mimi sing up0005" x="4487" y="4486" width="823" height="1164" frameX="0" frameY="-8" frameWidth="823" frameHeight="1172"/>
+	<SubTexture name="yanderi mimi sing up0006" x="4487" y="4486" width="823" height="1164" frameX="0" frameY="-8" frameWidth="823" frameHeight="1172"/>
+	<SubTexture name="yanderi mimi sing up0007" x="4487" y="4486" width="823" height="1164" frameX="0" frameY="-8" frameWidth="823" frameHeight="1172"/>
+	<SubTexture name="yanderi mimi sing up0008" x="4487" y="4486" width="823" height="1164" frameX="0" frameY="-8" frameWidth="823" frameHeight="1172"/>
+	<SubTexture name="yanderi mimi sing up0009" x="4487" y="4486" width="823" height="1164" frameX="0" frameY="-8" frameWidth="823" frameHeight="1172"/>
+	<SubTexture name="yanderi mimi sing up0010" x="4487" y="4486" width="823" height="1164" frameX="0" frameY="-8" frameWidth="823" frameHeight="1172"/>
+	<SubTexture name="yanderi mimi sing up0011" x="4487" y="4486" width="823" height="1164" frameX="0" frameY="-8" frameWidth="823" frameHeight="1172"/>
+	<SubTexture name="yanderi mimi sing up0012" x="4487" y="4486" width="823" height="1164" frameX="0" frameY="-8" frameWidth="823" frameHeight="1172"/>
+	<SubTexture name="yanderi mimi sing up0013" x="4487" y="4486" width="823" height="1164" frameX="0" frameY="-8" frameWidth="823" frameHeight="1172"/>
+	<SubTexture name="yanderi mimi sing up0014" x="4487" y="4486" width="823" height="1164" frameX="0" frameY="-8" frameWidth="823" frameHeight="1172"/>
+	<SubTexture name="yanderi mimi sing up0015" x="4487" y="4486" width="823" height="1164" frameX="0" frameY="-8" frameWidth="823" frameHeight="1172"/>
+</TextureAtlas>

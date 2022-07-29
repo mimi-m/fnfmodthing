@@ -1,0 +1,32 @@
+{
+	"storyName": "composed by matt$, from doki doki takeover",
+	"difficulties": "Hard,Mania",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "mimi",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"epiphany-cover",
+			"mimi-draw-pixel",
+			[
+				91,
+				156,
+				235
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "epiphany-cover",
+	"hiddenUntilUnlocked": true
+}

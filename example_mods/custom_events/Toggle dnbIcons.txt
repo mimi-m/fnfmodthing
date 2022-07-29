@@ -1,0 +1,5 @@
+Make icons bop like in Dave and Bambi
+
+Value 1: true or false
+
+Value 2: turn value (default is 25, leave blank for default)

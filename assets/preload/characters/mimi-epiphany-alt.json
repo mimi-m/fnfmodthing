@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				151,
+				-30
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "yanderi mimi sing left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				-53
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "yanderi mimi sing right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				34,
+				120
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "yanderi mimi sing up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-100,
+				-195
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "yanderi mimi sing down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-60,
+				-140
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "yanderi mimi alt sing down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				50
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "yanderi mimi alt idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-3,
+				50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-tired",
+			"indices": [],
+			"name": "yanderi mimi alt neutral idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				169,
+				20
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "yanderi mimi alt sing left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				50
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-main",
+			"loop": false,
+			"name": "yanderi mimi idle"
+		},
+		{
+			"offsets": [
+				0,
+				50
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "yanderi mimi alt calm idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mimi_epiphany",
+	"position": [
+		0,
+		-150
+	],
+	"healthicon": "mimi-draw-pixel",
+	"flip_x": false,
+	"healthbar_colors": [
+		91,
+		156,
+		235
+	],
+	"camera_position": [
+		-90,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

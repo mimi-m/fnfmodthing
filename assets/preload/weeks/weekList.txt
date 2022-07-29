@@ -9,5 +9,8 @@ dstairs
 flooshedtest
 zzzmugendemo
 loidremix
+epiphany-cover
+sky-forever-cover
 nobb
-minus
+nobbextra
+nobbminus

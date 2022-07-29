@@ -6,24 +6,21 @@ function onCreate()
 	setPropertyFromClass('GameOverSubstate', 'endSoundName', 'fnb_confetti'); --put in mods/music/
 end
 
-function onCreatePost()
-end
+-- Code by: @cyn#5661 on Psych Engine's Official Discord Server
+-- Make sure to read carefully in order to reach the result you want
 
---camera movin effect
-function onUpdate()
-    if curStep == 2 then
-        if middlescroll == false then
-            triggerEvent("MoveArrow", "0", "-135, -70, 0, 1, 1")
-            triggerEvent("MoveArrow", "1", "-135, -70, 0, 1, 1")
-            triggerEvent("MoveArrow", "2", "-135, -70, 0, 1, 1")
-            triggerEvent("MoveArrow", "3", "-135, -70, 0, 1, 1")
-            triggerEvent("MoveArrow", "4", "-310, 0, 0, 1, 1")
-            triggerEvent("MoveArrow", "5", "-310, 0, 0, 1, 1")
-            triggerEvent("MoveArrow", "6", "-310, 0, 0, 1, 1")
-            triggerEvent("MoveArrow", "7", "-310, 0, 0, 1, 1")
+function onCreatePost()
+    -- replace "SKINPATH" with the location to your noteskin, replace "YOURSKIN" with your noteskin file name
+    -- leave "SKINPATH" as nothing ("") in case your skin is inside mods/images
+	local texture = '' .. 'ogNOTE_assets'
+
+    -- make sure to replace "if not" with a "if" instead in case the skin needs to be applied to the player
+    -- also make sure to replace "opponentStrums" with "playerStrums"
+
+	for i = 0, 3 do setPropertyFromGroup('opponentStrums', i, 'texture', texture) end
+    for i = 0, getProperty('unspawnNotes.length') - 1 do
+        if not getPropertyFromGroup('unspawnNotes', i, 'mustPress') then
+            setPropertyFromGroup('unspawnNotes', i, 'texture', texture)
         end
     end
-end
-
-function onGameOver()
 end

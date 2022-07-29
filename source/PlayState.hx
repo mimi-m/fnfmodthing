@@ -69,15 +69,16 @@ class PlayState extends MusicBeatState
 	public static var ratingStuff:Array<Dynamic> = [
 		['You Suck! (F-)', 0.2], //From 0% to 19%
 		['Shit (F)', 0.4], //From 20% to 39%
-		['Bad (E)', 0.5], //From 40% to 49%
-		['Bruh (E+)', 0.6], //From 50% to 59%
-		['Meh (D)', 0.69], //From 60% to 68%
-		['Nice (D)', 0.7], //69%
+		['Bad (D-)', 0.5], //From 40% to 49%
+		['Bruh (D)', 0.6], //From 50% to 59%
+		['Meh (D+)', 0.69], //From 60% to 68%
+		['Nice (D+)', 0.7], //69%
 		['Good (C)', 0.8], //From 70% to 79%
 		['Great (B)', 0.9], //From 80% to 89%
-		['Sick! (A)', 0.95], //From 90% to 94%
-		['Marvelous! (S)', 1], //From 95% to 99%
-		['Perfect!! (SS)', 1] //The value on this one isn't used actually, since Perfect is always "1"
+		['Cool (A)', 0.95], //From 90% to 94%
+		['Sick! (A+)', 0.98], //From 95% to 97%
+		['Marvellous! (S)', 1], //From 98% to 99%
+		['Perfect!! (S+)', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
 	public var modchartTweens:Map<String, FlxTween> = new Map<String, FlxTween>();
 	public var modchartSprites:Map<String, ModchartSprite> = new Map<String, ModchartSprite>();
@@ -1062,8 +1063,8 @@ class PlayState extends MusicBeatState
 		scoreTxt.scrollFactor.set();
 		scoreTxt.borderSize = 1.25;
 		scoreTxt.visible = !ClientPrefs.hideHud;
-		scoreTxt.scale.x = 0.85;
-		scoreTxt.scale.y = 0.85;
+		scoreTxt.scale.x = 0.8;
+		scoreTxt.scale.y = 0.8;
 		add(scoreTxt);
 
 		botplayTxt = new FlxText(400, timeBarBG.y + 47, FlxG.width - 800, "AUTOPLAY", 32);
@@ -1765,7 +1766,11 @@ class PlayState extends MusicBeatState
 		previousFrameTime = FlxG.game.ticks;
 		lastReportedPlayheadPosition = 0;
 
-		FlxG.sound.playMusic(Paths.inst(PlayState.SONG.song), 1, false);
+		if (ClientPrefs.muteInstVoicesOption != 'Inst') {
+			FlxG.sound.playMusic(Paths.inst(PlayState.SONG.song), 1, false);
+		} else {
+			FlxG.sound.playMusic(Paths.inst(PlayState.SONG.song), 0, false);
+		}
 		FlxG.sound.music.onComplete = onSongComplete;
 		vocals.play();
 
@@ -1815,13 +1820,15 @@ class PlayState extends MusicBeatState
 		
 		curSong = songData.song;
 
-		if (SONG.needsVoices)
+		if (SONG.needsVoices && ClientPrefs.muteInstVoicesOption != 'Voices')
 			vocals = new FlxSound().loadEmbedded(Paths.voices(PlayState.SONG.song));
 		else
 			vocals = new FlxSound();
 
 		FlxG.sound.list.add(vocals);
-		FlxG.sound.list.add(new FlxSound().loadEmbedded(Paths.inst(PlayState.SONG.song)));
+//		if (ClientPrefs.muteInstVoicesOption != 'Inst') { // songs are limited to only 1:53 mins long
+			FlxG.sound.list.add(new FlxSound().loadEmbedded(Paths.inst(PlayState.SONG.song)));
+//		}
 
 		notes = new FlxTypedGroup<Note>();
 		add(notes);
@@ -2340,9 +2347,9 @@ class PlayState extends MusicBeatState
 		super.update(elapsed);
 
 		if(ratingName == '?') {
-			scoreTxt.text = 'Score: ' + songScore + ' | Rating: ' + ratingName;
+			scoreTxt.text = 'Score: ' + songScore + ' | Accuracy: 0% | Rating: ' + ratingName;
 		} else {
-			scoreTxt.text = 'Score: ' + songScore + ' | Accuracy: ' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%' + ' | Rating: ' + ratingName + ' - ' + ratingFC;//peeps wanted no integer rating
+			scoreTxt.text = 'Score: ' + songScore + ' | Accuracy: ' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%' + ' | Rating: ' + ratingName + ratingFC;//peeps wanted no integer rating
 		}
 
 		if(botplayTxt.visible) {
@@ -3462,9 +3469,9 @@ class PlayState extends MusicBeatState
 				if(scoreTxtTween != null) {
 					scoreTxtTween.cancel();
 				}
-				scoreTxt.scale.x = 0.925;
-				scoreTxt.scale.y = 0.925;
-				scoreTxtTween = FlxTween.tween(scoreTxt.scale, {x: 0.85, y: 0.85}, 0.2, {
+				scoreTxt.scale.x = 0.875;
+				scoreTxt.scale.y = 0.875;
+				scoreTxtTween = FlxTween.tween(scoreTxt.scale, {x: 0.8, y: 0.8}, 0.2, {
 					onComplete: function(twn:FlxTween) {
 						scoreTxtTween = null;
 					}
@@ -3908,23 +3915,27 @@ class PlayState extends MusicBeatState
 				if (note.noteType == 'Hurt Note (Miss Anim)') {
 					altAnim = 'miss';
 				}
+				if (note.noteType == 'Add Afterimage') {
+					var dadTrail = new FlxTrail(dad, null, 3, 24, 0.3, 0.075); //nice
+					insert(members.indexOf(dadGroup) - 1, dadTrail);
+				}
 			}
 
 			var char:Character = dad;
 			var animToPlay:String = singAnimations[Std.int(Math.abs(note.noteData))] + altAnim;
 //			if (dad.curCharacter.startsWith('mimi')) { // mimi-pixel-alt in flooshed-mug has its own health drain
 			if (dad.curCharacter == "mimi" || dad.curCharacter == "mimi-pixel") {
-				 if (health >= 0.0535) {
+				 if (health >= 0.0735) {
 					  health -= 0.0230 * (healthGain / healthLoss);
 					 }
-				if (health <= 1 || health >= 0.0575) {
+				if (health <= 1 && health >= 0.0795) {
 					  health += 0.0030;
 					 }
-				 if (health <= 0.25 || health >= 0.0575) {
+				 if (health <= 0.25 && health >= 0.0795) {
 					  health += 0.0020;
 					 }
 				 if (dad.curCharacter == "mimi-pixel") {
-					if (health >= 0.0512) {
+					if (health >= 0.0712) {
 						 health -= 0.0010;
 						}
 					 }
@@ -3934,19 +3945,19 @@ class PlayState extends MusicBeatState
 					  health -= 0.0215 * (healthGain / healthLoss);
 					 }
 				}
-			if (dad.curCharacter == "mugen") {
+			if (dad.curCharacter == "mugen" || dad.curCharacter == "mugen-draw") {
 				 if (health >= 0.0350) {
-					  health -= 0.0205;
+					  health -= 0.0205 * (healthGain / healthLoss);
 					 }
 				}
 			if (dad.curCharacter.startsWith('slugetta')) {
-				 if (health >= 0.0175) {
-					  health -= 0.0100;
+				 if (health >= 0.1075) {
+					  health -= 0.0100 * (healthGain / healthLoss);
 					 }
 				}
 			if (dad.curCharacter == "bf") {
 				 if (health >= 0.0250) {
-					  health -= 0.0230;
+					  health -= 0.0230 * (healthGain / healthLoss);
 					 }
 				}
 			if(note.gfNote) {
@@ -4065,6 +4076,10 @@ class PlayState extends MusicBeatState
 				var daAlt = '';
 				if(note.noteType == 'Alt Animation') daAlt = '-alt';
 				if(note.noteType == 'Hurt Note (Miss Anim)') daAlt = 'miss';
+				if(note.noteType == 'Add Afterimage') {
+					var bfTrail = new FlxTrail(boyfriend, null, 3, 24, 0.3, 0.075); //nice
+					insert(members.indexOf(boyfriendGroup) - 1, bfTrail);
+				}
 	
 				var animToPlay:String = singAnimations[Std.int(Math.abs(note.noteData))];
 
@@ -4581,11 +4596,11 @@ class PlayState extends MusicBeatState
 
 			// Rating FC
 			ratingFC = "";
-			if (sicks > 0) ratingFC = "Sick Full Combo";
-			if (goods > 0) ratingFC = "Good Full Combo";
-			if (bads > 0 || shits > 0) ratingFC = "Full Combo";
-			if (songMisses > 0 && songMisses < 10) ratingFC = "Single Digit Combo Break";
-			else if (songMisses >= 10) ratingFC = "Clear";
+			if (sicks > 0) ratingFC = " - Sick Full Combo";
+			if (goods > 0) ratingFC = " - Good Full Combo";
+			if (bads > 0 || shits > 0) ratingFC = " - Full Combo";
+			if (songMisses > 0 && songMisses < 10) ratingFC = " - Single Digit Combo Break";
+			else if (songMisses >= 10) ratingFC = "";
 		}
 		setOnLuas('rating', ratingPercent);
 		setOnLuas('ratingName', ratingName);
